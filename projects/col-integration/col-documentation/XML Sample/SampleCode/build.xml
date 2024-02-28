@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<project default="build" name="XMLConnectorApplication">
+  <description>XML Connector Application</description>
+
+  <property name="srcDir" location="src"/>
+  <property name="libDir" location="lib"/>
+  <property name="buildDir" location="build"/>
+  <property name="distrDir" location="distr"/>
+
+
+  <path id="libs">
+    <pathelement path="${libDir}"/>
+    <fileset dir="${libDir}">
+        <include name="**/*.jar"/>
+    </fileset>
+  </path>
+
+  
+  <target name="init">
+    <!-- Create build directory and the like -->
+    <mkdir dir="${buildDir}"/>
+    <mkdir dir="${distrDir}"/>
+  </target>
+
+  <target name="compile" depends="init">
+    <javac  srcdir="${srcDir}" destdir="${buildDir}" fork="true">
+      <classpath refid="libs"/>
+    </javac>
+  </target>
+  
+  <target name="test" depends="compile">
+     <java classname="com.channelonline.XMLConnector">
+     <classpath>
+        <pathelement path="build"/>
+        <path refid="libs"/>
+     </classpath>
+     </java>
+  </target>
+
+  <target name="build" depends="compile">
+    <jar destfile="${distrDir}/xmlconnector.jar">
+      <fileset dir="${buildDir}">
+         <include name="**/*.class"/>
+      </fileset>
+    <!--  <fileset dir="${libDir}"/>  -->
+    </jar>
+
+    <copy file="${srcDir}/log4j.properties" todir="${distrDir}"/>  
+    <copy file="${srcDir}/xmlconnector.properties" todir="${distrDir}"/>
+    <copy file="${srcDir}/run.bat" todir="${distrDir}"/>
+    <copy file="${srcDir}/run.sh" todir="${distrDir}"/>
+    <copy file="${srcDir}/col.gif" todir="${distrDir}"/>   
+    <copy todir="${distrDir}">
+       <fileset dir="${libDir}"/>
+    </copy>
+
+   </target>
+
+  <target name="clean">
+    <!-- should do the opposite of init -->
+    <delete dir="${buildDir}"/>
+    <delete dir="${distrDir}"/>
+  </target>
+</project>

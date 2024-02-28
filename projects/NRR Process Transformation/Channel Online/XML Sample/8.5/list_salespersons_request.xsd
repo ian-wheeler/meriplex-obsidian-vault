@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema elementFormDefault="qualified" xml:lang="EN"
-	xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:include schemaLocation="coTypes.xsd"/>
-	<xs:element name="list_salespersons_request" type="COEnvelope"/>	
-</xs:schema>

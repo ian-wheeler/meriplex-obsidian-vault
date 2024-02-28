@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xml:lang="EN"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="coTypes.xsd"/>
+	<xs:element name="login_echo_request">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="COEnvelope">
+				      <xs:sequence>
+					<xs:element name="echo" type="xs:string" minOccurs="1"
+						maxOccurs="1"/>
+				      </xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

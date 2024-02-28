@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 sp1 U (http://www.xmlspy.com) by Prashanth (CNET Channel) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xml:lang="EN">
+	<xs:include schemaLocation="coTypes.xsd"/>
+	<xs:element name="warehouse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string"/>
+				<xs:element name="total" type="xs:int"/>
+				<xs:element name="onOrder" type="xs:boolean" minOccurs="0"/>
+				<xs:element name="ETA" type="xs:string" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="code" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="supplierCost">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="cost" type="xs:float"/>
+			</xs:sequence>
+			<xs:attribute name="code" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="sku">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="supplierName" type="xs:string"/>
+				<xs:element name="supplierPartNumber" type="xs:string"/>
+				<xs:element name="description" type="xs:string" minOccurs="0"/>
+				<xs:element name="validAsOf" type="xs:dateTime">
+					<xs:annotation>
+						<xs:documentation>The date and time this parts inventory and cost were last retrieved.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="cost" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:float">
+								<xs:attribute name="priceCode" type="xs:string"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="inventory">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="total" type="xs:int"/>
+							<xs:element ref="warehouse" minOccurs="0" maxOccurs="unbounded"/>
+						</xs:sequence>
+						<xs:attribute name="liveInventory" type="xs:boolean"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="MSRP" type="xs:decimal" minOccurs="0"/>
+				<xs:element name="message" type="xs:decimal" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Message as supplied by the supplier.  Only available when requesting live pricing data.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="error" type="xs:string" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:int"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="manufacturerPartNumber">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="manufacturerName" type="xs:string" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="product_liveupdate_response">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="COEnvelope">
+					<xs:sequence>
+						<xs:element name="product" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="sequenceNumber" type="xs:int" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>sequenceNumber from request echoed</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="productId" type="xs:string"/>
+									<xs:element ref="manufacturerPartNumber"/>
+									<xs:element name="cdsProductID" type="xs:string" minOccurs="0"/>
+									<xs:element name="inventory" type="xs:int"/>
+									<xs:element ref="sku" minOccurs="0" maxOccurs="unbounded"/>
+									<xs:element name="error" type="xs:string" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="product_liveupdate_request">
+		<xs:annotation>
+			<xs:documentation>this is a paid service. Please talk to your salesrep to make sure you have subscribed to this service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="COEnvelope">
+					<xs:sequence>
+						<xs:element name="product" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="sequenceNumber" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>for multiple items in the request, this will be echoed back in the response</xs:documentation>
+										</xs:annotation>
+										<xs:complexType/>
+									</xs:element>
+									<xs:choice>
+										<xs:element ref="manufacturerPartNumber"/>
+										<xs:element name="productID" type="xs:string"/>
+										<xs:element name="cdsProductID" type="xs:string"/>
+										<xs:element name="supplier">
+											<xs:annotation>
+												<xs:documentation>if specified .. only this supplier will be contacted for live cost and availability</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="name" type="xs:unsignedInt">
+														<xs:annotation>
+															<xs:documentation>Only suppliers in your accounts market will be available to you.  If you specify a supplier from a different market not data will be found.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="partNumber" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:choice>
+									<xs:element name="includeCost" type="xs:boolean" default="false" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

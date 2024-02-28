@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 sp2 U (http://www.altova.com) by prashanthr (CNET Channel) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xml:lang="EN">
+	<xs:include schemaLocation="coTypes.xsd"/>
+	<xs:element name="report_response">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="COEnvelope">
+					<xs:sequence>
+						<xs:choice>
+							<xs:element name="documents">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="document" type="CODocumentReport" minOccurs="0" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="customers">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="customer" type="COCustomerReport" minOccurs="0" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="purchaseOrders">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="purchaseOrder" type="COPurchaseOrderReport"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:choice>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
