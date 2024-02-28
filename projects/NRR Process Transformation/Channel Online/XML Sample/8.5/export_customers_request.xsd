@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 sp1 U (http://www.xmlspy.com) by Prashanth (CNET Channel) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xml:lang="EN">
+	<xs:include schemaLocation="coTypes.xsd"/>
+	<xs:element name="export_customers_request">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="COEnvelope">
+					<xs:sequence>
+						<xs:element name="options">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="onlyChecked" type="xs:boolean" default="false" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation> onlyChecked: only export those customers that have been 
+												marked for export via the online interface inside of ChannelOnline 
+												</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="onlyUnexported" type="xs:boolean" default="true" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation> Only include customers in the search that have not already 
+												been exported </xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="customerNumber" type="xs:string" minOccurs="0"/>
+									<xs:element name="email" type="xs:string" minOccurs="0"/>
+									<xs:element name="eventInRange" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation> We recommend the use of the "modified" event so that you 
+												may update your application with any changes made via ChannelOnline after a 
+												given customer has been exported </xs:documentation>
+										</xs:annotation>
+										<xs:complexType>
+											<xs:sequence>
+												<xs:annotation>
+													<xs:documentation> "before" and "after" fields are specified with 
+														"minOccurs='0'" but it would only make sense to specify an 
+														"eventInRange" element if you used a least of of the 
+														two.</xs:documentation>
+												</xs:annotation>
+												<xs:element name="eventType" type="COCustomerEventTypes"/>
+												<xs:element name="before" type="xs:dateTime" minOccurs="0"/>
+												<xs:element name="after" type="xs:dateTime" minOccurs="0"/>
+											</xs:sequence>
+											<xs:attribute name="onlyCustomerChanges" type="xs:boolean" default="false">
+												<xs:annotation>
+													<xs:documentation>set this to true to ignore all contact level changes, only changes made at the customer level will be used to generate the docs exported. By default, exports will include changes made either at the customer or contact level.</xs:documentation>
+												</xs:annotation>
+											</xs:attribute>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="markOnExport" type="xs:boolean" default="true" minOccurs="0"/>
+									<xs:element name="includeDeleted" type="xs:boolean" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>when set to true, the response will include deleted customers that match the criteria</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="ignoreContacts" type="xs:boolean" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>when set to true, the response will not include any contacts associated with customers that match the criteria</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+									<xs:element name="ignoreAddressHistory" type="xs:boolean" minOccurs="0">
+										<xs:annotation>
+											<xs:documentation>when set to true, the response will not include billing or shipping addresses associated with customers that match the criteria</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

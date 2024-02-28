@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 sp1 U (http://www.xmlspy.com) by Anna Krupnik (CNET Channel) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xml:lang="EN">
+	<xs:include schemaLocation="coTypes.xsd"/>
+	<xs:complexType name="COQuotedBundle">
+		<xs:complexContent>
+			<xs:extension base="COQuoted">
+				<xs:sequence>
+					<xs:element name="bundledItemList" type="COBundledItemList"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="COQuotedProduct">
+		<xs:complexContent>
+			<xs:extension base="COQuoted">
+				<xs:sequence>
+					<xs:element name="supplierProduct" type="COSupplierProduct" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="productLinks" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="linkedItemId" minOccurs="0" maxOccurs="unbounded">
+									<xs:annotation>
+										<xs:documentation> The data in this element references the itemId from another 
+											document. </xs:documentation>
+									</xs:annotation>
+									<xs:complexType>
+										<xs:simpleContent>
+											<xs:extension base="COLinkedProduct"/>
+										</xs:simpleContent>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="containers" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="container" type="COContainer" minOccurs="0" maxOccurs="unbounded"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="returnDetails" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="reason" type="xs:string" minOccurs="0"/>
+								<xs:element name="errorMadeBy" type="xs:string" minOccurs="0"/>
+								<xs:element name="itemCondition" type="xs:string" minOccurs="0"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:sequence minOccurs="0" maxOccurs="unbounded">
+						<xs:element name="serialNumber" type="xs:string" minOccurs="0" maxOccurs="1">
+							<xs:annotation>
+								<xs:documentation>These elements only apply to serial numbers that are directly associated with a line item and NOT to serial number where we know to which container they belong.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="assetTag" type="xs:string" minOccurs="0" maxOccurs="1"/>							
+					</xs:sequence>		
+				</xs:sequence>
+				<xs:attribute name="productType">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="product"/>
+							<xs:enumeration value="service"/>
+							<xs:enumeration value="labor"/>
+							<xs:enumeration value="fee"/>
+							<xs:enumeration value="recycle_fee"/>
+							<xs:enumeration value="unknown"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="COLine">
+		<xs:complexContent>
+			<xs:extension base="COItem">
+				<xs:attribute name="type" type="COLineType"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:simpleType name="COLineType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="blank"/>
+			<xs:enumeration value="horizontal"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="COHeader">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="lineOrder" type="xs:unsignedInt"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="COSubTotalHeader">
+		<xs:simpleContent>
+			<xs:extension base="COHeader"/>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="COSubTotal">
+		<xs:simpleContent>
+			<xs:extension base="COCurrency">
+				<xs:attribute name="lineOrder" type="xs:unsignedInt"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="COSupplierProduct">
+		<xs:sequence>
+			<xs:element name="supplier" type="COShortSupplier"/>
+			<xs:element name="SKU" type="xs:string">
+				<xs:annotation>
+					<xs:documentation> The vendor part number </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="partNumber" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The manufacturer's part number as supplied by the 
+						manufacturer</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="manufacturer" type="xs:string" minOccurs="0"/>
+			<xs:element name="inventory" type="xs:string"/>
+			<xs:element name="unitOfMeasure" type="xs:string" minOccurs="0"/>
+			<xs:element name="description" type="xs:string"/>
+			<xs:element name="cost">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="COCurrency">
+							<xs:attribute name="priceLevel" type="xs:string" use="optional"/>
+							<xs:attribute name="priceCode" type="xs:string" use="optional"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="msrp" type="COCurrency"/>
+			<xs:element name="weight" type="xs:decimal"/>
+			<xs:element name="contract" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="number" type="xs:string"/>
+							<xs:attribute name="expiration" type="xs:dateTime"/>
+							<xs:attribute name="maximumQuantity" type="xs:int"/>
+							<xs:attribute name="remainingQuantity" type="xs:int"/>
+							<xs:attribute name="minimumPerOrder" type="xs:int"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="selected" type="xs:boolean"/>
+	</xs:complexType>
+	<xs:complexType name="COQuotedSupplierProduct">
+		<xs:complexContent>
+			<xs:extension base="COSupplierProduct">
+				<xs:sequence>
+					<xs:element name="quantity" type="xs:int"/>
+					<xs:element name="note" type="xs:string" minOccurs="0"/>
+					<xs:element name="category" type="COCategory" minOccurs="0"/>
+					<xs:element name="subCategory" type="COCategory" minOccurs="0"/>
+					<xs:element name="fullCategory" type="COCategory" minOccurs="0"/>
+					<xs:element name="productLinks" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="linkedItemId" type="COLinkedProduct" minOccurs="0" maxOccurs="unbounded">
+									<xs:annotation>
+										<xs:documentation> The data in this element references the itemId from another 
+											document. </xs:documentation>
+									</xs:annotation>
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="containers" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="container" type="COContainer" minOccurs="0" maxOccurs="unbounded"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:sequence minOccurs="0" maxOccurs="unbounded">
+						<xs:element name="serialNumber" type="xs:string" minOccurs="0" maxOccurs="1">
+							<xs:annotation>
+								<xs:documentation>These elements only apply to serial numbers that are directly associated with a line item and NOT to serial number where we know to which container they belong.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="assetTag" type="xs:string" minOccurs="0" maxOccurs="1"/>
+					</xs:sequence>					
+				</xs:sequence>
+				<xs:attribute name="lineNumber" type="xs:int" use="optional"/>
+				<xs:attribute name="itemId" type="xs:long" use="optional"/>
+				<xs:attribute name="productId" type="xs:string" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="COQuoted">
+		<xs:complexContent>
+			<xs:extension base="COItem">
+				<xs:sequence>
+					<xs:element name="status" type="xs:string" minOccurs="0"/>
+					<xs:element name="manufacturer" minOccurs="0">
+						<xs:complexType>
+							<xs:simpleContent>
+								<xs:extension base="xs:string">
+									<xs:attribute name="manufacturerId" type="xs:string"/>
+								</xs:extension>
+							</xs:simpleContent>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="partNumber" type="xs:string" minOccurs="0"/>
+					<xs:element name="descriptionLine1" minOccurs="0">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="100"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="descriptionLine2" minOccurs="0">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="255"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="class" type="COCategory" minOccurs="0"/>
+					<xs:element name="category" type="COCategory" minOccurs="0"/>
+					<xs:element name="subCategory" type="COCategory" minOccurs="0"/>
+					<xs:element name="fullCategory" type="COCategory" minOccurs="0"/>
+					<xs:element name="unspsc" minOccurs="0">
+						<xs:complexType>
+							<xs:simpleContent>
+								<xs:extension base="xs:string">
+									<xs:attribute name="version" type="xs:string"/>
+								</xs:extension>
+							</xs:simpleContent>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="upc" type="xs:string" minOccurs="0"/>
+					<xs:element name="dropship" type="xs:boolean" minOccurs="0"/>
+					<xs:element name="taxable" type="xs:boolean" minOccurs="0"/>
+					<xs:element name="price" type="COCurrency"/>
+					<xs:element name="msrp" type="COCurrency" minOccurs="0"/>
+					<xs:element name="cost" type="COCurrency" >
+						<xs:annotation>
+							<xs:documentation>This is a READ only field.  It's just provided for 
+                                                                            ease on the export message.  It represents the cost of your select SupplierProduct.                                                                          if provided on an import it will be discarded. 
+                                                         </xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<!-- Quantity may only be fractional for products of type service or labor -->
+					<xs:element name="quantity">
+						<xs:complexType>
+							<xs:simpleContent>
+								<xs:extension base="xs:decimal">
+									<xs:attribute name="cancelled" type="xs:decimal"/>
+								</xs:extension>
+							</xs:simpleContent>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="weight" type="xs:decimal"/>
+					<xs:element name="note" type="xs:string" minOccurs="0"/>
+					<xs:element name="costCenter" type="xs:string" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation> The data in this field will be
+								constrained to those contraints set by your admin user in the
+								ChannelOnline interface
+							</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="shipTo" type="COAddress" minOccurs="0"/>
+					<xs:element name="DellCartId" type="xs:string" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>This will only be present if the item was imported from Dell punchout.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="customFields" type="COCustomFields" minOccurs="0"/>
+					<xs:element name="integrationItemType" minOccurs="0">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="50"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="integrationItemProduct" minOccurs="0">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="50"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="integrationItemCategory" minOccurs="0">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="50"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="serviceDetails" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="interval" type="xs:string" minOccurs="0"/>
+								<xs:element name="billingPeriod" type="xs:string" minOccurs="0"/>
+								<xs:element name="serviceType" type="xs:string" minOccurs="0"/>
+								<xs:element name="startDate" type="xs:date" minOccurs="0"/>
+								<xs:element name="endDate" type="xs:date" minOccurs="0"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="laborDetails" minOccurs="0">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="role" type="xs:string" minOccurs="0"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="lineItemNumber" type="xs:unsignedInt" use="optional">
+					<xs:annotation>
+						<xs:documentation> The displayed line item number </xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="lineItemId" type="xs:unsignedInt">
+					<xs:annotation>
+						<xs:documentation> The ID that should be used for reference on all update messages 
+							</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="productId" type="xs:string"/>
+				<xs:attribute name="linkedParentItemId" type="xs:long">
+					<xs:annotation>
+						<xs:documentation>only present on export responses. Cannot be used on imports.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="COItem">
+		<xs:attribute name="lineOrder" type="xs:unsignedInt"/>
+	</xs:complexType>
+	<xs:complexType name="COQuotedItemSummary">
+		<xs:complexContent>
+			<xs:extension base="COItem">
+				<xs:sequence>
+					<xs:element name="status" type="xs:string"/>
+					<xs:element name="manufacturer">
+						<xs:complexType>
+							<xs:simpleContent>
+								<xs:extension base="xs:string">
+									<xs:attribute name="manufacturerId" type="xs:string"/>
+								</xs:extension>
+							</xs:simpleContent>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="partNumber" type="xs:string"/>
+					<xs:element name="descriptionLine1" minOccurs="0">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="100"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="descriptionLine2" minOccurs="0">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="255"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="category" type="COCategory" minOccurs="0"/>
+					<xs:element name="subCategory" type="COCategory" minOccurs="0"/>
+					<xs:element name="fullCategory" type="COCategory" minOccurs="0"/>
+					<xs:element name="taxable" type="xs:boolean"/>
+					<xs:element name="price" type="COCurrency"/>
+					<xs:element name="cost" type="COCurrency"/>
+					<xs:element name="quantity">
+						<xs:complexType>
+							<xs:simpleContent>
+								<xs:extension base="xs:float">
+									<xs:attribute name="cancelled" type="xs:int"/>
+								</xs:extension>
+							</xs:simpleContent>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="weight" type="xs:float"/>
+					<xs:element name="note" type="xs:string"/>
+					<xs:element name="customFields" type="COCustomFields" minOccurs="0"/>
+				</xs:sequence>
+				<xs:attribute name="lineItemNumber" type="xs:unsignedInt" use="optional">
+					<xs:annotation>
+						<xs:documentation> The displayed line item number </xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="lineItemId" type="xs:unsignedInt">
+					<xs:annotation>
+						<xs:documentation> The ID that should be used for reference on all update messages 
+							</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="productId" type="xs:string"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="COItemList">
+		<xs:sequence>
+			<xs:element name="product" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="COQuotedProduct"/>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="bundle" type="COQuotedBundle" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="header" type="COHeader" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="subTotalHeader" type="COSubTotalHeader" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="subTotal" type="COSubTotal" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="line" type="COLine" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="COItemSummaryList">
+		<xs:sequence>
+			<xs:element name="product" type="COQuotedItemSummary" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="bundle" type="COQuotedItemSummary" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="header" type="COHeader" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="subTotalHeader" type="COSubTotalHeader" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="subTotal" type="COSubTotal" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="line" type="COLine" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="COBundledItemList">
+		<xs:sequence>
+			<xs:element name="product" type="COQuotedProduct" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="header" type="COHeader" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="subTotal" type="COSubTotal" minOccurs="0"/>
+			<xs:element name="line" type="COLine" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="COShippingAddress">
+		<xs:complexContent>
+			<xs:extension base="COAddress"/>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

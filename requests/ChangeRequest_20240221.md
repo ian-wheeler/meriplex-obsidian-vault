@@ -1,0 +1,33 @@
+# Change Request: 2024-02-21
+
+**System/Module:** ConnectWise Manage 
+**Current Field Label:** Churn Reason 
+**Requested Field Label:** Financial Impact
+
+**Description of Change:** We request the following updates to be made in ConnectWise Manage in the Finance Module under the Agreement Additions section:
+
+1. **Update Field Label:**
+    - The current field labeled as "Churn Reason" should be renamed to "Financial Impact."
+2. **Selection Options Update:**
+    - The dropdown selections for the "Financial Impact" field are to be updated to the following:
+        - Churned
+        - Churning
+        - Downgrade
+        - Renewal Discount
+        - True-Down
+        - True-Up
+3. **Field Requirement Change:**
+- The updated "Financial Impact" field should be set as a required field to ensure that a selection is made for every addition added to a customer agreement.
+
+**Reason for Change:** The proposed changes aim to better reflect the variety of financial impacts for `Agreement Additions` and selections that can be made for each addition within an agreement. This will enhance the accuracy of our financial reporting and ensure consistent terminology is used throughout the system.
+
+**Impact Analysis:** The requested changes are anticipated to improve the user interface by providing clearer options that align with the defined terms. This is expected to reduce user error and enhance data integrity for financial reporting purposes.
+
+**Additional Notes:**
+
+- All changes should be thoroughly tested in the development environment before being rolled out to the production environment.
+- Training documentation and user guides will need to be updated to reflect these changes.
+- Users should be notified of these changes and provided with updated training if necessary.
+
+![[Screenshot 2024-02-21 120235.png]]
+
