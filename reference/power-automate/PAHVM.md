@@ -1,3 +1,6 @@
+# Power Automate Hosted Virtual Machines
+
+---
 ## File Structure
 - All programs and applications should be installed in the following file path: C:\\ Drive
 - Projects should go in the following file path: C:\\PowerAutomate\\Projects\\{MyProject}
