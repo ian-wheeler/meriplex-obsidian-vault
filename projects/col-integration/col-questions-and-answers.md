@@ -1,12 +1,10 @@
-1. We need visibility to pick items from inventory before we buy: 
+- We need visibility to pick items from inventory before we buy: 
 	- Inventory lives in Connectwise
 	- Q: How do we have visibility in COL for our inventory in CW
 	- ***Q: Can we treat the inventory from CW as a Vendor?***
-	
-2. Do we have the ability to go back and forth with revision for quotes? 
+- Do we have the ability to go back and forth with revision for quotes? 
 	**NEEDED**
-	
-3. Action Item: Facilitate side-by-side conversation with 
+- Action Item: Facilitate side-by-side conversation with 
 	- CPQ (Carrie H., John S.)
 	- IGNORE COL (Andrew, Keith, Lee)
 	- Procurement (Chris, Kelvin)
@@ -14,3 +12,14 @@
 	- Operations (John P.)
 	- DevOps (Ian W., Cameron O., Brian J.)
 	- Distribution/Contract Management (Amy Chestnut)
+- Does the opportunity sync to ConnectWise with all (multiple) vendor SKUs?
+- What are the details of the product creation process?
+- Are all required fields captured on documents that come over?
+	- GL Account
+	- Category
+	- Sub Category
+	- Type
+	- Class
+- Can we lockdown unapproved vendors?
+- How will documents come over to ConnectWise?
+- Will Documents come over as attachments?
