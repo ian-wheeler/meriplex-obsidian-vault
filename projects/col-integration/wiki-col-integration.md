@@ -1,13 +1,10 @@
 # Channel Online Integration
 ---
-Table of Contents
-
----
-
-
+**Table of Contents:**
+Lorem Ipsum
 # Overview
 ---
-This phase aims to enhance the integration between Salesforce and ConnectWise by implementing new features, improving data flow, and addressing current issues to streamline operations.
+This project aims to enhance the integration between Salesforce and ConnectWise by implementing new features, improving data flow, and addressing current issues to streamline operations.
 # Key Stakeholders
 ---
 - Brian Jones, CIO
@@ -27,12 +24,10 @@ This phase aims to enhance the integration between Salesforce and ConnectWise by
 - **Future State (TO-BE)**
 
 **Refactoring and Future Planning**: Based on the thorough assessment and detailed documentation, decide on the necessity and scope of refactoring the integration architecture. This decision-making process should consider the benefits of improved data management, reduced manual intervention, and alignment with best practices in system design, aiming for a streamlined, efficient, and scalable integration ecosystem.
-
 ## Purpose & Initiatives
 ---
-## Salesforce Integration Guide
-[Salesforce Integration User Guide](Salesforce%20Integration%20User%20Guide.pdf Online/Salesforce Integration User Guide.pdf>)
-
+Lorem Ipsum
+## References
 ---
-## ConnectWise Integration Guide
+[Salesforce Integration User Guide](Salesforce%20Integration%20User%20Guide.pdf Online/Salesforce Integration User Guide.pdf>)
 [ConnectWise Integration User Guide](ConnectwiseUserGuide.pdf Online/ConnectwiseUserGuide.pdf>)
