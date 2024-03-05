@@ -6,7 +6,7 @@ kanban-plugin: basic
 
 ## To-Do
 
-- [ ] Document the NRR Process Flow
+- [ ] Ticket #9199134 - <br>SharePoint Workflow Automation
 
 
 ## In Progress
@@ -15,6 +15,7 @@ kanban-plugin: basic
 
 ## Waiting / On Hold
 
+- [ ] Document the NRR Process Flow
 
 
 ## Done
