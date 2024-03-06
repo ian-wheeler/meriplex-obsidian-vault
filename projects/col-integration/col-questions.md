@@ -37,7 +37,21 @@
 1. What is going to be the syncing logic of the current custom integration developed between ConnectWise and Salesforce (accounting for the to-be quoting process)?
 ## Issues
 ---
-`"You called the draw() method with the wrong type of data rather than a DataTable or DataView"` 
+### ConnectWise Integration
+
+1. "You called the draw() method with the wrong type of data rather than a DataTable or DataView"
 
 ![[col-issue-1.png]]
+
+2. There is no documentation on the [Map Product Info](https://stage.channelonline.com/enhancedtech-stage/home/ImportExport/Integration/CW/productInfoMapping) section.
+	- What is and how do we configure the:
+	- Shipping Catalog Item Id
+	- Supplier Handling Fee Catalog Item
+	- Purchase Order Tax Catalog Item
+
+3. The [Import and Map Customers from ConnectWise](https://ccs-stage.channelonline.com/enhancedtech-stage/home/pt.epl?errand=cw_cust_mapping&dir=cw_cust_mapping&type=customer "Import and Map Customers from ConnectWise") link is broken in the staging environment.
+
+4. The [Account Types Mapping](https://stage.channelonline.com/enhancedtech-stage/home/ImportExport/Integration/CW/AccountTypeMapping "Account Types Mapping") section is not pulling the full list of account types available in the connected [ConnectWise environment](https://cwdev.meriplex.com/v4_6_release/ConnectWise.aspx?locale=en_US#XQAACAD3AAAAAAAAAAA9iIoG07$U9XZqpLgsNhRsIxDiSt5jjN5fOx8L26COGHXJa4h4YruSL$0AZMlhTU5vIbaU21bIUdSioQiQpXPcKuNyFjs2UnA1AusSgAyO2LVSFfNdH_QbesxRhExr1opBoiLoeY6x591qsmeOKcRMGrFo23CHoM_nQds7FdfNY7tWYD0l3PUVvskRgAIyj3py3Ix1vp__if8AAA==).
+
+5. 
 
