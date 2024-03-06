@@ -31,7 +31,9 @@
 	- Can these products sync to ConnectWise? How?
 	- Can vendors sync to ConnectWise? How?
 
-	Answer: 
+	Answer: Field specifics unknown; the product will be created with the category & sub-category determined by your environments mapping configuration. It will only sync the products from COL that are included in the quote/opportunity. 
+	
+	Follow-up with Eric O'Shea, John P., Finance, Contract Distribution and Procurement
 
 1. Are all required fields captured on documents that come over?
 	- GL Account
@@ -39,11 +41,23 @@
 	- Sub Category
 	- Type
 	- Class
-2. Can we lockdown unapproved vendors? How?
-3. Where in the process will documents sync to CW? How?
+
+	Answer:
+	COL will follow-up with field-specific details.
+	These can potentially be setup as custom fields and mapped, but these can not be enforced as required fields. Required fields are only enforced at the point you convert to a PO/SO.
+
+1. Can we lockdown unapproved vendors? How?
+
+	Answer:
+	You can enable or disable suppliers and set different profile's that determine which suppliers are available (based on the profile).
+
+	Issues:
+	Potential for mismatched Vendor RecID's and vendor's existing/being approved in one system but not the other.
+
+1. Where in the process will documents sync to CW? How?
 	- Do they come over as opportunity attachments, etc.?
-4. Is there a shipping connector for COL? Can we uplift the value globally?
-5. Can we display the manual sync button at the dashboard level for all records related to that sales representative in COL? How?
+2. Is there a shipping connector for COL? Can we uplift the value globally?
+3. Can we display the manual sync button at the dashboard level for all records related to that sales representative in COL? How?
 
 ## Comments
 ---
