@@ -3,25 +3,47 @@
 ## Questions
 ---
 1. Do we have the ability to select items from our ConnectWise inventory prior to purchase? How?
-	- Can we treat our CW environment as a vendor so that we have in-stock inventory visibility?
-2. Do we have the ability to go back and forth with revision for quotes? How? (**This functionality is NEEDED**)
+	- Can we treat our CW environment as a vendor so that we have in-stock inventory visibility within COL?
+
+	Answer: 
+	Import an inventory CSV daily which will have in an FTP enabled location.
+	Alternatively, there is a paid service that will check the FTP location hourly.
+
+1. Do we have the ability to go back and forth with revision for quotes? How? (**This functionality is NEEDED**)
 	- How can an opportunity/quote be synced back to ChannelOnline for revisions, if necessary?
-3. When syncing the opportunity/quote to ConnectWise do all vendor SKUs and product SKUs come over on either the opportunity or attached quote document?
-4. What are the details of the product creation process?
+
+	Answer:
+	There is only a uni-lateral sync going from COL to CW;
+	The CW user will update the status to revision needed and inform the account/record owner that a revision needs to be made. The account/record owner will then make the necessary revision in COL and resync the opportunity.
+	
+	Issue:
+	E-signing in COL will automatically convert the Opportunity/Quote to a PO/SO.
+
+	Solution:
+	
+
+1. When syncing the opportunity/quote to ConnectWise do all vendor SKUs and product SKUs come over on either the opportunity or attached quote document?
+
+	Answer: Unknown
+
+1. What are the details of the product creation process?
 	- How are they created / can they be created?
 	- Can these products sync to ConnectWise? How?
 	- Can vendors sync to ConnectWise? How?
-5. Are all required fields captured on documents that come over?
+
+	Answer: 
+
+1. Are all required fields captured on documents that come over?
 	- GL Account
 	- Category
 	- Sub Category
 	- Type
 	- Class
-6. Can we lockdown unapproved vendors? How?
-7. Where in the process will documents sync to CW? How?
+2. Can we lockdown unapproved vendors? How?
+3. Where in the process will documents sync to CW? How?
 	- Do they come over as opportunity attachments, etc.?
-8. Is there a shipping connector for COL? Can we uplift the value globally?
-9. Can we display the manual sync button at the dashboard level for all records related to that sales representative in COL? How?
+4. Is there a shipping connector for COL? Can we uplift the value globally?
+5. Can we display the manual sync button at the dashboard level for all records related to that sales representative in COL? How?
 
 ## Comments
 ---
