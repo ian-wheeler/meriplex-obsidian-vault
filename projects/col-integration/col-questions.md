@@ -55,8 +55,10 @@
 1. What is going to be the syncing logic of the current custom integration developed between ConnectWise and Salesforce (accounting for the to-be quoting process)?
 ## Issues
 ---
-- **Issue**: E-signing in COL will automatically convert the Opportunity/Quote to a PO/SO.
-- **Issue**: Potential for mismatched Vendor RecID's and vendor's existing/being approved in one system but not the other.
+### General 
+
+1. **Issue**: E-signing in COL will automatically convert the Opportunity/Quote to a PO/SO.
+2. **Issue**: Potential for mismatched Vendor RecID's and vendor's existing/being approved in one system but not the other.
 ### ConnectWise Integration
 
 1. Error Message: `You called the draw() method with the wrong type of data rather than a DataTable or DataView` was being displayed on the dashboard of the home page in each frame. 
