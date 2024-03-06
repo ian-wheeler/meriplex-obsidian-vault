@@ -15,11 +15,11 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] Document the NRR Process Flow
 
 
 ## Waiting / On Hold
 
+- [ ] Document the NRR Process Flow
 
 
 ## Done
