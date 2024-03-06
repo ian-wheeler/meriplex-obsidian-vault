@@ -6,7 +6,10 @@ kanban-plugin: basic
 
 ## To-Do
 
-- [ ] Product mapping needs to be determined / delegated
+- [ ] The following needs to be reviewed:<br><br>[Map ChannelOnline categories to ConnectWise categories](https://stage.channelonline.com/enhancedtech-stage/home/ImportExport/Integration/CW/FullCategoryMapping)
+- [ ] The following needs to be reviewed:<br><br>[Map Product Info](https://stage.channelonline.com/enhancedtech-stage/home/ImportExport/Integration/CW/productInfoMapping)
+- [ ] The following needs to be reviewed:<br><br>[Opportunity Statuses](https://stage.channelonline.com/enhancedtech-stage/home/ImportExport/Integration/CW/QuoteStatusMapping)
+- [ ] Setup Suppliers in COL<br>[Supplier Setup Instructions](https://help.1worldsync.com/channelonline/literature/setting-up-supported-suppliers/)
 
 
 ## In Progress
