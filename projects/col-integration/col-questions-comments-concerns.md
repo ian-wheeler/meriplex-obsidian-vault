@@ -25,15 +25,13 @@
 
 ## Comments
 ---
-- We want to notify the client at various stages in the quoting process; when?
+- We want to notify the client at various stages in the quoting process. When?
 	- When the quote is requested
 	- When the quote is signed
-	- When the order is del
-- We do not want to manually validate cases in Salesforce
-- COL: How can we easily display the manual sync button at the dashboard level for records?
+	- When the order is delivered
+	- When the process is completed
+- We do not want to manually validate MRR v. NRR Cases in Salesforce
 - All Meriplex employees should have have the location `Meriplex Solutions` set as their default on their member record, not `Meriplex Communications`.
-
-
 ## Concerns
 ---
 1. What is going to be the syncing logic of the current custom integration developed between ConnectWise and Salesforce (accounting for the to-be quoting process)?
