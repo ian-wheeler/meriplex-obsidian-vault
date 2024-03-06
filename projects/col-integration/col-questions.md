@@ -35,3 +35,9 @@
 ## Concerns
 ---
 1. What is going to be the syncing logic of the current custom integration developed between ConnectWise and Salesforce (accounting for the to-be quoting process)?
+## Issues
+---
+`"You called the draw() method with the wrong type of data rather than a DataTable or DataView"` 
+
+![[col-issue-1.png]]
+
