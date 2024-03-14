@@ -14,7 +14,7 @@
 
 3. When syncing the opportunity/quote to ConnectWise do all vendor SKUs and product SKUs come over on either the opportunity or attached quote document?
 
-	Answer: 
+	Answer: Yes
 
 4. What are the details of the product creation process? How are they created / can they be created? Can these products sync to ConnectWise? How? Can vendors sync to ConnectWise? How?
 
@@ -32,7 +32,7 @@
 
 7. Where in the process will documents sync to CW? How? Do they come over as opportunity attachments, etc.?
    
-	**Answer**: 
+	**Answer**: Negative 
    
 8. Is there a shipping connector for COL? Can we uplift the value globally?
    
