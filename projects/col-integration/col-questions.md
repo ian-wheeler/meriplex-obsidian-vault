@@ -37,10 +37,15 @@
 8. Is there a shipping connector for COL? Can we uplift the value globally?
    
 	**Answer**: 
+	- Global Shipping Rules
+	- Shipping Rules by Customer
+	- Shipping Calculator for certain vendors (calculated by manually clicking a button at after converting the opportunity, at the PO level)
+	Test: 
+	- Test our profile and if the price expiration comes through
    
 9. Can we display the manual sync button at the dashboard level for all records related to that sales representative in COL? How?
    
-	**Answer**: 
+	**Answer**: Negative
 ## Comments
 ---
 - We want to notify the client at various stages in the quoting process. When?
