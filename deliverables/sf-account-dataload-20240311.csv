@@ -1,0 +1,21 @@
+﻿Company_Rec_ID__c,Primary_Site__c,Primary_Contact__c,Company_ID__c,Name,Company_Status_RecID,Status__c,Phone,Website,Territory__c,Market__c,Primary_Contact__c_FirstName,Primary_Contact__c_LastName,Date_Entered
+250,84157,43692,MCL,Meriplex Communications -- Internal,1,Active,,www.meriplex.com,Meriplex Communications - CorpIT,Information Technology,Meriplex,Placeholder,04:59.0
+56518,38262,50661,3564,PNC Global Transfers,1,Active,2817651500,pncglobaltransfers.com,Meriplex Communications ,Financial,Rossana,Velazquez,56:03.3
+69716,58199,57037,STB,Spirit of Texas Bank,1,Active,,https://www.sotb.com,Unassigned,Financial,David,Stewart,36:02.3
+73055,79269,0,13593,"Palo Duro Midstream, LLC",1,Active,7138180921,https://producersmidstream.com,StreamlineIT - Palo Duro,Oil and Gas,,,18:48.3
+71994,62845,69651,Overhead Door Corporation,Overhead Door Corporation,1,Active,4695497200,,HBR Technologies,Manufacturing,Lynn,Shevack,17:58.5
+36903,55298,54246,8244,"Conn Appliances, Inc.",1,Active,2812986498,www.conns.com,Meriplex Communications ,Retail,Network,Team,03:47.0
+58429,1105,119309,KMP,"Kelly-Moore Paint Company, Inc",3,Inactive/Gone,6505928337,www.kellymoore.com,"Streamline IT - Kelly-Moore Paint Company, Inc.",Wholesale / Distribution,Jeff,Chaney,24:05.5
+68186,58103,56761,AIV,"AIV, L.P.",44,AIV,7134624181,www.aivinc.com,Meriplex Communications ,Oil and Gas,Mahlet,Abebe,36:49.2
+67908,58633,59193,EYEC2600,"Eye Care - Partners, LLC",1,Active,6362272600,www.eyecare-partners.com,Meriplex Communications ,Healthcare,NOC ,Primary Contact,52:20.9
+59180,51531,45655,4824,Kingspan (KNA),1,Active,6163552970,http://www.kingspan.us/,Meriplex Communications ,Manufacturing,IT Distro,Group,34:56.8
+71732,62401,67993,FlexXray,FlexXray,27,MSP Client,8174533539,www.flexxray.com,HBR Technologies,,Eric,Johnson,16:41.2
+19420,1159,46127,3743,Loomis Armored,1,Active,7134356700,www.loomis.com,Meriplex Communications ,Financial,Group,Email,47:46.0
+70582,79393,61156,Lebco Industries LP,"Lebco Industries, LP",40,Lebco Industries,2.14631E+13,www.la-z-boy.com,Preferred Technology,Retail,Karen,Cheniae,44:47.0
+39112,55302,50190,THC,Tilson Homes Corporation,70,Tilson Homes POC Escalation Note,9367551641,www.tilsonhome.com,Meriplex Communications ,Real Estate,Desi,Rodriguez,29:53.0
+69770,58821,59549,COOP,Cooper Machinery Services,35,Cooper Machinery Services,7133541900,www.cooperservices.com,Streamline IT - Cooper Machinery Services,Undetermined,Giuseppe,Robbiano,26:55.4
+65737,51479,46555,DHR,Doctors Hospital at Renaissance,1,Active,9563623014,www.dhr-rgv.com,Meriplex Solutions,Healthcare,James,Crouch,05:06.0
+31160,61763,70908,4885,"SCI Shared Resources, LLC",1,Active,7135225141,www.sci-corp.com,Meriplex Communications ,Services,Will,Orr,59:37.8
+19405,1144,51216,SHINT,Shintech Inc.,28,Permission Needed for Any MACs,9792337861,www.shintechinc.com,Meriplex Communications ,Energy Sector,Luis,de Rivas,39:17.0
+19419,1158,1992,NOBENG,"Noble Energy, Inc.",1,Active,2818723100,www.nobleenergyinc.com,Meriplex Communications ,Energy Sector,Rolando,DelaFuente,16:42.0
+68378,55524,57830,BlueBellCreameriesLP,Blue Bell Creameries LP,1,Active,9366994500,www.bluebell.com,Meriplex Solutions,,IT,Admin,54:22.0
