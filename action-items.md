@@ -10,6 +10,7 @@ kanban-plugin: basic
 - [ ] Meeting with Brian Jones to discuss refactoring the Salesforce Integration
 - [ ] Meeting with Brian Jones to discuss the ChannelOnline Integration
 - [ ] Meeting with Ed Palowski to discuss the Churn Definitions
+- [ ] Test the merge functionality of the CW merge tool
 
 
 ## In Progress

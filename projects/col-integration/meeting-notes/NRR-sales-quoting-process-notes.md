@@ -64,3 +64,7 @@
 		- After (4) days 
 - Quote in CPQ: Often copy items from another quote (as opposed to using tab templates like Meriplex does)
 	- Only allow E-Sign Order/Porter 
+
+## Brian Jones
+---
+Terms & Conditions for NRR (Jason Nelson; Send to Brian Jones 1st)
