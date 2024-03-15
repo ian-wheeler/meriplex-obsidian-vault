@@ -1,7 +1,5 @@
-# Mass Maintenance Logic
+# Company Merge Process
 ---
-## Company Merge Process
-
 ### Step 1:
 Select the two company entities to be merged.
 - Acquired Company (Deleted after merging)* 
@@ -27,4 +25,8 @@ Select which types of records you want to carry over from {{`Acquired Company`}}
 - Sales Orders
 - Procurements
 
-## Company Merge Logic
+# Company Merge Logic
+---
+When you merge the {{`Acquired Company`}} to the {{`Resulting Company`}}:
+- The unique RecID's for the migrated records are retained.
+- Webhooks are not triggered/fired.
