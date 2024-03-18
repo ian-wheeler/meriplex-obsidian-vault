@@ -25,7 +25,7 @@ Select which types of records you want to carry over from {{`Acquired Company`}}
 - Sales Orders
 - Procurements
 
-# Company Merge Logic
+# ConnectWise Company Merge Logic
 ---
 When you merge the {{`Acquired Company`}} to the {{`Resulting Company`}}:
 - The unique RecID's for the migrated records are retained.
