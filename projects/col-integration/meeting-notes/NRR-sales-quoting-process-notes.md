@@ -35,11 +35,12 @@
 - Bring over all required fields for opportunities and tickets so that quoting team does not have to complete the opportunity details
 - Appending " ticket" to the end of each ticket created (not useful)
 - ***In CPQ, there are multiple `Terms & Conditions` and duplication on `8) Terms and Conditions` & `9) Order Porter T&C` *** <-- Highest Priority per John S.
+	- Jason Nelson <-- 
 - "Infinitely Complicated" & errors that come back are very annoying. Client should only have to sign the document, ideally e-sign.
 	- CPQ needs to be reworked and a dedicated admin assigned. (Anthony K. & John S. & Greg Cambpell, CPI maybe.)
 - Classify which of the (4) types of team members are responsible for the quote. <-- Recommend dedicated dispatcher for `Sales - Account Management (Catchall Board)`
-- Quoting Specialists are moving too slowly. <-- should be higher volume
-	- Shaun Kilkenny
+- Quoting Specialists might be moving too slowly. <-- should be higher volume
+	- Shaun Kilkenny <-- more comfortable in COL; find specifics that are preferred in COL
 	- Brian McShane
 	- Laura Emery
 - Huge effort aligning the Order/Porter and the Invoice PDF so that they are stylistically similar (just Order/Porter would be ideal)
