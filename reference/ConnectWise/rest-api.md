@@ -16,7 +16,7 @@ These notes serve as a quick reference guide to help developers efficiently inte
 
 ## Endpoints
 ---
-**Companies** 
+**Companies**
 ```
 {{baseURL}}/v4_6_release/apis/3.0/company/companies
 ```
