@@ -6,4 +6,7 @@ Booking Link: [Book time with Ian Wheeler](https://outlook.office.com/bookwithme
 Keith Wilson <kewilson@1worldsync.com>
 Andrew Halbeck <ahalbeck@1worldsync.com>
 Lee Pomeroy <lpomeroy@1worldsync.com>
+# ConnectWise Sell
+Nadine Tamasaki nyamasaki@connectwise.com
+Sheryl Smith sheryl.smith@connectwise.com
 
