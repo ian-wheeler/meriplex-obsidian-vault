@@ -10,11 +10,6 @@ The Users screen displays all active and inactive members. Administrators can ma
 ## ConnectWise Sell - User Permissions Matrix
 ---
 ![[cwsell-users-matrix.xlsx]]
-
-## Observations
----
-There are currently 93 active users in ConnectWise Sell.
-There are currently 25 administrators in ConnectWise Sell.
 ## Resources
 ---
 [Users - ConnectWise](https://docs.connectwise.com/@go/path/setupusers)
