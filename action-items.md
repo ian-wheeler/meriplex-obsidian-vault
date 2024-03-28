@@ -7,6 +7,7 @@ kanban-plugin: basic
 ## To-Do
 
 - [ ] # Microsoft Copilot Studio R&D<br>## Sequence<br>### Intent: <br>Determine the intent of the prompt.<br>### Categorization:<br>RAG based on the intent of the user/prompt.<br>### Sentiment: <br>Gather sentiment data for fine-tuning and RLHF.<br><br>## Action Items<br>Use Copilot to test the following:<br>- Get Ticket Status<br>- Get Invoice Status<br>- Create a Ticket<br>- General Purpose Inquiries
+- [ ] Check with Jim to clarify difference in Est_Rev and the sum of Additions_Rev<br><br>claridy the Dosconnects - Project Count logic with the delta
 
 
 ## In Progress
