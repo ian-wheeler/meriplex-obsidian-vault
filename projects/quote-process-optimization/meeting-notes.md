@@ -72,6 +72,18 @@
 - Terms & Conditions for NRR to be sent to Brian Jones first, as advised by Jason Nelson.
 
 # 20240401-Working-Session
+- 2023 Meriplex Standard is the only Order Porter Template
+- Eliminate PDF being displayed
+- Send the PDF after E-Signing (does so automatically after signing; per John S.)
+- Approval > Acceptable Use 
+	- Auto-fill: Full Name, and Email Address
+	- Manual-fill: Title, Purchase Order Number, and Signature
+	- Remove: Company Name, Your Initials
+- Improve the overall design, colors, padding, font-style, etc.
+- Try to eliminate the user's ability to modify the template font-sizes.
+- Add the Shipping Address
+- Display whether the quote is drop-ship or ship-to-meriplex-warehouse
+- Remove Comments or Questions
 ## User Permission Matrix
 ## Teams Permission Matrix
 ## Review Locations

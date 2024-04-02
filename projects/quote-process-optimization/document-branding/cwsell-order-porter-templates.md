@@ -19,6 +19,7 @@ To locate this screen navigate to **Settings > Document Branding > Order Po
 ## Resources
 ---
 [Order Porter Templates - ConnectWise](https://docs.connectwise.com/ConnectWise_Sell/800/020/020)
+[RTF (Rich Text Field) Dynamic Tags in ConnectWise CPQ - ConnectWise](https://docs.connectwise.com/ConnectWise_Sell/300/030/010/280)
 [Changing the Time Zone for Order Porter Time Stamps - ConnectWise](https://docs.connectwise.com/ConnectWise_Sell/800/020/020/Changing_the_Time_Zone_for_Order_Porter_Time_Stamps)
 [Custom Email Subjects for Order Porter Visited and Approved Email Messages - ConnectWise](https://docs.connectwise.com/ConnectWise_Sell/800/020/020/Custom_Email_Subjects_for_Order_Porter_Visited_and_Approved_Email_Messages)
 ### Helpful Order Porter Modification Resources
