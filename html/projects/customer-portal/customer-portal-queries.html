@@ -1,0 +1,91 @@
+<h2 id="customer-portal-queries"># Customer Portal Queries</h2>
+<p>Comprehensive guide for the queries utilized to generate datasets for the customer portal application. Its primary purpose is to detail the sources, structures, and strategies behind the data retrieval processes that underpin the application’s visualization features.</p>
+<hr />
+<h2 id="agreements">Agreements</h2>
+<p>The  numbers between the 2 queries dont’t add up.  Brian mentioned the ‘Agreements by Location’ is  should be using site.  I think Agreements by Product Segment needs some more groupings. ### Agreements by Product Segment</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">SELECT</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>    <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="kw">AS</span> RecordCount,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>    <span class="kw">source</span>.custom_product_category_desc <span class="kw">AS</span> <span class="kw">Category</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>    <span class="kw">source</span>.custom_product_category_id <span class="kw">AS</span> SortOrder</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a><span class="kw">FROM</span> </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>    (</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>        <span class="kw">SELECT</span> </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a>            <span class="kw">category</span>.parent_custom_product_category_id,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a>            <span class="kw">category</span>.custom_product_category_id,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a>            <span class="kw">category</span>.custom_product_category_desc,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a>            subcategory.custom_product_category_id <span class="kw">AS</span> SubCat_custom_product_category_id,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a>            subcategory.custom_product_category_desc <span class="kw">AS</span> SubCat_custom_product_category_desc,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true"></a>            agreement.AGR_Name</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true"></a>        <span class="kw">FROM</span> </span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true"></a>            custom_product_category <span class="kw">AS</span> <span class="kw">category</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true"></a>        <span class="kw">LEFT</span> <span class="kw">JOIN</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true"></a>            (</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true"></a>                <span class="kw">SELECT</span> </span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true"></a>                    parent_custom_product_category_id,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true"></a>                    custom_product_category_id,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true"></a>                    custom_product_category_desc</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true"></a>                <span class="kw">FROM</span> </span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true"></a>                    custom_product_category</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true"></a>                <span class="kw">WHERE</span> </span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true"></a>                    parent_custom_product_category_id <span class="op">&gt;</span> <span class="dv">0</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true"></a>            ) <span class="kw">AS</span> subcategory <span class="kw">ON</span> subcategory.parent_custom_product_category_id <span class="op">=</span> <span class="kw">category</span>.custom_product_category_id</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true"></a>        <span class="kw">LEFT</span> <span class="kw">JOIN</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true"></a>            (</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true"></a>                <span class="kw">SELECT</span> </span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true"></a>                    AGR_Header.AGR_Header_RecID, </span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true"></a>                    AGR_Name, </span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true"></a>                    IV_Item.Item_ID, </span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true"></a>                    IV_Item.Description, </span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true"></a>                    custom_product_category_id</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true"></a>                <span class="kw">FROM</span> </span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true"></a>                    AGR_Header</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true"></a>                <span class="kw">INNER</span> <span class="kw">JOIN</span> AGR_Detail <span class="kw">ON</span> AGR_Header.AGR_Header_RecID <span class="op">=</span> AGR_Detail.AGR_Header_RecID</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true"></a>                <span class="kw">INNER</span> <span class="kw">JOIN</span> custom_product_category_item <span class="kw">ON</span> agr_detail.iv_item_recid <span class="op">=</span> custom_product_category_item.iv_item_recid</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true"></a>                <span class="kw">INNER</span> <span class="kw">JOIN</span> IV_Item <span class="kw">ON</span> agr_detail.iv_item_recid <span class="op">=</span> iv_item.iv_item_recid</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true"></a>                <span class="kw">WHERE</span> </span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true"></a>                    Company_RecID <span class="op">=</span> @companyId</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true"></a>            ) <span class="kw">AS</span> agreement <span class="kw">ON</span> agreement.custom_product_category_id <span class="op">=</span> subcategory.custom_product_category_id</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true"></a>        <span class="kw">WHERE</span> </span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true"></a>            <span class="kw">category</span>.parent_custom_product_category_id <span class="op">=</span> <span class="dv">0</span> </span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true"></a>            <span class="kw">AND</span> <span class="kw">category</span>.custom_product_category_id <span class="op">&lt;&gt;</span> <span class="dv">68</span> <span class="co">-- Excludes &#39;unassigned&#39;</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true"></a>    ) <span class="kw">AS</span> <span class="kw">source</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true"></a><span class="kw">GROUP</span> <span class="kw">BY</span> </span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true"></a>    <span class="kw">source</span>.custom_product_category_id, </span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true"></a>    <span class="kw">source</span>.custom_product_category_desc</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true"></a><span class="kw">ORDER</span> <span class="kw">BY</span> </span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true"></a>    <span class="kw">source</span>.custom_product_category_id;</span></code></pre></div>
+<h3 id="agreements-by-location">Agreements by Location</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="kw">SELECT</span> </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>    <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="kw">AS</span> RecordCount, </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>    t.owner_level_name <span class="kw">AS</span> <span class="kw">Category</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a><span class="kw">FROM</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>    (</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a>        <span class="kw">SELECT</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a>            a.Owner_Level_RecID,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a>            b.owner_level_name</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a>        <span class="kw">FROM</span> </span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true"></a>            dbo.AGR_Header <span class="kw">AS</span> a <span class="co">-- (Owner_Level_RecID = SystemLocation) (Billing_Unit_RecID == department)</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true"></a>        <span class="kw">JOIN</span> </span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true"></a>            dbo.Owner_Level <span class="kw">AS</span> b <span class="kw">ON</span> b.Owner_Level_RecID <span class="op">=</span> a.Owner_Level_RecID</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true"></a>        <span class="kw">WHERE</span> </span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true"></a>            a.Company_RecID <span class="op">=</span> @companyId</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true"></a>    ) <span class="kw">AS</span> t</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true"></a><span class="kw">GROUP</span> <span class="kw">BY</span> </span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true"></a>    t.Owner_Level_RecID, </span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true"></a>    t.owner_level_name;</span></code></pre></div>
+<h3 id="projects---total-hours-to-date">Projects - Total Hours to Date</h3>
+<p>Not sure what ‘Total Hours to Date’ means ### Open Projects</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="kw">SELECT</span> </span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a>    <span class="fu">COUNT</span>(<span class="op">*</span>) <span class="kw">AS</span> RecordCount, </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a>    S.Closed_Flag</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a><span class="kw">FROM</span> </span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true"></a>    PM_Project <span class="kw">AS</span> P</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true"></a><span class="kw">LEFT</span> <span class="kw">JOIN</span> </span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true"></a>    PM_Status <span class="kw">AS</span> S <span class="kw">ON</span> P.PM_Status_RecID <span class="op">=</span> S.PM_Status_RecID</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true"></a><span class="kw">WHERE</span> </span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true"></a>    P.Company_RecID <span class="op">=</span> @CompanyId </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true"></a>    <span class="kw">AND</span> S.Closed_Flag <span class="op">&lt;&gt;</span> <span class="dv">1</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true"></a><span class="kw">GROUP</span> <span class="kw">BY</span> </span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true"></a>    S.Closed_Flag;</span></code></pre></div>
+<h3 id="invoices">Invoices</h3>
+<p>No clue what any of the queries for the charts are</p>

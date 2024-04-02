@@ -1,0 +1,13 @@
+<h2 id="company-merge-process"># Company Merge Process</h2>
+<h3 id="step-1">Step 1:</h3>
+<p>Select the two company entities to be merged. - Acquired Company (Deleted after merging)* - Resulting Company (Retained after merging)*</p>
+<h3 id="step-2">Step 2:</h3>
+<p>Select the company data you want to carry over from {{<code>Acquired Company</code>}} to {{<code>Resulting Company</code>}}. These options are only necessary if you want to override the current settings of the {{<code>Resulting Company</code>}}.</p>
+<ul>
+<li>Standard Fields</li>
+<li>User Defined Fields</li>
+</ul>
+<h3 id="step-3">Step 3:</h3>
+<p>Select which types of records you want to carry over from {{<code>Acquired Company</code>}} to {{<code>Resulting Company</code>}}. Options: - Notes - Sites - Activities - Opportunities - Services - Projects - Contacts - Groups - Attachments - Sales Orders - Procurements</p>
+<h2 id="connectwise-company-merge-logic"># ConnectWise Company Merge Logic</h2>
+<p>When you merge the {{<code>Acquired Company</code>}} to the {{<code>Resulting Company</code>}}: - The unique RecID’s for the migrated records are retained. - Webhooks are not triggered/fired.</p>

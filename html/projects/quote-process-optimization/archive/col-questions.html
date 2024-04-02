@@ -1,0 +1,59 @@
+<h1 id="questions-comments-concerns">Questions, Comments, Concerns</h1>
+<h2 id="questions">## Questions</h2>
+<ol type="1">
+<li><p>Do we have the ability to select items from our ConnectWise inventory prior to purchase? How? Can we treat our CW environment as a vendor so that we have in-stock inventory visibility within COL?</p>
+<p><strong>Answer</strong>: Import an inventory CSV daily which will have in an FTP enabled location. Alternatively, there is a paid service that will check the FTP location hourly.</p></li>
+<li><p>Do we have the ability to go back and forth with revision for quotes? How? (<strong>This functionality is NEEDED</strong>) How can an opportunity/quote be synced back to ChannelOnline for revisions, if necessary?</p>
+<p><strong>Answer</strong>: There is only a uni-lateral sync going from COL to CW. The CW user will update the status to revision needed and inform the account/record owner that a revision needs to be made. The account/record owner will then make the necessary revision in COL and resync the opportunity.</p>
+<p><strong>Issues</strong>: E-signing in COL will automatically convert the Opportunity/Quote to a PO/SO.</p></li>
+<li><p>When syncing the opportunity/quote to ConnectWise do all vendor SKUs and product SKUs come over on either the opportunity or attached quote document?</p>
+<p>Answer: Yes</p></li>
+<li><p>What are the details of the product creation process? How are they created / can they be created? Can these products sync to ConnectWise? How? Can vendors sync to ConnectWise? How?</p>
+<p><strong>Answer</strong>: Field specifics unknown; the product will be created with the category &amp; sub-category determined by your environments mapping configuration. It will only sync the products from COL that are included in the quote/opportunity.</p></li>
+<li><p>Are all required fields captured on documents that come over? (GL Account, Category, Sub Category, Type, Class)</p>
+<p><strong>Answer</strong>: COL will follow-up with field-specific details. These can potentially be setup as custom fields and mapped, but these can not be enforced as required fields. Required fields are only enforced at the point you convert to a PO/SO.</p></li>
+<li><p>Can we lockdown unapproved vendors? How?</p>
+<p><strong>Answer</strong>: You can enable or disable suppliers and set different profile’s that determine which suppliers are available (based on the profile).</p>
+<p><strong>Issues</strong>: Potential for mismatched Vendor RecID’s and vendor’s existing/being approved in one system but not the other.</p></li>
+<li><p>Where in the process will documents sync to CW? How? Do they come over as opportunity attachments, etc.?</p>
+<p><strong>Answer</strong>: Negative</p></li>
+<li><p>Is there a shipping connector for COL? Can we uplift the value globally?</p>
+<p><strong>Answer</strong>:</p>
+<ul>
+<li>Global Shipping Rules</li>
+<li>Shipping Rules by Customer</li>
+<li>Shipping Calculator for certain vendors (calculated by manually clicking a button at after converting the opportunity, at the PO level) Test:</li>
+<li>Test our profile and if the price expiration comes through</li>
+</ul></li>
+<li><p>Can we display the manual sync button at the dashboard level for all records related to that sales representative in COL? How?</p>
+<p><strong>Answer</strong>: Negative ## Comments —</p></li>
+</ol>
+<ul>
+<li>We want to notify the client at various stages in the quoting process. When?
+<ul>
+<li>When the quote is requested</li>
+<li>When the quote is signed</li>
+<li>When the order is delivered</li>
+<li>When the process is completed</li>
+</ul></li>
+<li>We do not want to manually validate MRR v. NRR Cases in Salesforce</li>
+<li>All Meriplex employees should have have the location <code>Meriplex Solutions</code> set as their default on their member record, not <code>Meriplex Communications</code>. ## Concerns —</li>
+</ul>
+<ol type="1">
+<li><p>What is going to be the syncing logic of the current custom integration developed between ConnectWise and Salesforce (accounting for the to-be quoting process)? ## Issues — ### General</p></li>
+<li><p><strong>Issue</strong>: E-signing in COL will automatically convert the Opportunity/Quote to a PO/SO.</p></li>
+<li><p><strong>Issue</strong>: Potential for mismatched Vendor RecID’s and vendor’s existing/being approved in one system but not the other. ### ConnectWise Integration</p></li>
+<li><p>Error Message: <code>You called the draw() method with the wrong type of data rather than a DataTable or DataView</code> was being displayed on the dashboard of the home page in each frame.</p></li>
+</ol>
+<p>[[col-issue-1.png]]</p>
+<ol start="2" type="1">
+<li><p>There is no documentation on the <a href="https://stage.channelonline.com/enhancedtech-stage/home/ImportExport/Integration/CW/productInfoMapping">Map Product Info</a> section.</p>
+<ul>
+<li>What is and how do we configure the:</li>
+<li>Shipping Catalog Item Id</li>
+<li>Supplier Handling Fee Catalog Item</li>
+<li>Purchase Order Tax Catalog Item</li>
+</ul></li>
+<li><p>The <a href="https://ccs-stage.channelonline.com/enhancedtech-stage/home/pt.epl?errand=cw_cust_mapping&amp;dir=cw_cust_mapping&amp;type=customer" title="Import and Map Customers from ConnectWise">Import and Map Customers from ConnectWise</a> link is broken in the staging environment.</p></li>
+<li><p>The <a href="https://stage.channelonline.com/enhancedtech-stage/home/ImportExport/Integration/CW/AccountTypeMapping" title="Account Types Mapping">Account Types Mapping</a> section is not pulling the full list of account types available in the connected <a href="https://cwdev.meriplex.com/v4_6_release/ConnectWise.aspx?locale=en_US#XQAACAD3AAAAAAAAAAA9iIoG07$U9XZqpLgsNhRsIxDiSt5jjN5fOx8L26COGHXJa4h4YruSL$0AZMlhTU5vIbaU21bIUdSioQiQpXPcKuNyFjs2UnA1AusSgAyO2LVSFfNdH_QbesxRhExr1opBoiLoeY6x591qsmeOKcRMGrFo23CHoM_nQds7FdfNY7tWYD0l3PUVvskRgAIyj3py3Ix1vp__if8AAA==">ConnectWise environment</a>.</p></li>
+</ol>

@@ -1,0 +1,55 @@
+<h1 id="request">Request</h1>
+<p>Requestee: Chantella Allen Report of circuit configurations for Jim Kelly. ## Details Requested Fields: - Configuration Name - Configuration Type - Configuration Status - Configuration Location - Configuration Vendor - Configuration Company - Configuration Question &amp; Answer: Meriplex MRR Amount - Configuration Question &amp; Answer: Billing Circuit ID - Configuration Question &amp; Answer: Vendor MRC Amount - Configuration Question &amp; Answer: Vendor Account Number - Configuration Question &amp; Answer: Vendor Bill Audit Date ## Filters - Configuration Type = Meriplex Circuit Information - Status = Active ## Standard Fields Table: v_ConfigAdvanceSearch - Type Field: ConfigType - Status Field: ConfigStatus - Location Field: Owner_Level_Name - Vendor Field: Manufacturer - Company Field: Company_Name - Name Field: Config_Name</p>
+<h2 id="custom-fields">Custom Fields</h2>
+<table>
+<caption>v_ConfigAdvanceSearch - Question Field: Question - Answer FIeld: Answer</caption>
+<thead>
+<tr class="header">
+<th>CS_Survey_Detail_RecID</th>
+<th>Question</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>702</td>
+<td>Meriplex MRR Amount</td>
+</tr>
+<tr class="even">
+<td>714</td>
+<td>Vendor MRC Amount</td>
+</tr>
+<tr class="odd">
+<td>717</td>
+<td>Vendor Account Number</td>
+</tr>
+<tr class="even">
+<td>735</td>
+<td>Billing Circuit ID</td>
+</tr>
+<tr class="odd">
+<td>1471</td>
+<td>Vendor Bill Audit Date</td>
+</tr>
+</tbody>
+</table>
+<h2 id="query">Query</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">SELECT</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>    Config_RecID,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>    ConfigType,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>    ConfigStatus,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>    Config_Name,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>    Company_Name,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>    Manufacturer <span class="kw">AS</span> Vendor,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a>    Owner_Level_Name <span class="kw">AS</span> Location,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a>    <span class="fu">MAX</span>(<span class="cf">CASE</span> <span class="cf">WHEN</span> CS_Survey_Detail_RecID <span class="op">=</span> <span class="dv">702</span> <span class="cf">THEN</span> Answer <span class="cf">END</span>) <span class="kw">AS</span> [Meriplex MRR Amount],</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a>    <span class="fu">MAX</span>(<span class="cf">CASE</span> <span class="cf">WHEN</span> CS_Survey_Detail_RecID <span class="op">=</span> <span class="dv">714</span> <span class="cf">THEN</span> Answer <span class="cf">END</span>) <span class="kw">AS</span> [Vendor MRC Amount],</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a>    <span class="fu">MAX</span>(<span class="cf">CASE</span> <span class="cf">WHEN</span> CS_Survey_Detail_RecID <span class="op">=</span> <span class="dv">717</span> <span class="cf">THEN</span> Answer <span class="cf">END</span>) <span class="kw">AS</span> [Vendor <span class="kw">Account</span> <span class="dt">Number</span>],</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a>    <span class="fu">MAX</span>(<span class="cf">CASE</span> <span class="cf">WHEN</span> CS_Survey_Detail_RecID <span class="op">=</span> <span class="dv">735</span> <span class="cf">THEN</span> Answer <span class="cf">END</span>) <span class="kw">AS</span> [Billing Circuit <span class="kw">ID</span>],</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true"></a>    <span class="fu">MAX</span>(<span class="cf">CASE</span> <span class="cf">WHEN</span> CS_Survey_Detail_RecID <span class="op">=</span> <span class="dv">1471</span> <span class="cf">THEN</span> Answer <span class="cf">END</span>) <span class="kw">AS</span> [Vendor Bill <span class="kw">Audit</span> <span class="dt">Date</span>]</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true"></a><span class="kw">FROM</span> v_ConfigAdvanceSearch</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true"></a><span class="kw">WHERE</span> CS_Survey_Detail_RecID <span class="kw">IN</span> (<span class="dv">702</span>, <span class="dv">714</span>, <span class="dv">717</span>, <span class="dv">735</span>, <span class="dv">1471</span>) <span class="co">-- Only required &quot;Questions&quot;</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true"></a>    <span class="kw">AND</span> CS_Survey_RecID <span class="op">=</span> <span class="dv">74</span> <span class="co">-- Only &quot;Meriplex Circuit Information&quot; Configuration Type</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true"></a>    <span class="kw">AND</span> Config_Status_RecID <span class="op">=</span> <span class="dv">2</span> <span class="co">-- Only &quot;Active&quot; Status</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true"></a><span class="kw">GROUP</span> <span class="kw">BY</span> Config_RecID, ConfigType, ConfigStatus, Config_Name, Company_Name, Manufacturer, Owner_Level_Name</span></code></pre></div>
+<h2 id="solution">Solution</h2>
+<p><a href="https://meriplex.sharepoint.com/:x:/s/ServiceDeliveryDept/Ef-746mxgXFAsfqTkiHFZtUBpqscgeiv0DgVjI3Cw5LYMg?e=hNvgkz">SharePoint &gt; Service Delivery &gt; Documents &gt; 2024-Meriplex Circuit Audit &gt; MeriplexCircuitInformation.xlsx</a></p>
