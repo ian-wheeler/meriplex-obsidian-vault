@@ -6,7 +6,20 @@ kanban-plugin: basic
 
 ## To-Do
 
-- [ ] [Microsoft Copilot Studio R&D](obsidian://open?vault=Obsidian&file=Meriplex%2Fdeliverables%2Fmpc-copilot-research)<br><br>**Sequence:**<br>1. Intent: <br>	Determine the intent of the prompt.<br>2. Categorization:<br>	RAG based on the intent of the user/prompt.<br>3. Sentiment: <br>	Gather sentiment data for fine-tuning and RLHF.<br><br>**Action Items:**<br>Use Copilot to test the following:<br>- Get Ticket Status<br>- Get Invoice Status<br>- Create a Ticket<br>- General Purpose Inquiries
+- [ ] [Microsoft Copilot Studio R&D](obsidian://open?vault=Obsidian&file=Meriplex%2Fdeliverables%2Fmpc-copilot-research)
+- [ ] **Sequence:**
+- [ ] 1. Intent:
+- [ ] Determine the intent of the prompt.
+- [ ] 2. Categorization:
+- [ ] RAG based on the intent of the user/prompt.
+- [ ] 3. Sentiment:
+- [ ] Gather sentiment data for fine-tuning and RLHF.
+- [ ] **Action Items:**
+- [ ] Use Copilot to test the following:
+- [ ] - Get Ticket Status
+- [ ] - Get Invoice Status
+- [ ] - Create a Ticket
+- [ ] - General Purpose Inquiries
 - [ ] [PMO Reporting Clarification](obsidian://open?vault=Obsidian&file=Meriplex%2Fdeliverables%2Fpmo-reporting-clarification)<br><br>Action Item:<br>- Check with Jim to clarify that he would like to use the (`Extended_Price_Amount`) field from the (`AGR_Detail`) table instead of the (`Est_Revenue`) field from the (`PM_Project`) table to calculate revenue on the (`Project Aging Revenue Total`) and (`Project Aging Revenue Remaining`) pages in the PowerBI report.<br>	Reason: BrightGauge uses (`Est_Revenue`) and there will be a difference in the PowerBI report and BG report.<br>- Clarify the logic on the (`Disconnects - Project Count`) page
 
 
