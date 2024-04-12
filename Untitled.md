@@ -1,6 +1,0 @@
-- Add Project Rec ID to the Projects Scheduled to Complete this Month Card
-- Repair Projects Past Forecast End Date card; we should be displaying open projects with an estimated end date in the past
-- Validate the query on the New Status Greater Than 3 Days card
-- Project in Assigned Status card
-- Add time-entry poster to the Open Projects with no Time Entries in the Last 7 Days
-- Repair Project Revenue Page
