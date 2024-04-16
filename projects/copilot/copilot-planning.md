@@ -17,7 +17,7 @@
     - Incident response and recovery planning
     - High availability and redundancy
 5. IT Strategy and Consulting
-    - Technology roadmapping and budgeting
+    - Technology road mapping and budgeting
     - Vendor management and procurement
     - IT policy and procedure development
 6. Productivity and Collaboration
