@@ -1,0 +1,11 @@
+<h2 id="queries"># Queries</h2>
+<h3 id="additions-with-churn-reason-udfv">Additions with Churn Reason UDFV</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">SELECT</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>    <span class="cf">CASE</span> <span class="cf">WHEN</span> ADUDFV.User_Defined_Field_RecID <span class="op">=</span> <span class="dv">147</span> <span class="cf">THEN</span> ADUDFV.User_Defined_Field_Value <span class="cf">ELSE</span> <span class="kw">NULL</span> <span class="cf">END</span> <span class="kw">AS</span> Churn_Reason,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>    AD.<span class="op">*</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a><span class="kw">FROM</span> </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>    AGR_Detail <span class="kw">AS</span> AD</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a><span class="kw">LEFT</span> <span class="kw">JOIN</span> </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>    AGR_Detail_User_Defined_Field_Value <span class="kw">AS</span> ADUDFV <span class="kw">ON</span> AD.AGR_Detail_RecID <span class="op">=</span> ADUDFV.AGR_Detail_RecID</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a>    <span class="kw">AND</span> ADUDFV.User_Defined_Field_RecID <span class="op">=</span> <span class="dv">147</span></span></code></pre></div>
+<p>This query is used for getting a monthly snapshot of the additions table with the churn reason user defined field value so that we can calculate monthly churn totals based on their category/reason.</p>
