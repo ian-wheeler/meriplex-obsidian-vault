@@ -1,0 +1,33 @@
+<h1 id="overview">Overview</h1>
+<p>This document outlines the business rules and definitions for handling activations, tracking remaining activations, and forecasting the Original Monthly Recurring Revenue (MRR). It also provides guidance on processing downgrades and churns.</p>
+<h2 id="business-rules">Business Rules</h2>
+<ul>
+<li><p><strong>Requests Handled:</strong></p>
+<ul>
+<li>Activations</li>
+<li>Activations Remaining</li>
+<li>Original MRR Forecast</li>
+</ul></li>
+<li><p><strong>Expected Install Date:</strong> An <code>expected_install_date</code> set in the future indicates the number of activations remaining.</p></li>
+<li><p><strong>Effective Date for MRR Reporting:</strong> The “Effective Date” noted on additions in the Graphical User Interface (GUI) should be used as the reference date for MRR reporting.</p></li>
+<li><p><strong>Reference Data:</strong> For Background (BG) data reference, use the additions rather than the configurations.</p></li>
+</ul>
+<h2 id="data-handling-instructions">Data Handling Instructions</h2>
+<h3 id="additions-table">Additions Table</h3>
+<ul>
+<li><strong>Product Category:</strong> Join the additions table with products to categorize each addition.</li>
+<li><strong>Prorate Agreement:</strong> Join the additions table with agreements to determine the prorate agreement. Consult with Ebony for the prorate formula.</li>
+<li><strong>Disco Consultation:</strong> For matters related to Disco, consult Yusenia.</li>
+</ul>
+<h3 id="definitions">Definitions</h3>
+<h4 id="downgrade">Downgrade</h4>
+<ul>
+<li>A downgrade occurs when a customer’s new contract results in a lower MRR compared to their previous contract. For example, moving from a $1000/month contract to a $500/month contract.</li>
+<li>An example of a downgrade is when a customer cancels a product, reducing the number of products they are paying for (e.g., from 3 products to 2).</li>
+</ul>
+<h4 id="churn">Churn</h4>
+<ul>
+<li>Churn refers to the complete termination of all products by a customer. Consult Yesenia for procedures related to churn processing.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>This document serves as a guide for the OPS-ACTIVATIONS-ROLLUP team, detailing the process for activations, managing data in the additions table, and handling downgrades and churns.</p>
