@@ -71,7 +71,7 @@
 
 - Terms & Conditions for NRR to be sent to Brian Jones first, as advised by Jason Nelson.
 
-# 20240401-Working-Session
+# 2024/04/01
 - 2023 Meriplex Standard is the only Order Porter Template
 - Eliminate PDF being displayed
 - Send the PDF after E-Signing (does so automatically after signing; per John S.)
