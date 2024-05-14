@@ -12,3 +12,10 @@ Block:
 	Time Entries
 	I need the list of "Block Time - Standard" Agreement Types
 	Block Time - Standard with expiring agreements have different 
+
+T&M:
+
+Fixed Fee Tickets
+
+Labor
+Service
