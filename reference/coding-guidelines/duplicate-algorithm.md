@@ -25,3 +25,5 @@ Here are some specific algorithms and techniques you might use:
 5. **Software and Libraries**: Implement these algorithms using data processing libraries in Python like `pandas` for handling data, and `fuzzywuzzy` or `python-Levenshtein` for fuzzy matching. For more sophisticated record linkage, the `recordlinkage` Python package can be very useful.
 
 Combining these methods allows you to effectively identify potential duplicates across the different fields in a CRM system, improving data integrity and operational efficiency.
+
+[More info](javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=matching_rules_standard_contact_rule.htm&language=en_US&release=250.4.2&instance=USA268S%27,%20%27Help%27,%20700,)
