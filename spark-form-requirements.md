@@ -1,10 +1,12 @@
-- Force the campaign and requester name fields in addition to the other required fields for converting a spark form request to a CW/SF Opportunity
+## Process
 
-
-1. Spark form (NRR) submission creates an opportunity in Salesforce
-2. Opportunity is assigned to the Solutions Consultant (according to the Teams tab in ConnectWise)
+1. User Logs into Salesforce or ConnectWise and Navigates to Spark Form
+	1. Hosted in ConnectWise Pod in ConnectWise
+	2. Hosted in Account Tab in Salesforce
+2. Spark form (NRR) submission creates an opportunity in Salesforce
+3. Opportunity is assigned to the Solutions Consultant (according to the Teams tab in ConnectWise)
 	1. Fallback: assign the opportunity to John Powell
-3. Email notification should occur at the following junctions:
+4. Email notification should occur at the following junctions:
 	1. Quote requested
 	2. Opportunity Created
 	3. Opportunity Quoted
@@ -12,7 +14,7 @@
 	5. Quote Signed
 	6. Order Placed
 	7. Order Received
-4. IF `T&M Only?` is checked then it bypasses Salesforce etc., and creates a ticket on the `Prof-Svcs` board in ConnectWise
+5. IF `T&M Only?` is checked then it bypasses Salesforce etc., and creates a ticket on the `Prof-Svcs` board in ConnectWise
 
 ## Required Fields & Type
 
