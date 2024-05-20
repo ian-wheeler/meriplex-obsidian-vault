@@ -27,21 +27,21 @@
 	Marketing
 	Referral
 	Acquisition
-Sub-Source: Single-Selection Picklist 
+5. Sub-Source: Single-Selection Picklist 
 
 	![[Pasted image 20240520093330.png]]
 
-Billing Contact: Contact(Lookup); selected
-Billing Site: Site(Lookup); selected
-Shipping Contact: Contact(Lookup); selected
-Shipping Site: Site(Lookup); selected
-Professional Services Required: Boolean (Checkbox)
-Emergency Action Required: Boolean (Checkbox)
-Time and Materials Only: Boolean (Checkbox)
-Description: String(32000)
-Document(s): Attachments
-Expected Close Date: Date
-Campaign: Single-Selection Picklist 
+6. Billing Contact: Contact(Lookup); selected
+7. Billing Site: Site(Lookup); selected
+8. Shipping Contact: Contact(Lookup); selected
+9. Shipping Site: Site(Lookup); selected
+10. Professional Services Required: Boolean (Checkbox)
+11. Emergency Action Required: Boolean (Checkbox)
+12. Time and Materials Only: Boolean (Checkbox)
+13. Description: String(32000)
+14. Document(s): Attachments
+15. Expected Close Date: Date
+16. Campaign: Single-Selection Picklist 
 
 ```SQL
 SELECT * FROM Marketing_Campaign
@@ -49,9 +49,9 @@ WHERE Inactive_Flag = 0
 ORDER BY Marketing_ID
 ```
 
-Stage: Hard-coded = `Identifying`
-Status: Hard-coded = `Open`
-Type: Single-Selection Picklist
+17. Stage: Hard-coded = `Identifying`
+18. Status: Hard-coded = `Open`
+19. Type: Single-Selection Picklist
 
 ```SQL
 SELECT * FROM SO_Type
@@ -59,14 +59,14 @@ WHERE Inactive_Flag = 0
 ORDER BY Description
 ```
 
-Department: Single-Selection Picklist
+20. Department: Single-Selection Picklist
 
 ```SQL
 SELECT * FROM Department
 ORDER BY Department_Name
 ```
 
-Location: Single-Selection Picklist 
+21. Location: Single-Selection Picklist 
 
 ```SQL
 SELECT * FROM Owner_Level
