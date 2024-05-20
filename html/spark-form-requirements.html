@@ -1,19 +1,14 @@
-<p>Highest Priority – This is Speed</p>
 <ul>
-<li>Spark form should create an opportunity directly in SF and CW and link them
-<ul>
-<li>as opposed to creating a Case in Salesforce which does not link to the opportunity or a corresponding ticket in ConnectWise</li>
-<li>additionally we can deprecate the need to create tickets in ConnectWise for NRR quote requests if we write back the opportunity URL to Salesforce as opposed to the ticket URL</li>
-</ul></li>
-<li>Drop-down list for required fields as well as ability to create new sites and contacts</li>
-<li>Route the opportunity to the solutions consultant (based on the teams tab in ConnectWise)
-<ul>
-<li>if there is no Solutions Consultant or it’s a New Logo, assign the case to John Powell</li>
-<li>applies to all unassigned account (<em>no solutions consultant</em>),</li>
-</ul></li>
-<li>On home screen in Salesforce have a notification pod and leverage the pod for notifications (if exists else tasks pod to address new opportunities is fine).</li>
-<li>Include notifications for the following:
-<ul>
+<li>Force the campaign and requester name fields in addition to the other required fields for converting a spark form request to a CW/SF Opportunity</li>
+</ul>
+<ol type="1">
+<li>Spark form (NRR) submission creates an opportunity in Salesforce</li>
+<li>Opportunity is assigned to the Solutions Consultant (according to the Teams tab in ConnectWise)
+<ol type="1">
+<li>Fallback: assign the opportunity to John Powell</li>
+</ol></li>
+<li>Email notification should occur at the following junctions:
+<ol type="1">
 <li>Quote requested</li>
 <li>Opportunity Created</li>
 <li>Opportunity Quoted</li>
@@ -21,17 +16,8 @@
 <li>Quote Signed</li>
 <li>Order Placed</li>
 <li>Order Received</li>
-</ul></li>
-<li>IF T&amp;M Only? is checked then it bypasses salesforce etc., and creates a ticket on the following board:
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />
-<code>Prof-Svcs</code></li>
-</ul></li>
-<li>Get with Brian, do we need to even create tickets for NRR? Reporting purposes etc.?</li>
-<li>Force the campaign and requester name fields in addition to the other required fields for converting a spark form request to a CW/SF Opportunity</li>
-</ul>
-<p>quote requested via spark form is request time and materials only? is request new logo? does request have solutions consultant (according to ConnectWise Teams tab)?</p>
-<ol type="1">
-<li>Spark form (NRR) submission creates an opportunity in Salesforce</li>
-<li></li>
+</ol></li>
+<li>IF <code>T&amp;M Only?</code> is checked then it bypasses Salesforce etc., and creates a ticket on the <code>Prof-Svcs</code> board in ConnectWise</li>
 </ol>
+<h2 id="required-fields-type">Required Fields &amp; Type</h2>
+<p>Account: Account(Lookup); auto-populated Solutions Consultant (Owner): Member(Lookup); auto-populated Requester: String(50) Lead Source: Single-Selection Picklist Business Development Sales Rep Marketing Referral Acquisition Sub-Source: Single-Selection Picklist [[Pasted image 20240520093330.png]] Contact: Contact(Lookup); selected Location: Site(Lookup); selected Professional Services Required: Boolean (Checkbox) Emergency Action Required: Time and Materials Only:</p>
