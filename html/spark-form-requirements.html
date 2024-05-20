@@ -20,4 +20,20 @@
 <li>IF <code>T&amp;M Only?</code> is checked then it bypasses Salesforce etc., and creates a ticket on the <code>Prof-Svcs</code> board in ConnectWise</li>
 </ol>
 <h2 id="required-fields-type">Required Fields &amp; Type</h2>
-<p>Account: Account(Lookup); auto-populated Solutions Consultant (Owner): Member(Lookup); auto-populated Requester: String(50) Lead Source: Single-Selection Picklist Business Development Sales Rep Marketing Referral Acquisition Sub-Source: Single-Selection Picklist [[Pasted image 20240520093330.png]] Billing Contact: Contact(Lookup); selected Billing Site: Site(Lookup); selected Shipping Contact: Contact(Lookup); selected Shipping Site: Site(Lookup); selected Professional Services Required: Boolean (Checkbox) Emergency Action Required: Boolean (Checkbox) Time and Materials Only: Boolean (Checkbox) Description: String(32000) Document(s): Attachments Expected Close Date: Date Campaign: Single-Selection Picklist (dbo.Marketing_Campaign) Stage: Hard-coded = <code>Identifying</code> Status: Hard-coded = <code>Open</code> Type: Single-Selection Picklist 2. Up-sell / X-sell 3. NRR - Renewal 5. Change Order Department: Location:</p>
+<p>Account: Account(Lookup); auto-populated Solutions Consultant (Owner): Member(Lookup); auto-populated Requester: String(50) Lead Source: Single-Selection Picklist Business Development Sales Rep Marketing Referral Acquisition Sub-Source: Single-Selection Picklist</p>
+<pre><code>![[Pasted image 20240520093330.png]]</code></pre>
+<p>Billing Contact: Contact(Lookup); selected Billing Site: Site(Lookup); selected Shipping Contact: Contact(Lookup); selected Shipping Site: Site(Lookup); selected Professional Services Required: Boolean (Checkbox) Emergency Action Required: Boolean (Checkbox) Time and Materials Only: Boolean (Checkbox) Description: String(32000) Document(s): Attachments Expected Close Date: Date Campaign: Single-Selection Picklist</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="kw">SELECT</span> <span class="op">*</span> <span class="kw">FROM</span> Marketing_Campaign</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a><span class="kw">WHERE</span> Inactive_Flag <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a><span class="kw">ORDER</span> <span class="kw">BY</span> Marketing_ID</span></code></pre></div>
+<p>Stage: Hard-coded = <code>Identifying</code> Status: Hard-coded = <code>Open</code> Type: Single-Selection Picklist</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="kw">SELECT</span> <span class="op">*</span> <span class="kw">FROM</span> SO_Type</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a><span class="kw">WHERE</span> Inactive_Flag <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a><span class="kw">ORDER</span> <span class="kw">BY</span> Description</span></code></pre></div>
+<p>Department: Single-Selection Picklist</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="kw">SELECT</span> <span class="op">*</span> <span class="kw">FROM</span> Department</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true"></a><span class="kw">ORDER</span> <span class="kw">BY</span> Department_Name</span></code></pre></div>
+<p>Location: Single-Selection Picklist</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode sql"><code class="sourceCode sql"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true"></a><span class="kw">SELECT</span> <span class="op">*</span> <span class="kw">FROM</span> Owner_Level</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true"></a><span class="kw">WHERE</span> Location_Flag <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true"></a><span class="kw">ORDER</span> <span class="kw">BY</span> Description</span></code></pre></div>
