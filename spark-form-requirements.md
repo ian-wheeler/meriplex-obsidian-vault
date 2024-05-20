@@ -16,10 +16,10 @@
 
 ## Required Fields & Type
 
-Account: Account(Lookup); auto-populated
-Solutions Consultant (Owner): Member(Lookup); auto-populated
-Requester: String(50)
-Lead Source: Single-Selection Picklist
+1. Account: Account(Lookup); auto-populated
+2. Solutions Consultant (Owner): Member(Lookup); auto-populated
+3. Requester: String(50)
+4. Source: Single-Selection Picklist
 	Business Development
 	Sales Rep
 	Marketing
