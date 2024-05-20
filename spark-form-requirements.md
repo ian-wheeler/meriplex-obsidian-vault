@@ -26,7 +26,9 @@ Lead Source: Single-Selection Picklist
 	Referral
 	Acquisition
 Sub-Source: Single-Selection Picklist 
+
 	![[Pasted image 20240520093330.png]]
+
 Billing Contact: Contact(Lookup); selected
 Billing Site: Site(Lookup); selected
 Shipping Contact: Contact(Lookup); selected
@@ -37,15 +39,35 @@ Time and Materials Only: Boolean (Checkbox)
 Description: String(32000)
 Document(s): Attachments
 Expected Close Date: Date
-Campaign: Single-Selection Picklist (dbo.Marketing_Campaign)
+Campaign: Single-Selection Picklist 
+
+```SQL
+SELECT * FROM Marketing_Campaign
+WHERE Inactive_Flag = 0
+ORDER BY Marketing_ID
+```
+
 Stage: Hard-coded = `Identifying`
 Status: Hard-coded = `Open`
 Type: Single-Selection Picklist
-2. Up-sell / X-sell
-3. NRR - Renewal
-5. Change Order
-Department:
-Location: 
 
+```SQL
+SELECT * FROM SO_Type
+WHERE Inactive_Flag = 0
+ORDER BY Description
+```
 
+Department: Single-Selection Picklist
 
+```SQL
+SELECT * FROM Department
+ORDER BY Department_Name
+```
+
+Location: Single-Selection Picklist 
+
+```SQL
+SELECT * FROM Owner_Level
+WHERE Location_Flag = 1
+ORDER BY Description
+```
