@@ -27,11 +27,25 @@ Lead Source: Single-Selection Picklist
 	Acquisition
 Sub-Source: Single-Selection Picklist 
 	![[Pasted image 20240520093330.png]]
-Contact: Contact(Lookup); selected
-Location: Site(Lookup); selected
+Billing Contact: Contact(Lookup); selected
+Billing Site: Site(Lookup); selected
+Shipping Contact: Contact(Lookup); selected
+Shipping Site: Site(Lookup); selected
 Professional Services Required: Boolean (Checkbox)
-Emergency Action Required:
-Time and Materials Only:
+Emergency Action Required: Boolean (Checkbox)
+Time and Materials Only: Boolean (Checkbox)
+Description: String(32000)
+Document(s): Attachments
+Expected Close Date: Date
+Campaign: Single-Selection Picklist (dbo.Marketing_Campaign)
+Stage: Hard-coded = `Identifying`
+Status: Hard-coded = `Open`
+Type: Single-Selection Picklist
+2. Up-sell / X-sell
+3. NRR - Renewal
+5. Change Order
+Department:
+Location: 
 
 
 
