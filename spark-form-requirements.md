@@ -26,6 +26,8 @@ is request time and materials only?
 is request new logo?
 does request have solutions consultant (according to ConnectWise Teams tab)?
 
+1. Spark form (NRR) submission creates an opportunity in Salesforce
+2. 
 
 
 
