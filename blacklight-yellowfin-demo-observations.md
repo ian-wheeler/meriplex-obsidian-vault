@@ -11,4 +11,8 @@ Questions
 4. Is everything DFARS and GCC High Compliant?
 5. Authentication for external users
 	1. Read-Only or otherwise selectable?
-	2. 
+	2. Display data / apply filters based on the user
+
+Insights
+1. Feature: AI Analyze, analyzes data and produces insights/reports
+2. Feature: 
