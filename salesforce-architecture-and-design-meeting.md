@@ -1,6 +1,6 @@
 # Salesforce Architecture and Design Meeting
 ---
-Key Topics:
+**Key Topics:**
 	Marketing
 	SDR Team
 	AE Teams
@@ -25,7 +25,7 @@ Key Topics:
 
 ## Marketing
 ---
-Core Issues:
+**Core Issues:**
 - Data Hygiene and Governance
 - Platform Integration 
 - User Adoption
@@ -41,7 +41,7 @@ Determine the function and purpose of the ICP List.
 
 ## Sales Representatives & Account Executives
 ---
-Core Issues:
+**Core Issues:**
 - Process Awareness between Systems
 - Necessity for System Licenses
 - Necessity to Work in Multiple Systems
@@ -52,7 +52,7 @@ Renewals issues stem primarily from issues in the quoting process.
 
 ## Account Managers
 ---
-Core Issues:
+**Core Issues:**
 - Renewals Reporting and Forecasts
 - Churn Reporting and Forecasts
 - Invoice and Contract Visibility
@@ -70,3 +70,6 @@ Determine the best way to display client data for the client within Salesforce.
 # Action Items
 
 - Security Permissions Matrix (Salesforce)
+- Security Permissions Matrix (ConnectWise)
+- Duplicate Identification Tool
+- Account Merge Tool
