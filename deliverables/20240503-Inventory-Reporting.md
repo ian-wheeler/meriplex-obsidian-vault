@@ -1,12 +1,13 @@
 # Task Report
 
-| **Task Title**  | Inventory Reporting for Kelvin Garrison |
-| --------------- | --------------------------------------- |
-| **Task ID**     | BI-20240503                             |
-| **Assigned To** | Monish Allu                             |
-| **Priority**    | Low                                     |
-| **Status**      | Not Started                             |
-| **Due Date**    | N/A                                     |
+| **Task Title**   | Inventory BI Report |
+| ---------------- | ------------------- |
+| **Task ID**      | BI-20240503         |
+| **Requested By** | Kelvin Garrison     |
+| **Assigned To**  | Monish Allu         |
+| **Priority**     | Low                 |
+| **Status**       | Not Started         |
+| **Due Date**     | N/A                 |
 ## Task Description
 
 Develop an inventory BI report for the accounting team, extracting data from CW (ConnectWise). The report should be capable of generating monthly, quarterly, and annual balances. The following specifications must be included:
@@ -87,7 +88,7 @@ Develop an inventory BI report for the accounting team, extracting data from CW 
     - Power BI
     - Excel
 
-- **Budget:** [Estimated budget, if applicable]
+- **Budget:** Not applicable
 
 ## Progress Updates
 

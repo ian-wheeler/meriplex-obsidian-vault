@@ -1,12 +1,13 @@
 # Task Report
 
-|**Task Title**|[Insert Task Title]|
-|---|---|
-|**Task ID**|[Insert Task ID]|
-|**Assigned To**|[Insert Assignee's Name]|
-|**Priority**|[High/Medium/Low]|
-|**Status**|[Not Started/In Progress/Completed]|
-|**Due Date**|[Insert Due Date]|
+| **Task Title**   | [Insert Task Title]                 |
+| ---------------- | ----------------------------------- |
+| **Task ID**      | [Insert Task ID]                    |
+| **Requested By** | [Insert Requester's Name]           |
+| **Assigned To**  | [Insert Assignee's Name]            |
+| **Priority**     | [High/Medium/Low]                   |
+| **Status**       | [Not Started/In Progress/Completed] |
+| **Due Date**     | [Insert Due Date]                   |
 
 ## Task Description
 

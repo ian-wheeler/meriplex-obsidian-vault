@@ -1,12 +1,14 @@
 # Task Report
 
-| **Task Title**  | Enhance Power Automate Flow for Inventory Transfer and Shipping |
-| --------------- | --------------------------------------------------------------- |
-| **Task ID**     | PA-20240521                                                     |
-| **Assigned To** | Ian Wheeler                                                     |
-| **Priority**    | Medium                                                          |
-| **Status**      | In Progress                                                     |
-| **Due Date**    | 2024-06-30                                                      |
+| **Task Title**   | Enhance Power Automate Flow for Inventory Transfer and Shipping |
+| ---------------- | --------------------------------------------------------------- |
+| **Task ID**      | PA-20240521                                                     |
+| **Requested By** | Chris Jouban                                                    |
+| **Assigned To**  | Ian Wheeler                                                     |
+| **Priority**     | Medium                                                          |
+| **Status**       | In Progress                                                     |
+| **Due Date**     | 2024-06-30                                                      |
+|                  |                                                                 |
 
 ## Task Description
 
@@ -91,6 +93,6 @@ The current Power Automate flow needs modification and enhancement to improve it
 
 ## References
 
-- ConnectWise Manage API Documentation
+- [ConnectWise Manage API Documentation](https://developer.connectwise.com/Products/ConnectWise_PSA/REST)
 - [Power Automate Documentation](https://learn.microsoft.com/en-us/power-automate/)
 - [SharePoint Integration Guide](https://learn.microsoft.com/en-us/sharepoint/dev/)

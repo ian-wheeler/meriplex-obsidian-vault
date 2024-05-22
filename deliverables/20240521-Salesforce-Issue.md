@@ -73,7 +73,7 @@ Investigate and resolve the issue where the account and opportunity for Palmarel
     - ConnectWise (CW)
     - Sandbox Environment
 
-- **Budget:** [Estimated budget, if applicable]
+- **Budget:** Not applicable
 
 ## Progress Updates
 
