@@ -1,6 +1,6 @@
-# Task Documentation
+# Note Documentation
 
-## Task Overview
+## Note Overview
 - **Task Title:** [Insert Task Title]
 - **Task ID:** [Insert Task ID]
 - **Assigned To:** [Insert Assignee's Name]
@@ -8,7 +8,7 @@
 - **Status:** [Not Started/In Progress/Completed]
 - **Due Date:** [Insert Due Date]
 
-## Task Description
+## Note Description
 [Provide a detailed description of the task, including the goal, scope, and any relevant background information.]
 
 ## Objectives
