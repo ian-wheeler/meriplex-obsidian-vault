@@ -10,6 +10,7 @@ Key Topics:
 	Sales Operations
 	Contract Management
 	Operations
+
 ## Opening Comments
 ---
 - Salesforce is the source of truth CRM
@@ -21,6 +22,7 @@ Key Topics:
 - Professional Services issues stem from product catalogue not being in Salesforce
 - Early pipeline reporting and visibility on the win process so that it can be repeated
 	- so that successful pipelines can be identified
+
 ## Marketing
 ---
 Core Issues:
@@ -37,21 +39,34 @@ Determine the function and purpose of the ICP List.
 	Database of customers we are targeting
 	Loaded into SalesLoft
 
-## Rob Ford
+## Sales Representatives & Account Executives
 ---
 Core Issues:
 - Process Awareness between Systems
 - Necessity for System Licenses
 - Necessity to Work in Multiple Systems
+- Invoice and Contract Visibility
 
 Renewals issues stem primarily from issues in the quoting process.
-G
+	Necessity for Renewals Reporting
+
+## Account Managers
+---
+Core Issues:
+- Renewals Reporting and Forecasts
+- Churn Reporting and Forecasts
+- Invoice and Contract Visibility
+
+Determine the best way to display client data for the client within Salesforce.
 
 # Takeaways
 
 - Change Management is a core issue at an organizational level
 - Training and fostering a culture of adoption is a core issue at an organizational level
 - Trust in the Salesforce ecosystem is a core issue at an organizational level
+- Data Governance is a core issue at an organizational level
+- Technical Documentation is a core issue at an organizational level
 
 # Action Items
 
+- Security Permissions Matrix (Salesforce)
