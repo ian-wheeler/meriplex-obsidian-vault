@@ -2,7 +2,7 @@
 
 | **Task Title**  | Inventory Reporting for Kelvin Garrison |
 | --------------- | --------------------------------------- |
-| **Task ID**     | N/A                                     |
+| **Task ID**     | BI-20240503                             |
 | **Assigned To** | Monish Allu                             |
 | **Priority**    | Low                                     |
 | **Status**      | Not Started                             |
@@ -29,10 +29,10 @@ Develop an inventory BI report for the accounting team, extracting data from CW 
 
 ## Objectives
 
-- Extract relevant data from CW reports.
-- Create a comprehensive BI report.
-- Ensure the report can be run for monthly, quarterly, and annual balances.
-- Include manually added items by the inventory team in the report.
+- [ ] Extract relevant data from CW reports.
+- [ ] Create a comprehensive BI report.
+- [ ] Ensure the report can be run for monthly, quarterly, and annual balances.
+- [ ] Include manually added items by the inventory team in the report.
 ## Requirements
 
 - **Functional Requirements:**
