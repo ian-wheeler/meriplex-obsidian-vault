@@ -56,10 +56,10 @@ Develop an inventory BI report for the accounting team, extracting data from CW 
 
 ## Milestones
 
-- [ ] **Data Extraction Plan:** [Insert Date]
-- [ ] **Initial Report Template:** [Insert Date]
-- [ ] **Report Testing and Validation:** [Insert Date]
-- [ ] **Final Report Delivery:** [Insert Date]
+1. [ ]  **Data Extraction Plan:** 2024-06-01
+2. [ ]  **Initial Report Template:** 2024-06-15
+3. [ ]  **Report Testing and Validation:** 2024-06-30
+4. [ ]  **Final Report Delivery:** 2024-07-10
 
 ## Dependencies
 

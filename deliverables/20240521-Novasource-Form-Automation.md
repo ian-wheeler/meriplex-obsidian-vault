@@ -45,9 +45,9 @@ The current Power Automate flow needs modification and enhancement to improve it
 
 ## Milestones
 
-- [ ]  **Milestone 1:** Complete form modifications by 2024-06-10
-- [ ]  **Milestone 2:** Update Power Automate flow to handle new form details by 2024-06-20
-- [ ]  **Milestone 3:** Final testing and deployment by 2024-06-30
+1. [ ]  **Complete form modifications:** 2024-06-10
+2. [ ]  **Update Power Automate flow to handle new form details:** 2024-06-20
+3. [ ]  **Final testing and deployment:** 2024-06-30
 
 ## Dependencies
 

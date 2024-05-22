@@ -2,7 +2,7 @@
 
 | **Task Title**   | Development of a Duplicate Account Resolution Tool |
 | ---------------- | -------------------------------------------------- |
-| **Task ID**      | DART-002                                           |
+| **Task ID**      | DEV-20240522                                       |
 | **Requested By** | Dusty Corning<br>Brian Jones                       |
 | **Assigned To**  | DevOps Department                                  |
 | **Priority**     | High                                               |
@@ -50,11 +50,11 @@ Dusty Corning and Brian Jones have requested the development of a tool or applic
 
 ## Milestones
 
-- [ ]  **Milestone 1:** Requirement gathering and initial design by 2024-06-01
-- [ ]  **Milestone 2:** Development of prototype and integration with systems by 2024-07-01
-- [ ]  **Milestone 3:** Testing and refinement of data comparison algorithms by 2024-07-20
-- [ ]  **Milestone 4:** Implementation of resolution options and automated workflows by 2024-08-05
-- [ ]  **Milestone 5:** Final testing, documentation, and deployment by 2024-08-15
+1. [ ]  **Requirement Gathering and Initial Design:** 2024-06-01
+2. [ ]  **Development of Prototype and Integration with Systems:** 2024-07-01
+3. [ ]  **Testing and Refinement of Data Comparison Algorithms:** 2024-07-20
+4. [ ]  **Implementation of Resolution Options and Automated Workflows:** 2024-08-05
+5. [ ]  **Final Testing, Documentation, and Deployment:** 2024-08-15
 
 ## Dependencies
 

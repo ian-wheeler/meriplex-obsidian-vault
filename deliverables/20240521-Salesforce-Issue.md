@@ -40,11 +40,11 @@ Investigate and resolve the issue where the account and opportunity for Palmarel
 
 ## Milestones
 
-- [ ]  **Issue Identification:** [Insert Date]
-- [ ]  **Temporary Solution Implementation:** [Insert Date]
-- [ ]  **Permanent Solution Development:** [Insert Date]
-- [ ]  **Testing and Validation:** [Insert Date]
-- [ ]  **Final Deployment:** [Insert Date]
+1. [ ]  **Issue Identification:** 2024-06-01
+2. [ ]  **Temporary Solution Implementation:** 2024-06-10
+3. [ ]  **Permanent Solution Development:** 2024-06-20
+4. [ ]  **Testing and Validation:** 2024-06-30
+5. [ ]  **Final Deployment:** 2024-07-10
 
 ## Dependencies
 

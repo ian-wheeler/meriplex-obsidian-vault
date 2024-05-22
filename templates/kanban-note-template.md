@@ -39,9 +39,9 @@
 
 ## Milestones
 
-- [ ]  **Milestone 1:** [Insert Date]
-- [ ]  **Milestone 2:** [Insert Date]
-- [ ]  **Milestone 3:** [Insert Date]
+1. [ ]  **Milestone 1 Name:** [Insert Date]
+2. [ ]  **Milestone 2 Name:** [Insert Date]
+3. [ ]  **Milestone 3 Name:** [Insert Date]
 
 ## Dependencies
 
