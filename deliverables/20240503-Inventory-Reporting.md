@@ -1,13 +1,13 @@
 # Note Documentation
 ---
 
-| **Task Title**  | [Insert Task Title]                 |
-| --------------- | ----------------------------------- |
-| **Task ID**     | [Insert Task ID]                    |
-| **Assigned To** | [Insert Assignee's Name]            |
-| **Priority**    | [High/Medium/Low]                   |
-| **Status**      | [Not Started/In Progress/Completed] |
-| **Due Date**    | [Insert Due Date]                   |
+| **Task Title**  | Inventory Reporting for Kelvin Garrison |
+| --------------- | --------------------------------------- |
+| **Task ID**     | N/A                                     |
+| **Assigned To** | Monish Allu                             |
+| **Priority**    | Low                                     |
+| **Status**      | Not Started                             |
+| **Due Date**    | N/A                                     |
 ## Note Description
 [Provide a detailed description of the task, including the goal, scope, and any relevant background information.]
 
