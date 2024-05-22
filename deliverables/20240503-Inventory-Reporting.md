@@ -1,5 +1,4 @@
-# Note Documentation
----
+# Task Report
 
 | **Task Title**  | Inventory Reporting for Kelvin Garrison |
 | --------------- | --------------------------------------- |
@@ -8,60 +7,101 @@
 | **Priority**    | Low                                     |
 | **Status**      | Not Started                             |
 | **Due Date**    | N/A                                     |
-## Note Description
-[Provide a detailed description of the task, including the goal, scope, and any relevant background information.]
+## Task Description
+
+Develop an inventory BI report for the accounting team, extracting data from CW (ConnectWise). The report should be capable of generating monthly, quarterly, and annual balances. The following specifications must be included:
+
+- **Location**
+- **Warehouse and Bin**
+- **==Ownership==**
+- **==Type==**
+- **Product ID**
+- **Description**
+- **Vendor**
+- **Category**
+- **Picked Count**
+- **Beginning of month on hand count**
+- **Receipts, adjustments, transfers, and shipments**
+- **End of month on hand count**
+- **Extended Cost**
+
+**Note:** Highlighted items are not captured in CW and are manually added by the inventory team.
 
 ## Objectives
-- [Objective 1]
-- [Objective 2]
-- [Objective 3]
 
+- Extract relevant data from CW reports.
+- Create a comprehensive BI report.
+- Ensure the report can be run for monthly, quarterly, and annual balances.
+- Include manually added items by the inventory team in the report.
 ## Requirements
+
 - **Functional Requirements:**
-  - [Functional Requirement 1]
-  - [Functional Requirement 2]
-  - [Functional Requirement 3]
+    - [ ]  Integrate data from the following CW reports:
+        - [ ]  Inventory Valuation Detail
+        - [ ]  Purchase Order Line Item Detail
+        - [ ]  Product Audit List (including receipts, picks, transfers, adjustments, and on-hand quantity after each transaction, excluding extended cost)
+    - [ ]  Develop a user-friendly interface for running the report.
+    - [ ]  Ensure data accuracy and consistency.
 
 - **Non-functional Requirements:**
-  - [Non-functional Requirement 1]
-  - [Non-functional Requirement 2]
-  - [Non-functional Requirement 3]
+    - [ ]  Report generation should be efficient and timely.
+    - [ ]  Ensure data security and privacy.
 
 ## Deliverables
-- [Deliverable 1]
-- [Deliverable 2]
-- [Deliverable 3]
+
+- [ ]  A BI report template that includes all specified fields.
+- [ ]  Documentation on how to generate and interpret the report.
+- [ ]  Training session for the accounting team on using the report.
 
 ## Milestones
-1. **Milestone 1:** [Description and Date]
-2. **Milestone 2:** [Description and Date]
-3. **Milestone 3:** [Description and Date]
+
+- [ ] **Data Extraction Plan:** [Insert Date]
+- [ ] **Initial Report Template:** [Insert Date]
+- [ ] **Report Testing and Validation:** [Insert Date]
+- [ ] **Final Report Delivery:** [Insert Date]
 
 ## Dependencies
-- **Dependent On:** [List tasks or projects this task depends on]
-- **Dependent By:** [List tasks or projects dependent on this task]
+
+|**Dependency**|**Details**|
+|---|---|
+|**Dependent On**|Access to CW reports and relevant data|
+|**Dependent By**|Accounting team for manual data entry|
 
 ## Risks and Mitigations
-- **Risk 1:** [Description of risk]
-  - **Mitigation:** [Description of mitigation strategy]
-- **Risk 2:** [Description of risk]
-  - **Mitigation:** [Description of mitigation strategy]
+
+|**Risk**|**Mitigation**|
+|---|---|
+|Incomplete or inaccurate data extraction from CW|Perform thorough testing and validation|
+|Manual data entry errors by the inventory team|Provide clear guidelines and training|
 
 ## Resources
-- **Team Members:** [List of team members involved]
-- **Tools & Technologies:** [List of tools and technologies required]
+
+- **Team Members:**
+    - Monish Allu (SQL Developer)
+    - Ian Wheeler (Analyst)
+    - Kelvin Garrison (VP of Supply Chain)
+
+- **Tools & Technologies:**
+    - ConnectWise Manage
+    - SQL Server
+    - Power BI
+    - Excel
+
 - **Budget:** [Estimated budget, if applicable]
 
 ## Progress Updates
-- **Date:** [Update Date]
-  - **Progress:** [Brief update on the progress]
-  - **Issues:** [Any issues encountered]
-  - **Next Steps:** [Next steps planned]
+
+|**Date**|**Progress**|**Issues**|**Next Steps**|
+|---|---|---|---|
+|[Update Date]|[Brief update on the progress]|[Any issues encountered]|[Next steps planned]|
 
 ## Notes
-[Any additional notes or comments about the task]
+
+- Ensure communication with the inventory team for accurate manual data addition.
+- Maintain regular updates with the accounting team for feedback and adjustments.
 
 ## References
-- [Reference 1]
-- [Reference 2]
-- [Reference 3]
+
+- Inventory Valuation Detail Report
+- Purchase Order Line Item Detail Report
+- Product Audit List Report
