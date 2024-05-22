@@ -1,29 +1,17 @@
-# Key Points
+# Salesforce Architecture and Design Meeting
 ---
-Marketing
-- Key Points
-	- Data Hygiene and Governance
-	- Platform Integration 
-		- Answer Connect
-		- SalesLoft
-		- Salesforce Sales CRM
-		- Salesforce Marketing Cloud
-	- User Adoption
-- General
-	- Issues stemming from the dynamic and changing schema/configuration in Salesforce
-	- ICP List:
-		- Database of customers we are targeting
-		- Loaded into SalesLoft
-	- Channel Management; is it available in Salesforce
-SDR Team
-AE Teams
-AM Teams
-Sales Engineering
-Practice Leads
-Sales Operations
-Contract Management
-Operations
-
+Key Topics:
+	Marketing
+	SDR Team
+	AE Teams
+	AM Teams
+	Sales Engineering
+	Practice Leads
+	Sales Operations
+	Contract Management
+	Operations
+## Opening Comments
+---
 - Salesforce is the source of truth CRM
 - ConnectWise Manage is for the operations side
 - NetSuite is for finance and billing
@@ -33,11 +21,37 @@ Operations
 - Professional Services issues stem from product catalogue not being in Salesforce
 - Early pipeline reporting and visibility on the win process so that it can be repeated
 	- so that successful pipelines can be identified
-- 
+## Marketing
+---
+Core Issues:
+- Data Hygiene and Governance
+- Platform Integration 
+- User Adoption
 
+Issues stemming from the dynamic and changing schema/configuration in Salesforce
+Determine whether channel management is an available feature in Salesforce
+Distinguish campaigns from events. Recommendation:
+	Campaigns in Marketing Cloud
+	Events in Salesforce
+Determine the function and purpose of the ICP List.
+	Database of customers we are targeting
+	Loaded into SalesLoft
+
+## Rob Ford
+---
+Core Issues:
+- Process Awareness between Systems
+- Necessity for System Licenses
+- Necessity to Work in Multiple Systems
+
+Renewals issues stem primarily from issues in the quoting process.
+G
 
 # Takeaways
 
+- Change Management is a core issue at an organizational level
+- Training and fostering a culture of adoption is a core issue at an organizational level
+- Trust in the Salesforce ecosystem is a core issue at an organizational level
 
 # Action Items
 
