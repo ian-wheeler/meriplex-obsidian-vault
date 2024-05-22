@@ -1,12 +1,13 @@
 # Task Report
 
-| **Task Title**  | Sync Issue Investigation and Resolution for Palmarella & Raab, PC |
-| --------------- | ----------------------------------------------------------------- |
-| **Task ID**     | SF-20240521                                                       |
-| **Assigned To** | Ian Wheeler                                                       |
-| **Priority**    | High                                                              |
-| **Status**      | In Progress                                                       |
-| **Due Date**    | N/A                                                               |
+| **Task Title**   | Sync Issue Investigation and Resolution for Palmarella & Raab, PC |
+| ---------------- | ----------------------------------------------------------------- |
+| **Task ID**      | SF-20240521                                                       |
+| **Requested By** | Dusty Corning                                                     |
+| **Assigned To**  | Ian Wheeler                                                       |
+| **Priority**     | High                                                              |
+| **Status**       | In Progress                                                       |
+| **Due Date**     | N/A                                                               |
 
 ## Task Description
 

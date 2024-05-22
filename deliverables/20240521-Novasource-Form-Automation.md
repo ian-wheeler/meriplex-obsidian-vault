@@ -8,7 +8,6 @@
 | **Priority**     | Medium                                                          |
 | **Status**       | In Progress                                                     |
 | **Due Date**     | 2024-06-30                                                      |
-|                  |                                                                 |
 
 ## Task Description
 
