@@ -21,3 +21,5 @@ Product Name Nomenclature
 {Acronym}-{Acronym of the Product Description, up to 5 chars}-{}-=
 
 J: > Sales > Master Templates > Catalogs
+
+Recurring Revenue Products have Class Agreement
