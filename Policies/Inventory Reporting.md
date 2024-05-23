@@ -80,12 +80,12 @@ _List the step-by-step instructions for carrying out the tasks related to the SO
 
 ## Permissions Matrix
 
-|Role|Resource/Action|Permission Level|
-|---|---|---|
-|Inventory Manager|Inventory Reports|Read/Write/Approve|
-|Data Analyst|Inventory Data, Report Generation|Read/Write|
-|IT Support|Reporting Tools, System Settings|Read/Write|
-|Warehouse Staff|Inventory Data|Read|
+| Role              | Resource/Action                   | Permission Level   |
+| ----------------- | --------------------------------- | ------------------ |
+| Inventory Manager | Inventory Reports                 | Read/Write/Approve |
+| Data Analyst      | Inventory Data, Report Generation | Read/Write         |
+| IT Support        | Reporting Tools, System Settings  | Read/Write         |
+| Warehouse Staff   | Inventory Data                    | Read               |
 
 ## Related Documents
 
@@ -103,7 +103,7 @@ _List the step-by-step instructions for carrying out the tasks related to the SO
 
 ## Revision History
 
-|Date|Version|Description|Author|
-|---|---|---|---|
-|2024-05-23|1.0|Initial creation|Monish|
-|YYYY-MM-DD|1.1|Updated procedures|Author Name|
+| Date       | Version | Description        | Author      |
+| ---------- | ------- | ------------------ | ----------- |
+| 2024-05-23 | 1.0     | Initial creation   | Ian Wheeler |
+| YYYY-MM-DD | 1.1     | Updated procedures | Author Name |

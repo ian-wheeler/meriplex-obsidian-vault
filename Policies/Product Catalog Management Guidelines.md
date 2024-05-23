@@ -85,13 +85,13 @@ This SOP applies to all personnel involved in the management of the Meriplex Pro
 
 _List and describe the business rules that apply._
 
-|Rule ID|Business Rule Description|Justification|Implementation Date|Review Date|Owner|
-|---|---|---|---|---|---|
-|BR-001|All product entries must have a unique SKU.|Ensures product tracking accuracy.|2024-05-01|2024-11-01|Product Manager|
-|BR-002|Product descriptions must follow the standardized format.|Maintains consistency in product catalog.|2024-05-01|2024-11-01|Quality Assurance|
-|BR-003|Changes to product information must be documented and approved.|Ensures accountability and traceability.|2024-05-01|2024-11-01|Product Manager|
-|BR-004|Only authorized personnel can create, edit, or delete products.|Maintains data integrity and security.|2024-05-01|2024-11-01|IT Support|
-|BR-005|SKUs should follow the format: `Category-Subcategory-ProductID`.|Facilitates easy identification and categorization.|2024-05-01|2024-11-01|Data Entry Specialist|
+| Rule ID | Business Rule Description                                        | Justification                                       | Implementation Date | Review Date | Owner                 |
+| ------- | ---------------------------------------------------------------- | --------------------------------------------------- | ------------------- | ----------- | --------------------- |
+| BR-001  | All product entries must have a unique SKU.                      | Ensures product tracking accuracy.                  | 2024-05-01          | 2024-11-01  | Product Manager       |
+| BR-002  | Product descriptions must follow the standardized format.        | Maintains consistency in product catalog.           | 2024-05-01          | 2024-11-01  | Quality Assurance     |
+| BR-003  | Changes to product information must be documented and approved.  | Ensures accountability and traceability.            | 2024-05-01          | 2024-11-01  | Product Manager       |
+| BR-004  | Only authorized personnel can create, edit, or delete products.  | Maintains data integrity and security.              | 2024-05-01          | 2024-11-01  | IT Support            |
+| BR-005  | SKUs should follow the format: `Category-Subcategory-ProductID`. | Facilitates easy identification and categorization. | 2024-05-01          | 2024-11-01  | Data Entry Specialist |
 
 ## Configurations/Settings
 
