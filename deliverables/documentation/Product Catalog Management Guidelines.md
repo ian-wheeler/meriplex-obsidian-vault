@@ -2,23 +2,21 @@
 
 ## Meriplex Product Catalog Management
 
-_Managing the creation, updating, and deletion of products in the Meriplex Product Catalog._
-
 ---
 
 ## Table of Contents
 
-1. [Purpose](https://chatgpt.com/c/16c988da-a2dd-466b-b77f-38e70e89f248#purpose)
-2. [Scope](https://chatgpt.com/c/16c988da-a2dd-466b-b77f-38e70e89f248#scope)
-3. [Definitions](https://chatgpt.com/c/16c988da-a2dd-466b-b77f-38e70e89f248#definitions)
-4. [Roles and Responsibilities](https://chatgpt.com/c/16c988da-a2dd-466b-b77f-38e70e89f248#roles-and-responsibilities)
-5. [Procedures](https://chatgpt.com/c/16c988da-a2dd-466b-b77f-38e70e89f248#procedures)
-6. [Business Rules](https://chatgpt.com/c/16c988da-a2dd-466b-b77f-38e70e89f248#business-rules)
-7. [Configurations/Settings](https://chatgpt.com/c/16c988da-a2dd-466b-b77f-38e70e89f248#configurations-settings)
-8. [Permissions Matrix](https://chatgpt.com/c/16c988da-a2dd-466b-b77f-38e70e89f248#permissions-matrix)
-9. [Related Documents](https://chatgpt.com/c/16c988da-a2dd-466b-b77f-38e70e89f248#related-documents)
-10. [Revision History](https://chatgpt.com/c/16c988da-a2dd-466b-b77f-38e70e89f248#revision-history)
-11. [Change Management](https://chatgpt.com/c/16c988da-a2dd-466b-b77f-38e70e89f248#change-management)
+1. [[#Purpose]]
+2. [[#Scope]]
+3. [[#Definitions]]
+4. [[#Roles and Responsibilities]]
+5. [[#Procedures]]
+6. [[#Business Rules]]
+7. [[#Configurations/Settings]]
+8. [[#Permissions Matrix]]
+9. [[#Related Documents]]
+10. [[#Change Management]]
+11. [[#Revision History]]
 
 ---
 
@@ -45,47 +43,49 @@ This SOP applies to all personnel involved in the management of the Meriplex Pro
 
 ## Procedures
 
-### Procedure 1: Create New Product
+### **Create New Product**
 
 1. Navigate to the Product Catalog Management System.
 2. Select 'Create New Product'.
 3. Enter product details, including name, description, and initial SKU.
-4. Save the new product entry.
 
-### Procedure 2: Update Existing Product
+### **Update Existing Product**
 
 1. Search for the product in the Product Catalog.
 2. Select 'Edit' for the relevant product.
 3. Update necessary fields such as description, pricing, and SKU.
-4. Save the changes.
 
-### Procedure 3: Delete Product
+### **Delete Product**
 
 1. Search for the product in the Product Catalog.
 2. Select 'Delete' for the relevant product.
 3. Confirm the deletion action.
-4. Verify the product is removed from the catalog.
 
 ## Business Rules
 
-- All product entries must have a unique SKU.
-- Product descriptions should follow the standardized format.
-- Changes to product information must be documented and approved by the Product Manager.
+_List and describe the business rules that apply._
+
+|Rule ID|Business Rule Description|Justification|Implementation Date|Review Date|Owner|
+|---|---|---|---|---|---|
+|BR-001|All product entries must have a unique SKU.|Ensures product tracking accuracy.|2024-05-01|2024-11-01|Product Manager|
+|BR-002|Product descriptions must follow the standardized format.|Maintains consistency in product catalog.|2024-05-01|2024-11-01|Quality Assurance|
+|BR-003|Changes to product information must be documented and approved.|Ensures accountability and traceability.|2024-05-01|2024-11-01|Product Manager|
+|BR-004|Only authorized personnel can create, edit, or delete products.|Maintains data integrity and security.|2024-05-01|2024-11-01|IT Support|
+|BR-005|SKUs should follow the format: `Category-Subcategory-ProductID`.|Facilitates easy identification and categorization.|2024-05-01|2024-11-01|Data Entry Specialist|
 
 ## Configurations/Settings
 
 ### System Settings
 
-- Ensure the Product Catalog Management System is configured to allow only authorized personnel to create, edit, or delete products.
+Ensure the Product Catalog Management System is configured to allow only authorized personnel to create, edit, or delete products.
 
 ### Security Settings
 
-- Implement role-based access control to restrict actions based on user roles.
+Implement role-based access control to restrict actions based on user roles.
 
 ### Naming Nomenclature
 
-- SKUs should follow the format: `Category-Subcategory-ProductID`.
-- Product names should be concise and descriptive.
+SKUs should follow the format: `Category-Subcategory-ProductID`. Product names should be concise and descriptive.
 
 ## Permissions Matrix
 
@@ -106,12 +106,6 @@ _List any related documents, such as other SOPs, guidelines, or reference materi
 - Data Entry Standards
 - Quality Assurance Procedures
 
-## Revision History
-
-|Date|Version|Description|Author|
-|---|---|---|---|
-|2024-05-23|1.0|Initial creation|Monish|
-
 ## Change Management
 
 _Describe the process for managing changes to the document._
@@ -121,6 +115,12 @@ _Describe the process for managing changes to the document._
 3. **Implementation**: Approved changes are implemented and documented.
 4. **Communication**: Communicate changes to all relevant personnel.
 5. **Documentation Update**: Update the SOP to reflect the changes and revise the version history accordingly.
+
+## Revision History
+
+|Date|Version|Description|Author|
+|---|---|---|---|
+|2024-05-23|1.0|Initial creation|Monish|
 
 ---
 
