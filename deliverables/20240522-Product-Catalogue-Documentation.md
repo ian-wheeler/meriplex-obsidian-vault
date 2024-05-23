@@ -22,7 +22,7 @@ The goal of this task is to gather requirements for a reporting initiative by un
 ## Requirements
 
 - **Functional Requirements:**
-    - [ ]  Conduct interviews with key stakeholders (Glenn Mendelsohn, Werner Wendelberger) to gather information.
+    - [ ]  Conduct interviews with key stakeholders (Glenn Mendelsohn, Werner Wendelberger, Eric O'Shea, Wes Straw) to gather information.
     - [ ]  Document the business rules and logic for defining SKUs.
     - [ ]  Identify and document the criteria for distinguishing product categories.
     - [ ]  Ensure the criteria are comprehensive and cover all necessary categories.
@@ -64,6 +64,9 @@ The goal of this task is to gather requirements for a reporting initiative by un
     - Ian Wheeler
     - Glenn Mendelsohn
     - Werner Wendelberger
+    - Eric O'Shea
+    - Wes Straw
+    - Monish Allu
 
 - **Tools & Technologies:**
     - Interview and documentation tools
@@ -86,4 +89,4 @@ The goal of this task is to gather requirements for a reporting initiative by un
 
 - [Manage: Product Catalog (meriplex.com)](https://connect.meriplex.com/v4_6_release/ConnectWise.aspx?locale=en_US#XQAACABaAAAAAAAAAAA9iIoG07$U9XZqpLgsNh4oLBjXAw2UR$ZvUcrqictbnx0_BMcdsZ5Q6OJUFtMBn7ZMg_hpPtbY6QBMfpTesM7HmABVL$17jeTldcZjnDRx$8BFgA==??ProductList)
 - [[Product Catalog Management Guidelines]]
-- [Products - ConnectWise](https://docs.connectwise.com/ConnectWise_Documentation/040/015)
+- [ConnectWise Product Documentation](https://docs.connectwise.com/ConnectWise_Documentation/040/015)

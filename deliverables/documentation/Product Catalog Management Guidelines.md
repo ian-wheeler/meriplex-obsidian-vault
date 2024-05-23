@@ -30,9 +30,29 @@ This SOP applies to all personnel involved in the management of the Meriplex Pro
 
 ## Definitions
 
-- **SKU (Stock Keeping Unit)**: A unique identifier for each product.
+- **Apply Cost by Serial #**: Enables costing by serial number.
+- **Customer Description**: The description that displays on the customer invoice.
+- **Default Minimum Stock Level**: Default value to reorder inventory items when stock falls below this level.
+- **Description**: A summary of the product, limited to 50 characters, displayed on sales documents.
+- **Drop Ship**: Product is shipped directly from the vendor to the customer.
+- **Entity Type**: Indicates the type of tax exemption, determining taxability.
+- **Integration Cross Reference or Avalara Tax Code**: Integration code for the accounting package or Avalara tax code.
+- **Phase Bundle**: Indicates the product should be a separate phase during opportunity conversion.
+- **Price Attribute**: Defines how the service is priced (Fixed Fee, Not to Exceed, T&M, Override Rate).
 - **Product Catalog**: The comprehensive list of products offered by Meriplex.
+- **Product Category**: The category or group of the product, affecting GL mappings and revenue posting.
+- **Product Class**: Controls product behavior in PSA (Professional Services Automation), with options such as Agreement, Bundle, Inventory, Non-Inventory, and Service.
+- **Product ID (SKU)**: The name or item number of the product, limited to 30 characters.
 - **Product Manager**: The individual responsible for overseeing the product lifecycle.
+- **Product Subcategory**: The subcategory or group of the product, affecting GL mappings and revenue posting.
+- **Product Type**: Classification of the product, affecting accounting and GL mapping.
+- **Sales Tax**: Indicates if the product is taxable.
+- **Serialized**: Indicates if the product is a serialized inventory item.
+- **SLA**: Service Level Agreement that applies to the product.
+- **Special Order**: Product is a special order for a customer.
+- **UOM (Unit of Measure)**: The unit of measure for the product, defined in the UOM Setup Table.
+- **Unit Cost**: The cost of the product, necessary for calculating gross profit.
+- **Unit Price**: The price to charge for the product.
 
 ## Roles and Responsibilities
 
@@ -102,9 +122,9 @@ _Outline the permissions matrix, showing which roles have access to which resour
 
 _List any related documents, such as other SOPs, guidelines, or reference materials._
 
-- Product Management Guidelines
-- Data Entry Standards
-- Quality Assurance Procedures
+- [Manage: Product Catalog (meriplex.com)](https://connect.meriplex.com/v4_6_release/ConnectWise.aspx?locale=en_US#XQAACABaAAAAAAAAAAA9iIoG07$U9XZqpLgsNh4oLBjXAw2UR$ZvUcrqictbnx0_BMcdsZ5Q6OJUFtMBn7ZMg_hpPtbY6QBMfpTesM7HmABVL$17jeTldcZjnDRx$8BFgA==??ProductList)
+- [[Product Catalog Management Guidelines]]
+- [ConnectWise Product Documentation](https://docs.connectwise.com/ConnectWise_Documentation/040/015)
 
 ## Change Management
 
@@ -118,9 +138,9 @@ _Describe the process for managing changes to the document._
 
 ## Revision History
 
-|Date|Version|Description|Author|
-|---|---|---|---|
-|2024-05-23|1.0|Initial creation|Monish|
+| Date       | Version | Description      | Author      |
+| ---------- | ------- | ---------------- | ----------- |
+| 2024-05-23 | 1.0     | Initial creation | Ian Wheeler |
 
 ---
 
