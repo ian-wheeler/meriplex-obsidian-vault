@@ -37,6 +37,7 @@ _Provide definitions for any terms, acronyms, or jargon used in the document._
 _List the roles involved and their responsibilities related to the procedures, rules, or configurations._
 ## Procedures
 
+_List the step-by-step instructions for carrying out the tasks related to the SOP, ensuring accuracy, consistency, and compliance with the defined standards._
 ### **_Procedure 1 Title_**
 1. {{Step 1}}
 2. {{Step 2}}

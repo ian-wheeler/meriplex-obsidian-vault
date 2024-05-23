@@ -22,12 +22,13 @@ This vault is a central repository for all Meriplex-related information. It is o
 
 The vault is organized into the following main folders:
 
-- **Projects**: Contains project-specific notes and documents.
+- **Archive**: Contains old or inactive documents for reference.
+- **Deliverables**: Contains general requests, ticket requests, and deliverables that do not necessarily pertain to a specific project, knowledge base, or policy.
+- **Knowledge Base**: Contains articles, research, and other informational resources.
 - **Meetings**: Contains meeting notes and agendas.
 - **Policies**: Contains company policies and procedures.
-- **Knowledge Base**: Contains articles, research, and other informational resources.
+- **Projects**: Contains project-specific notes and documents.
 - **Templates**: Contains reusable templates for documents and notes.
-- **Archive**: Contains old or inactive documents for reference.
 
 ## Usage Guidelines
 
@@ -60,7 +61,7 @@ We encourage everyone to contribute to the vault by adding new notes, updating e
 
 ## Support
 
-If you need any assistance or have any questions, please reach out to the support team at `support@meriplex.com`.
+If you need any assistance or have any questions, please reach out to the vault maintainer, Ian Wheeler, at `ian.wheeler@meriplex.com`.
 
 ---
 
