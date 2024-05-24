@@ -124,7 +124,7 @@ _Outline the permissions matrix, showing which roles have access to which resour
 _List any related documents, such as other SOPs, guidelines, or reference materials._
 
 - [Manage: Product Catalog (meriplex.com)](https://connect.meriplex.com/v4_6_release/ConnectWise.aspx?locale=en_US#XQAACABaAAAAAAAAAAA9iIoG07$U9XZqpLgsNh4oLBjXAw2UR$ZvUcrqictbnx0_BMcdsZ5Q6OJUFtMBn7ZMg_hpPtbY6QBMfpTesM7HmABVL$17jeTldcZjnDRx$8BFgA==??ProductList)
-- [[Product Catalog Management Guidelines]]
+- [[Product-Catalog-Management-Guidelines]]
 - [ConnectWise Product Documentation](https://docs.connectwise.com/ConnectWise_Documentation/040/015)
 
 ## Change Management
