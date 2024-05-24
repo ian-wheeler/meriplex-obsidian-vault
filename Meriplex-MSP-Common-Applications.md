@@ -52,3 +52,5 @@
 | Zendesk                          | Customer service software                  |
 | Zoho Desk                        | Customer service software                  |
 | Zoom                             | Video conferencing                         |
+
+[[iPaas-Research]]
