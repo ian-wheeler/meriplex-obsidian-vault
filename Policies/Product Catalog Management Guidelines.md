@@ -92,6 +92,7 @@ _List and describe the business rules that apply._
 | BR-003  | Changes to product information must be documented and approved.  | Ensures accountability and traceability.            | 2024-05-01          | 2024-11-01  | Product Manager       |
 | BR-004  | Only authorized personnel can create, edit, or delete products.  | Maintains data integrity and security.              | 2024-05-01          | 2024-11-01  | IT Support            |
 | BR-005  | SKUs should follow the format: `Category-Subcategory-ProductID`. | Facilitates easy identification and categorization. | 2024-05-01          | 2024-11-01  | Data Entry Specialist |
+|         |                                                                  |                                                     |                     |             |                       |
 
 ## Configurations/Settings
 
