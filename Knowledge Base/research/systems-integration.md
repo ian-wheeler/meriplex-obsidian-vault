@@ -1,3 +1,28 @@
+# Industry **Leaders**
+
+| Top iPaaS Solutions               | Top Embedded iPaaS Solutions       | Top Data Integration Platforms     |
+|-----------------------------------|------------------------------------|------------------------------------|
+| MuleSoft Anypoint Platform        | Cloud Elements                     | Talend                             |
+| Dell Boomi                        | Cyclr                              | Informatica                        |
+| Microsoft Power Automate          | Blendr.io                          | Microsoft SSIS                     |
+| Workato                           | Workato Embedded                   | Fivetran                           |
+| Zapier                            | Tray.io Embedded                   | Stitch                             |
+| Integromat (Make)                 | Nylas                              | AWS Glue                           |
+| Jitterbit                         | Zapier for Teams                   | Oracle Data Integrator             |
+| Tray.io                           | Jitterbit Harmony                  | SAP Data Services                  |
+| SnapLogic                         | SyncApps by Cazoomi                | Alteryx                            |
+| Celigo                            | Bedrock Data                       | Matillion                          |
+| TIBCO Cloud Integration           | Rivery                             | Qlik Data Integration              |
+| WSO2 Enterprise Integrator        | Xplenty                            | Boomi Data Hub                     |
+| Oracle Integration Cloud          | Integrately                        | IBM InfoSphere DataStage           |
+| IBM App Connect                   | Elastic.io Embedded                | SnapLogic Data Integration         |
+| SAP Integration Suite             | Blendo                             | Apache Nifi                        |
+| Elastic.io                        | Clearswift                         | Azure Data Factory                 |
+| Boomi Flow                        | Neptune.io                         | Google Cloud Dataflow              |
+| InterSystems Ensemble             | Skyvia                             | StreamSets Data Collector          |
+| BizTalk Server (Microsoft)        | Talend Embedded                    | Syncsort                           |
+| Seeburger BIS                     | MuleSoft Anypoint Embedded         | Actian DataConnect                 |
+
 # Scoring
 
 ### 1. **Integration Capabilities**
