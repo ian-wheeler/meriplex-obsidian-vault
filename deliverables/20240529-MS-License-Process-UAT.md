@@ -20,34 +20,34 @@ The team aims to go live with the new Microsoft Licensing process on Thursday. T
 - [x] Ensure that attaching a document with the quantity change submission posts the document as an attachment on the ticket.
 - [x] Confirm that products and the quantity to add are attached to the ticket with matching details.
 - [x] Check that submitting the quantity change produces a log record on `[cwwebapp_meriplex_log].[dbo].[AGR_Change_Qty_Log]` on the `[IAHVMPRODRP01]` server.
-- [ ] Verify that changing the ticket status to closed in ConnectWise reflects the quantity change on the default agreement for the company being tested.
+- [x] Verify that changing the ticket status to closed in ConnectWise reflects the quantity change on the default agreement for the company being tested.
 
 ## Requirements
 
 - **Functional Requirements:**
-    - [ ] Only Microsoft License products allow the user to change quantities.
-    - [ ] Submitting the quantity change should produce a ticket.
-    - [ ] Attaching a document with the quantity change submission should post the document as an attachment on the ticket.
-    - [ ] Products and the quantity to add should be attached to the ticket with matching details selected in the tool.
-    - [ ] Submitting the quantity change should produce a log record on `[cwwebapp_meriplex_log].[dbo].[AGR_Change_Qty_Log]` on the `[IAHVMPRODRP01]` server.
-    - [ ] Changing the ticket status to closed in ConnectWise should reflect the quantity change on the default agreement for the company being tested.
+    - [x] Only Microsoft License products allow the user to change quantities.
+    - [x] Submitting the quantity change should produce a ticket.
+    - [x] Attaching a document with the quantity change submission should post the document as an attachment on the ticket.
+    - [x] Products and the quantity to add should be attached to the ticket with matching details selected in the tool.
+    - [x] Submitting the quantity change should produce a log record on `[cwwebapp_meriplex_log].[dbo].[AGR_Change_Qty_Log]` on the `[IAHVMPRODRP01]` server.
+    - [x] Changing the ticket status to closed in ConnectWise should reflect the quantity change on the default agreement for the company being tested.
 
 - **Non-functional Requirements:**
     - [ ] High reliability and accuracy in processing requests.
-    - [ ] Secure handling of sensitive contract data.
-    - [ ] Compatibility with existing systems and processes.
+    - [x] Secure handling of sensitive contract data.
+    - [x] Compatibility with existing systems and processes.
 
 ## Deliverables
 
 - [ ] Detailed report on the testing results and any issues encountered.
-- [ ] Confirmation of successful completion of all test cases.
+- [x] Confirmation of successful completion of all test cases.
 - [ ] Recommendations for any further actions or improvements needed before going live.
 
 ## Milestones
 
-1. [ ]  **Milestone 1:** Initial setup and preparation for testing [Insert Date]
-2. [ ]  **Milestone 2:** Conducting tests in production [Insert Date]
-3. [ ]  **Milestone 3:** Evaluation and reporting [Insert Date]
+1. [ ]  **Milestone 1:** Initial setup and preparation for testing [2024-05-29]
+2. [ ]  **Milestone 2:** Conducting tests in production [2024-05-29]
+3. [ ]  **Milestone 3:** Evaluation and reporting [2024-07-29]
 
 ## Dependencies
 
@@ -79,9 +79,10 @@ The team aims to go live with the new Microsoft Licensing process on Thursday. T
 
 ## Progress Updates
 
-|**Date**|**Progress**|**Issues**|**Next Steps**|
-|---|---|---|---|
-|[Update Date]|Initial setup and preparation for testing completed|None so far|Proceed with conducting tests in production|
+| **Date**   | **Progress**                                        | **Issues**  | **Next Steps**                                                  |
+| ---------- | --------------------------------------------------- | ----------- | --------------------------------------------------------------- |
+| 2024-05-29 | Initial setup and preparation for testing completed | None so far | Proceed with conducting tests in production                     |
+| 2024-05-29 | All test cases have been completed and passed       | None so far | Confirm test results with Brian Jones and relevant stakeholders |
 
 ## Notes
 
