@@ -15,8 +15,8 @@ Brian Jones has requested a research task to explore the use of Microsoft Azure'
 
 ## Objectives
 
-- [ ] Determine the feasibility of using Document Intelligence Studio for extracting contract expiration dates.
-- [ ] Upload and test 10 complex customer contracts.
+- [x] Determine the feasibility of using Document Intelligence Studio for extracting contract expiration dates.
+- [x] Upload and test 10 complex customer contracts.
 - [ ] Evaluate the accuracy and reliability of the extracted expiration dates.
 
 ## Requirements
