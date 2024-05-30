@@ -2,7 +2,7 @@
 
 | **Task Title**   | Research on Document Intelligence Studio for Contract Expiration Extraction |
 | ---------------- | --------------------------------------------------------------------------- |
-| **Task ID**      | [[RD-20240528                                                               |
+| **Task ID**      | [[RD-20240528]]                                                             |
 | **Requested By** | Brian Jones                                                                 |
 | **Assigned To**  | Ian Wheeler                                                                 |
 | **Priority**     | Medium                                                                      |
@@ -15,8 +15,8 @@ Brian Jones has requested a research task to explore the use of Microsoft Azure'
 
 ## Objectives
 
-- [x] Determine the feasibility of using Document Intelligence Studio for extracting contract expiration dates.
-- [x] Upload and test 10 complex customer contracts.
+- [ ] Determine the feasibility of using Document Intelligence Studio for extracting contract expiration dates.
+- [ ] Upload and test 10 complex customer contracts.
 - [ ] Evaluate the accuracy and reliability of the extracted expiration dates.
 
 ## Requirements
