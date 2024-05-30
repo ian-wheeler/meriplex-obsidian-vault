@@ -6,7 +6,7 @@
 | **Requested By** | Brian Jones                                                                 |
 | **Assigned To**  | Ian Wheeler                                                                 |
 | **Priority**     | Medium                                                                      |
-| **Status**       | Not Started                                                                 |
+| **Status**       | Complete                                                                    |
 | **Due Date**     | [Insert Due Date]                                                           |
 
 ## Task Description
@@ -82,3 +82,7 @@ This task, if successful, could significantly reduce the time and effort require
 
 - [Document Intelligence Studio - Microsoft Azure](https://documentintelligence.ai.azure.com/studio)
 - [Contract data extraction – Document Intelligence (formerly Form Recognizer) - Azure AI services](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-contract?view=doc-intel-4.0.0)
+
+## Results
+
+[[RD-20240528]]
