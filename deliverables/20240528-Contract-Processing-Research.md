@@ -2,7 +2,7 @@
 
 | **Task Title**   | Research on Document Intelligence Studio for Contract Expiration Extraction |
 | ---------------- | --------------------------------------------------------------------------- |
-| **Task ID**      | [[RD-20240528]]                                                             |
+| **Task ID**      | [[RD-20240528-Contract-Processing-Research]]                                                             |
 | **Requested By** | Brian Jones                                                                 |
 | **Assigned To**  | Ian Wheeler                                                                 |
 | **Priority**     | Medium                                                                      |
@@ -85,4 +85,4 @@ This task, if successful, could significantly reduce the time and effort require
 
 ## Results
 
-[[RD-20240528]]
+[[RD-20240528-Contract-Processing-Research]]
