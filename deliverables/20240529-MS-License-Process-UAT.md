@@ -6,7 +6,7 @@
 | **Requested By** | Brian Jones                                                      |
 | **Assigned To**  | Ian Wheeler                                                      |
 | **Priority**     | High                                                             |
-| **Status**       | In Progress                                                      |
+| **Status**       | Complete                                                         |
 | **Due Date**     | 2024-05-29                                                       |
 
 ## Task Description
