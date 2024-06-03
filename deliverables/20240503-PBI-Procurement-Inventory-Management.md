@@ -92,9 +92,9 @@ Develop an inventory BI report for the accounting team, extracting data from CW 
 
 ## Progress Updates
 
-|**Date**|**Progress**|**Issues**|**Next Steps**|
-|---|---|---|---|
-|[Update Date]|[Brief update on the progress]|[Any issues encountered]|[Next steps planned]|
+| **Date**   | **Progress**            | **Issues** | **Next Steps**                                                                                                                                                  |
+| ---------- | ----------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2024-06-03 | Review with Monish Allu |            | - Ownership and Type Business Rules<br>- Receipts, adjustments, transfers, and shipments business rules<br>- Reference document review<br>- Demo current report |
 
 ## Notes
 
