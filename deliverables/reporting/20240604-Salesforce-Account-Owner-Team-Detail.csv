@@ -1,397 +1,48 @@
-AccountId,Company_RecID,Account Name,Owner - Id,Owner - Member_RecID,Owner - Name,NRR Solutions Consultant - Member_RecID,NRR Solutions Consultant - Name,Manager - Id,Manager - Member_RecID,Manager - Name
-001Dn00000ngh6vIAA,90978.0,18th JDC District Attorney?s Office,005Dn000009DoFnIAK,3458.0,Brad Strauss,620.0,Ron Walker,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000hTVBRIA4,69411.0,Acme Bricks,005Dn000001TkewIAC,619.0,Carrie Hatley,417.0,Cynthia Newsom,005Dn000008ILCWIA4,170.0,Dusty Corning
-001Dn00000ciNC6IAM,69608.0,Acorn International LLC,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI000007xJVeYAM,,"ActiveWorx, Inc.",005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hTVBWIA4,69228.0,Advanced Business Solutions,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNBmIAM,69470.0,Agility Bank N.A.,005PI0000025xEPYAY,,Kevin Fielder,620.0,Ron Walker,005Dn000008HwmOIAS,1827.0,Erik Carlsen
-001Dn00000ciN8NIAU,66209.0,"Aguirre & Fields, LP",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN98IAE,68186.0,"AIV, L.P.",005PI0000025zkrYAA,3868.0,Jason Davis,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder
-001Dn00000ciN8RIAU,66558.0,Al Ross Group,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNEqIAM,70883.0,All Saints Catholic Church,005Dn000008HwmcIAC,1001.0,Kennon Jayne,417.0,Cynthia Newsom,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001Dn00000ciNIqIAM,72214.0,All Weather Insulated Panels,005PI0000029fcIYAQ,3137.0,Stephen Nolan,620.0,Ron Walker,005Dn000008HwmhIAC,812.0,Erminio Lalli
-001PI0000087MglYAE,,Allebach Creative Associates,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9UIAU,68363.0,Allegiance Bank,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hTVBbIAO,69236.0,American Omni,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSygYIAS,89498.0,"American Orthopedic Partners, LLC",005Dn000008HwmnIAC,1072.0,Michael McWilliams,1779.0,Michael True,005Dn000008IOC6IAO,2513.0,Mike Baron
-001Dn00000ciN5VIAU,19432.0,AmTex Machine Products,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9VIAU,68366.0,Annunciation Orthodox School,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNLPIA2,73014.0,Applied Controls (STS),005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9WIAU,68367.0,Aqua Beverage,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNBPIA2,69282.0,ARC Specialties,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI000009br3QYAQ,,Archway Press,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb1DIAS,89426.0,Arion Blue,005PI0000025zkrYAA,3868.0,Jason Davis,417.0,Cynthia Newsom,005PI0000025xEPYAY,,Kevin Fielder
-001Dn00000ciNCiIAM,70232.0,Army Surplus World,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI0000086upOYAQ,,Asbestos Workers Philadelphia Funds,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNIpIAM,72213.0,"ASM Modular Systems, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000A4jiLYAR,,Asset Management Alliance,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNIhIAM,72181.0,Austin County Farmers Mutual Fire Insurance,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyemIAC,89207.0,Austin County State Bank,005Dn000009DoFnIAK,3458.0,Brad Strauss,417.0,Cynthia Newsom,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNE0IAM,70442.0,Avenue 360 Health & Wellness,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNG0IAM,71473.0,Aviva Metals,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7IIAU,53943.0,"Baker Engineering and Risk Consultants, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNOLIA2,89462.0,Balboa Thrift and Loan,005Dn000008IsUNIA0,3189.0,Andrew Harp,417.0,Cynthia Newsom,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001Dn00000ciN9FIAU,68273.0,"Bank of Brenham, N.A.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSvwCIAS,89367.0,Bank of Houston,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9YIAU,68371.0,Baptist Sunday School Cmte,005Dn000008IZQUIA4,3090.0,Kelly Garcia,620.0,Ron Walker,005Dn000008HwmhIAC,812.0,Erminio Lalli
-001Dn00000ciN9ZIAU,68372.0,Barbers Hill ISD,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hTVAfIAO,68374.0,Beecher Reagan,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8xIAE,68070.0,Better Homes and Gardens Real Estate Gary,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN82IAE,65005.0,Biocure RX,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hTVC5IAO,68377.0,"Bishop Lifting Products, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI000009Lv1PYAS,,Black Enterprice,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9aIAE,68378.0,Blue Bell Creameries LP,005PI0000029fh7YAA,3446.0,Chanell Chebuske,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder
-001Dn00000hTVCKIA4,68581.0,Blue Iron Technologies,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8BIAU,65406.0,"Blueknight Energy Partners, L.P.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSvNcIAK,89525.0,Boulder Comm Musculoskeletal Surgery,005Dn000008HwjuIAC,3149.0,Demetrios Adams,1779.0,Michael True,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000hSyOLIA0,89428.0,BoulderCentre for Orthopedics & Spine,005Dn000008HwmyIAC,1779.0,Michael True,1779.0,Michael True,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7sIAE,64055.0,Bowen Miclette and Britt,005Dn000009DoFnIAK,3458.0,Brad Strauss,620.0,Ron Walker,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNL8IAM,72959.0,Bowers & Saha Aquaculture LLC,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9PIAU,68344.0,Boxer Property Management Corp.,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8zIAE,68102.0,"Brenham Wholesale Grocery Co., Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5hIAE,21390.0,Briggs & Veselka Co,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9cIAE,68382.0,Brookshire Brothers,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5iIAE,21536.0,"Brown & Gay Engineers, Inc.",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5rIAE,25107.0,Camp Ozark,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyIlIAK,89447.0,Capstone Title,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNSNIA2,93916.0,Care One,005Dn000008Hwk2IAC,3135.0,Cassidy Crawford,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNOXIA2,84509.0,Cargo Net Transportation Inc.,005Dn000008HwmiIAC,1385.0,Lathrop Lougheed,1779.0,Michael True,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001PI0000095AG5YAM,,"CEE Holdings, LLC",005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyhvIAC,89410.0,Center for Spine and Orthopedics,005Dn000008HwmyIAC,1779.0,Michael True,1779.0,Michael True,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSsAcIAK,89387.0,Centers for Advanced Orthopaedics,005Dn000008HwmyIAC,1779.0,Michael True,1779.0,Michael True,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyi5IAC,89204.0,Central Bank,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hTVCoIAO,69374.0,Champions Pediatric,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNE9IAM,70558.0,ChampionX USA Inc.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSoiMIAS,89441.0,Chariot Energy,005PI0000025zkrYAA,3868.0,Jason Davis,417.0,Cynthia Newsom,005PI0000025xEPYAY,,Kevin Fielder
-001Dn00000hSyewIAC,89202.0,Chasewood Bank,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hTVCtIAO,68390.0,"Chickasaw Distributors, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6CIAU,33124.0,Christian Brothers Automotive Corporation,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000ANFeyYAH,93884.0,Cimplifi,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNSxIAM,69535.0,"Circle 8 Crane Services, LLC",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNLYIA2,73064.0,Citadel Servicing dba Acra Lending,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000jCi16IAC,63893.0,Citizens Bank,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8vIAE,68056.0,Citizens State Bank,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNRFIA2,88939.0,Citizens State Bank - Woodville,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9fIAE,68395.0,Citizens State Bank Of Corrigan,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hTVCyIAO,68396.0,Citizens State Bank of Sealy,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyf1IAC,89206.0,Citizens State Bank of Somerville,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8GIAU,65690.0,City of Dayton,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNDzIAM,70429.0,City of Eagle Lake,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9jIAE,68400.0,City of Lake Jackson,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9mIAE,68403.0,City of Pflugerville,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNSyIAM,69723.0,City of Uvalde Information Technology,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNCSIA2,69790.0,Claroty,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNDuIAM,70418.0,Client 4 Life Group,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI0000081GVyYAM,93727.0,Coastal Radiation Oncology,005Dn000008HwmgIAC,1485.0,Patrick Lakeman,1779.0,Michael True,005Dn000008IZmGIAW,2509.0,Adrian Brokken
-001Dn00000ciN9pIAE,68408.0,"Coastal Warehouse, Ltd.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNE6IAM,70522.0,Coleman Horton & Company,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNNiIAM,82469.0,Colt Midstream LLC,005Dn000008HwmSIAS,986.0,Jonathan DeFez,1015.0,John Sobernheim,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001Dn00000hTVDDIA4,68412.0,Commercial Siding & Maintenance,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AUjTOYA1,94216.0,Commonwealth Group Services,005Dn000008HwmNIAS,3120.0,Dave Carlin,3456.0,Anthony Kazlauskas,005Dn000008HwmLIAS,3750.0,Simon Beeny
-001Dn00000ciN94IAE,68154.0,Community Bank of Texas,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000jBfEHIA0,89181.0,"Concordia Group Holdings, LLC",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyfVIAS,89454.0,Congress Orthopaedic Associates,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyiKIAS,89490.0,Considine Investment Co.,005Dn000008HwmnIAC,1072.0,Michael McWilliams,1779.0,Michael True,005Dn000008IOC6IAO,2513.0,Mike Baron
-001Dn00000ciN5WIAU,19434.0,Control Solutions,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AOX1tYAH,94033.0,Coordinated Services Management,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNT1IAM,70424.0,CPT of South Florida,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN80IAE,64913.0,Crestwood Operations LLC,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000nggYRIAY,90959.0,Cretin Townsend Homes,005Dn000008HwmbIAC,,Connectwise Integration,1779.0,Michael True,005Dn000001TkMsIAK,1689.0,Brian Jones
-001Dn00000hTVDIIA4,69261.0,Cy-Fair Volunteer Fire Department,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9MIAU,68335.0,Dana LeJune Law Firm,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6dIAE,39756.0,"DE Harvey Builders, Inc.",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb3sIAC,88908.0,Deer Park Refining Limited Partnership,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6eIAE,40917.0,DeMontrond Automotive Group,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNCEIA2,69665.0,Depelchin Children's Center,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNBXIA2,69369.0,"Diamond Offshore Drilling, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN93IAE,68151.0,Dickinson I.S.D.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hTVDSIA4,68439.0,Dooley Tackaberry,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9SIAU,68361.0,Doosan Turbomachinery Services Inc,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hTVDhIAO,68440.0,"Doris, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5DIAU,19318.0,"Dr. Keene, DDS",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5EIAU,19319.0,Dr. Shashi Bellur,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000A1sS5YAJ,,Dranoff Properties,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNIsIAM,72216.0,Dri-Design,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn000012ZNmFIAW,85202.0,Driver Solutions,005Dn000008IWFnIAO,1783.0,Chris Thompson,620.0,Ron Walker,005Dn000008HwmOIAS,1827.0,Erik Carlsen
-001PI000007JmUoYAK,93740.0,Driving Safety Services,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000ANqY6YAL,93960.0,Dunwoody Village,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNNJIA2,78747.0,Durango Investment Holdings LLC,005PI0000029fcIYAQ,3137.0,Stephen Nolan,1015.0,John Sobernheim,005Dn000008HwmhIAC,812.0,Erminio Lalli
-001Dn00000ciNT5IAM,71420.0,Durante Rentals,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyKmIAK,89208.0,"East Texas Bancshares, Inc",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNCbIAM,70103.0,East Texas Electric Cooperative Inc.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSvNrIAK,89250.0,EH National Bank,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNByIAM,69540.0,"Ekstrom Aquaculture, LLC",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNLOIA2,73013.0,Electro-Matic (STS),005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN84IAE,65028.0,Elite DataComm Solutions,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI0000093PJIYA2,71011.0,Ellis County Sheriff's Office,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNPpIAM,84688.0,Energy Hydraulics Holdings (STS),005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5FIAU,19322.0,Engineered Spring Products,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNIjIAM,72188.0,Entergy Power Inc.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9EIAU,68269.0,Entrust Energy,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000trUHCIA2,46591.0,EPS Software Corp.,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAXIA2,68519.0,Evelyn Rubenstein Jewish Community Center,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000n6S2rIAE,89914.0,Everline,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000wNio2IAC,,Everside Health,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNLtIAM,73267.0,EverWest Real Estate Investors LLC,005Dn000008HwmSIAS,986.0,Jonathan DeFez,1015.0,John Sobernheim,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001Dn00000hSb1BIAS,89184.0,Excel Sports Management -,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5OIAU,19383.0,Expro International Group Ltd,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ur3sUIAQ,,EyePoint Pharmaceuticals,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001PI0000086cdwYAA,,Faith Church,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN71IAE,47784.0,Farmers State Bank,005Dn000009DoFnIAK,3458.0,Brad Strauss,417.0,Cynthia Newsom,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001PI00000ANt69YAD,93962.0,Ferrandino & Son Inc,005Dn000008Hwk2IAC,3135.0,Cassidy Crawford,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNC0IAM,69559.0,Financial Casualty & Surety,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9DIAU,68251.0,Financial Software Solutions,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNT3IAM,70495.0,Fior Di Sole,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5MIAU,19370.0,First Capital Bank of Texas,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNPkIAM,84677.0,First Community Financial Group,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNLUIA2,73031.0,First National Bank Jasper,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNB8IAM,69171.0,First National Bank of Anderson,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNBkIAM,69454.0,First National Bank of Eagle Lake,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyM4IAK,89203.0,First National Bank of Lake Jackson,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyMOIA0,89257.0,First State Bank of Livingston,005Dn000008HwmhIAC,812.0,Erminio Lalli,1015.0,John Sobernheim,005Dn000008IOC6IAO,2513.0,Mike Baron
-001Dn00000hSb17IAC,89077.0,First Troop Philadelphia City Cavalry,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000whhLMIAY,93389.0,Flowchem,005Dn000008IPXfIAO,2543.0,Rick Carlson,417.0,Cynthia Newsom,005Dn000008HwmMIAS,616.0,Luis Blanco
-001Dn00000ciN8JIAU,65800.0,Floworks International LLC,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAKIA2,68471.0,Fluid Sealing Products,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI000008gR42YAE,,FlyAdvanced,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN74IAE,49415.0,"FMA Alliance, LTD",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNALIA2,68472.0,"Forgital USA, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI0000087H1CYAU,,Fox and Fox Attorneys at Law PC,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AANlcYAH,,Franconia Township,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNChIAM,70220.0,Frank Agraz,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI000009sIahYAE,,Frankford Candy & Chocolate Co.,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb0zIAC,49979.0,"FTD, LLC",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI000008qdTkYAI,,G.R. Sponaugle,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AMdrPYAT,93841.0,Gelest Inc,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNAQIA2,68482.0,Generon Technical Center,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNLsIAM,73114.0,Geosoftware,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5lIAE,22234.0,Geospace Technologies Corporation,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN77IAE,50778.0,"GHX Industrial, LLC (STS SunSource Child)",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb16IAC,89059.0,Godwin Formwork Solutions,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNC4IAM,69599.0,Goff & Herrington PC,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN78IAE,51231.0,Good Shepherd Episcopal School,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AUvJGYA1,94218.0,GPS Coatings,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNFwIAM,71436.0,Graft Farms,005Dn000008HwmhIAC,812.0,Erminio Lalli,1015.0,John Sobernheim,005Dn000008IOC6IAO,2513.0,Mike Baron
-001Dn00000ciN7BIAU,52375.0,Gulf Coast Water Authority,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7CIAU,52404.0,"Gulf Winds International, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000854O9YAI,93415.0,Hanwha Ocean Houston,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000tMfscIAC,,Havpak,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000xjjK8IAI,,Higgins Group Private Brokerage,005Dn000008IPYTIA4,3126.0,Bryon Herpel,1779.0,Michael True,005Dn000008HwmLIAS,3750.0,Simon Beeny
-001Dn00000ciNC8IAM,69622.0,Hogan Financial Systems,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNATIA2,68497.0,"Holt & Young, P.C.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ngesqIAA,,Homestead Health Plans,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001PI000007joB9YAI,,Hope's Cookies,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5HIAU,19330.0,Houston Shutters,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb3qIAC,54792.0,Houston Zoo,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI000008LfzdYAC,,Hudson International,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyPDIA0,89397.0,Illinois Bone and Joint Institute,005PI0000029fh7YAA,3446.0,Chanell Chebuske,1779.0,Michael True,005PI0000025xEPYAY,,Kevin Fielder
-001Dn00000ciNBTIA2,69351.0,Independant Texas Recyclers,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9CIAU,68226.0,Independence Coffee Company,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNBrIAM,69508.0,Independent Bank,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7PIAU,55839.0,Indigo Minerals LLC,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAVIA2,68510.0,Industrial Information Resources,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb3tIAC,88952.0,Integrated Proteins,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb3uIAC,89096.0,Integrity Bank,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AFTP0YAP,,Intention.ly,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAWIA2,68514.0,Intercontinental Terminals Co,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7TIAU,57414.0,Jackson Supply Company,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI000008CDcqYAG,,Jane Doe's Company,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNTAIA2,72159.0,Jewish Federation of Greater Houston,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI000009ulWxYAI,94308.0,JGM Fabricators,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7VIAU,57720.0,Jim Harris & Company,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNLIIA2,73004.0,"John W Stone Oil Distributor, LLC.",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAZIA2,68524.0,Jones and Carter,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAaIAM,68532.0,JS&D Corporation,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNCNIA2,69738.0,JX Nippon Chemical Texas Inc.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7YIAU,58429.0,"Kelly-Moore Paint Company, Inc",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAdIAM,68537.0,"Kinetica Partners, LLC",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7bIAE,59180.0,Kingspan (KNA),005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNIrIAM,72215.0,"Kingspan Insulated Panels, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN85IAE,65058.0,Kingspan Insulation Ltd.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAeIAM,68539.0,Klotz Associates,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5LIAU,19361.0,KSEV Radio,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5NIAU,19379.0,Landes Inc,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AOWDxYAP,94035.0,LCH Health and Community Services,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciN9AIAU,68204.0,LDM Networking,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7wIAE,64739.0,Leadernet LLC,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7eIAE,60207.0,Legacy Community Health Services,005Dn000009DoFnIAK,3458.0,Brad Strauss,1779.0,Michael True,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001PI00000AGfPeYAL,94221.0,Legal Tracking,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7fIAE,60250.0,Lehrer Financial & Economic Advisory Svc,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8XIAU,66927.0,Life Storage,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSxCkIAK,89374.0,Lincoln Community Hospital,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNLQIA2,73017.0,Lincoln Health Community Hospital,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb11IAC,60691.0,LJA Engineering & Surveying Inc.,005Dn000008IPXfIAO,2543.0,Rick Carlson,417.0,Cynthia Newsom,005Dn000008HwmMIAS,616.0,Luis Blanco
-001PI000007BWrlYAG,60814.0,Lone Star College System,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5TIAU,19420.0,Loomis Armored,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7gIAE,60930.0,"Loren D. Stark Co., Inc.",005PI0000025zkrYAA,3868.0,Jason Davis,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder
-001Dn00000ciNRtIAM,89016.0,LP Sundance Construction,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNK6IAM,72795.0,LRES Corporation,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7iIAE,61486.0,LTR - Light Tower Rentals - Odessa,005Dn000008HwmcIAC,1001.0,Kennon Jayne,620.0,Ron Walker,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001PI00000AO1RpYAL,93966.0,Luthercare,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNAgIAM,68551.0,M.J. Sheridan Of Texas Inc.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000B35CxYAJ,89860.0,Macro-Blue Inc.,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI000007zO6JYAU,,"Marsh Hawk Capital Management, LLC",005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNBtIAM,69518.0,Martin Electric Company,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7lIAE,62262.0,Martin Preferred Foods,005PI0000025zkrYAA,3868.0,Jason Davis,417.0,Cynthia Newsom,005PI0000025xEPYAY,,Kevin Fielder
-001PI000008m0UGYAY,,MC3 Inc.,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001PI000008Ef58YAC,,McDal Corporation,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7oIAE,62767.0,Meador Staffing Services Inc,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5JIAU,19336.0,Medcalf Fabrication  Inc,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyiZIAS,89491.0,MedVanta,005Dn000008HwmnIAC,1072.0,Michael McWilliams,1779.0,Michael True,005Dn000008IOC6IAO,2513.0,Mike Baron
-001Dn00000ciN90IAE,68131.0,Memorial Family Dental,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN96IAE,68173.0,Metal Coatings Corp.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8YIAU,66938.0,Millennium Physicians,005Dn000009DoFnIAK,3458.0,Brad Strauss,417.0,Cynthia Newsom,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciN7tIAE,64379.0,"MIND Technology, Inc. (Mitcham Industries)",005Dn000008IZQUIA4,3090.0,Kelly Garcia,417.0,Cynthia Newsom,005Dn000008HwmhIAC,812.0,Erminio Lalli
-001Dn00000hSb12IAC,64356.0,Mission Controls & Supply (STS),005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI000007zV1HYAU,,Mobile Air Conditioning Society Worldwide,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7uIAE,64485.0,"MOGAS Industries, Inc",005Dn000009DoFnIAK,3458.0,Brad Strauss,417.0,Cynthia Newsom,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciN7vIAE,64539.0,Money Management International,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNCKIA2,69711.0,Montgomery County 911,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNItIAM,72218.0,Morin Corporation Inc.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyS2IAK,89422.0,Mortgage Solutions of Colorado,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNMFIA2,76925.0,Mountain States Commercial Credit,005Dn000008HwmSIAS,986.0,Jonathan DeFez,1015.0,John Sobernheim,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001Dn00000ciNAnIAM,68577.0,"Municipal Accounts & Consulting, L.P.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN88IAE,65306.0,"MW Industries, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5aIAE,19785.0,Nalco Energy Services L P,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5bIAE,19866.0,"National Bronze & Metals, Inc. (Now Aviva Metals)",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNM8IAM,74401.0,National Endowment for Financial Ed,005Dn000001Tkf1IAC,1015.0,John Sobernheim,1015.0,John Sobernheim,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNT4IAM,71381.0,Nekter Juice Bar,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNBFIA2,69210.0,New First National Bank,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyAsIAK,89449.0,Newport Harbor Pathology Medical Group,005Dn000008IsUNIA0,3189.0,Andrew Harp,1779.0,Michael True,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001Dn00000ciNKJIA2,72809.0,Next Level Apparel,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNT9IAM,72142.0,Night Owls,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNCXIA2,69977.0,"Northstar Energy Management, LLC. (NovaSource)",005Dn000008IsUNIA0,3189.0,Andrew Harp,620.0,Ron Walker,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001Dn00000ciNAqIAM,68591.0,Novus Medical,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNT0IAM,70222.0,Nuevo Midstream,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSrqEIAS,89452.0,"OCC MSO, LLC",005Dn000008HwmyIAC,1779.0,Michael True,1779.0,Michael True,005Dn000008IwMIIA0,632.0,John Powell
-001PI0000087PLHYA2,,OCF Realty,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNTBIA2,72174.0,OPC Services - do not use this company,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN92IAE,68147.0,Opportune LLP,005PI0000025zkrYAA,3868.0,Jason Davis,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder
-001Dn00000ciNIcIAM,72115.0,Orion Waste Solutions,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNKNIA2,72813.0,"Overland, Pacific & Cutler, LLC",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNLXIA2,73055.0,"Palo Duro Midstream, LLC",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb3pIAC,22437.0,Panola-Harrison Electric Cooperative,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000ANzraYAD,93971.0,Partners Pharmacy,005Dn000008Hwk2IAC,3135.0,Cassidy Crawford,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNBWIA2,69366.0,"PAS Global, LLC",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hWZgGIAW,65793.0,Pasadena Independent School District,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSylOIAS,89205.0,Pearland State Bank,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNBxIAM,69537.0,"PepsiCo, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNArIAM,68601.0,Performance Companies,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb18IAC,89082.0,PetroFac,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AODuPYAX,93985.0,Philadelphia FIGHT,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000hSyjdIAC,89483.0,Piedmont Family Practice,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNO0IAM,84376.0,Pinnacle Marketing Group,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyldIAC,89350.0,Plains State Bank,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000nggqRIAQ,88893.0,Plant Machine Works Inc (Main),005Dn000008IZQUIA4,3090.0,Kelly Garcia,1015.0,John Sobernheim,005Dn000008HwmhIAC,812.0,Erminio Lalli
-001Dn00000ciNDsIAM,70398.0,"PMQ Group, LLC dba Avita",005PI0000029fh7YAA,3446.0,Chanell Chebuske,1779.0,Michael True,005PI0000025xEPYAY,,Kevin Fielder
-001PI00000AOZy9YAH,94039.0,Polaris RX,005Dn000008Hwk2IAC,3135.0,Cassidy Crawford,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNBIIA2,69232.0,Prasek's Hillje Smokehouse,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb15IAC,89041.0,PSI Fluid Power (STS),005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5wIAE,26449.0,RectorSeal,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSymqIAC,89415.0,Regenexx,005Dn000008HwmyIAC,1779.0,Michael True,1779.0,Michael True,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9KIAU,68322.0,"Resolute Oil, LLC",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8dIAE,67729.0,"Rise Services, LLC",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNStIAM,68616.0,River Oaks Baptist School,005PI0000025zkrYAA,3868.0,Jason Davis,417.0,Cynthia Newsom,005PI0000025xEPYAY,,Kevin Fielder
-001Dn00000iMcXhIAK,89856.0,RL Liquidators,005Dn000008HwmMIAS,616.0,Luis Blanco,1015.0,John Sobernheim,005Dn000008IOC6IAO,2513.0,Mike Baron
-001Dn00000ciNSzIAM,69751.0,RMS,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAtIAM,68621.0,Russell T. Rudy Energy,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNNxIAM,84072.0,RYAN HERCO FLOW SOLUTIONS (STS),005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNBoIAM,69487.0,"S & S Industries, Inc",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNT2IAM,70427.0,Sager Electronics,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AdeuKYAR,94254.0,Saint Louis Bank,005Dn000008KpyiIAC,3449.0,Matt Bewley,1015.0,John Sobernheim,005Dn000008HwmMIAS,616.0,Luis Blanco
-001Dn00000ciN62IAE,28985.0,Sam Houston Electric Cooperative Inc,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAvIAM,68626.0,Saracen Energy,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN65IAE,30160.0,Second Baptist Church,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSyclIAC,89240.0,Sectran Security,005Dn000008IsUNIA0,3189.0,Andrew Harp,1779.0,Michael True,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001Dn00000ciNDWIA2,70360.0,Senior Flexonics Pathway,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI000007EGKEYA4,93677.0,Sentar Incorporated,005Dn000008Iq8QIAS,3378.0,Daniel Tarkowski,1779.0,Michael True,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciNKfIAM,72833.0,"Serfas, Inc.",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9HIAU,68292.0,SERVPRO of Brazos Valley,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNRJIA2,88945.0,"SHANLEY, a Professional Corporation",005Dn000001Tkf1IAC,1015.0,John Sobernheim,1015.0,John Sobernheim,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNSrIAM,68057.0,"Shaw Systems Associates, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI000009522PYAQ,,Shein Law Center LTD,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001PI000007KrNWYA0,93741.0,SHI,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN69IAE,31597.0,"Sim-Tex, LP.",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNKiIAM,72836.0,South Coast Water District,005Dn000008IsUNIA0,3189.0,Andrew Harp,417.0,Cynthia Newsom,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001Dn00000hSy9zIAC,89268.0,SouthTrust Bank,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNM9IAM,74896.0,Space Age Credit Union,005Dn000008HwmSIAS,986.0,Jonathan DeFez,1015.0,John Sobernheim,005Dn000008IOCfIAO,2508.0,Jeff Weight
-001Dn00000ciNDbIAM,70366.0,Spawglass,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNCLIA2,69716.0,Spirit of Texas Bank,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNLgIAM,73082.0,St. John's School,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNC5IAM,69602.0,St. Luke's United Methodist Church,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6EIAU,33595.0,"Stallion Oilfield Services, Ltd.",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AvSJbYAN,94256.0,Stanbridge University,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6FIAU,33647.0,Stanley Consultants Inc,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAyIAM,68644.0,Star Pipe Products,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNT7IAM,71707.0,Starcomm,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNT8IAM,71709.0,STARPLAST USA,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNMOIA2,77568.0,Sterling Energy,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNSJIA2,89107.0,StoicLane,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNOEIA2,84447.0,"Strategic Materials, Inc",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNT6IAM,71593.0,"STS Operating, Inc. DBA SunSource",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNAzIAM,68647.0,Suderman and Young Towing,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000iLPftIAG,88955.0,Summit Midstream,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNB0IAM,68650.0,Susman Godfrey L.L.P.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000tkMY2IAM,93364.0,Synergy Women’s Health Care,005Dn000008HwmbIAC,,Connectwise Integration,1779.0,Michael True,005Dn000001TkMsIAK,1689.0,Brian Jones
-001Dn00000ciNAuIAM,68623.0,Talent Logic,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNDdIAM,70370.0,"Talk Fusion, Inc",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNCRIA2,69777.0,Talke USA Inc.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSymvIAC,89378.0,Tallahassee Orthopedic Clinic,005Dn000008HwmyIAC,1779.0,Michael True,1779.0,Michael True,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNIwIAM,72221.0,"Tate, Inc",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI0000082GGzYAM,93769.0,TeleMed2U Inc.,005Dn000008IwMmIAK,3359.0,Gary Veselka,417.0,Cynthia Newsom,005Dn000008IZmGIAW,2509.0,Adrian Brokken
-001Dn00000ciN6NIAU,36379.0,"TETRA Technologies, Inc.",005PI0000025zkrYAA,3868.0,Jason Davis,417.0,Cynthia Newsom,005PI0000025xEPYAY,,Kevin Fielder
-001Dn00000ciN9OIAU,68340.0,Texas City ISD,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6QIAU,36540.0,Texas Disposal Systems,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6SIAU,36581.0,Texas Gulf Coast Medical Group,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNB1IAM,68673.0,Texas Process Equipment,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNSvIAM,69152.0,TexIns Solutions Ltd.,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI000007y1ZuYAI,,The Belles Group,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5gIAE,21343.0,The Briarwood School,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN7AIAU,52105.0,The Greensheet,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNBhIAM,69426.0,"The Heller Group, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb14IAC,89009.0,The Hope Group (STS),005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI0000086wUaYAI,,The Inception Company,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNCjIAM,70233.0,The Merchants Group of Texas,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI0000092y7nYAA,94017.0,The Norwood Company,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000hSsVpIAK,89385.0,The Orthopaedic Center Huntsville,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI000009lwjLYAQ,,The pidcock Company,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNSGIA2,89103.0,The Renfrew Center-,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNC7IAM,69619.0,The Truck People,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNSuIAM,68682.0,The Village School,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6ZIAU,38460.0,Thermal Energy Corporation (TECO),005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb1AIAS,89175.0,Thermo Electric -,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSynAIAS,89253.0,Third Coast Bank - Headquarters,005PI0000025zkrYAA,3868.0,Jason Davis,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder
-001Dn00000ciNBcIAM,69402.0,Tian Tian Food Service,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6bIAE,39112.0,Tilson Homes Corporation,005PI0000025zkrYAA,3868.0,Jason Davis,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder
-001Dn00000ciN8FIAU,65489.0,"Titan Crews, Inc.",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8bIAE,67389.0,Torres Enterprise,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNQ7IAM,85036.0,Town of Brownsburg,005PI000000p77XYAQ,3491.0,Darek Jackson,1015.0,John Sobernheim,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001Dn00000ciN8fIAE,67853.0,"Transcat, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8IIAU,65739.0,"Tray Tec, Inc.",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6RIAU,36576.0,"Tri-National, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNPuIAM,84698.0,Tri-State Orthopaedics,005Dn000008HwmyIAC,1779.0,Michael True,1779.0,Michael True,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNLAIA2,72969.0,TTB Financial Corporation,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSb3YIAS,89401.0,Tulsa Bone & Joint Associates,005Dn000008HwmyIAC,1779.0,Michael True,1779.0,Michael True,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN5KIAU,19354.0,Uni-form Components Co.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8CIAU,65440.0,Union Tank Car Company,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8SIAU,66692.0,United Distribution Group - UDG,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6gIAE,41814.0,United Engineers Inc.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI000007zINOYA2,,united integrity group,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AOodpYAD,94063.0,UnitedRx,005Dn000008Hwk2IAC,3135.0,Cassidy Crawford,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
-001PI000007zKKMYA2,,"Universal Health Services, Inc.",005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSvkpIAC,89465.0,Urology Associates Colorado,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hSuM7IAK,89228.0,US Metro Bank,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN6jIAE,42585.0,"Uson, L.P.",005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000hWUjkIAG,89199.0,Valuebank Texas,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNB2IAM,68697.0,Van Vleck ISD,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNIvIAM,72220.0,VicWest Inc.,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNBRIA2,69316.0,W-Industries,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNB3IAM,68701.0,"Wahlberg-McCreary, Inc.",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNB4IAM,68714.0,Walker,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN9sIAE,68415.0,"We Are Stardust, LP",005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNQZIA2,87278.0,Weaver Popcorn,005Dn000008HwmfIAC,1438.0,Tony Laiewski,1015.0,John Sobernheim,005Dn000008HwmOIAS,1827.0,Erik Carlsen
-001Dn00000ciN6wIAE,46188.0,Westbrook Manufacturing,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001PI000008ZqK5YAK,,Westmont Law,005Dn000008HwkGIAS,3456.0,Anthony Kazlauskas,3456.0,Anthony Kazlauskas,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciNCZIA2,70069.0,William M Shields PC,005Dn000008Hwn1IAC,620.0,Ron Walker,620.0,Ron Walker,005Dn000008IwMIIA0,632.0,John Powell
-001Dn00000ciN8mIAE,67986.0,Wineshipping.com,005Dn000008HwmpIAC,417.0,Cynthia Newsom,417.0,Cynthia Newsom,005Dn000008IwMIIA0,632.0,John Powell
-001PI00000AOebHYAT,94041.0,Zeus Fire and Security,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+Account - Id,Account - Company_Rec_ID__c,Account - Name,Account - OwnerId,Owner - User_Rec_ID__c,Owner - Name,[NRR - Solutions Consultant] - User_Rec_ID__c,[NRR - Solutions Consultant] - Name,Manager - Id,Manager - User_Rec_ID__c,Manager - Name,Opp Owner Manager - Id,Opp Owner Manager - User_Rec_ID__c,Opp Owner Manager - Name
+001Dn00000ngh6vIAA,90978.0,18th JDC District Attorney?s Office,005Dn000009DoFnIAK,3458.0,Brad Strauss,620.0,Ron Walker,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciNBmIAM,69470.0,Agility Bank N.A.,005PI0000025xEPYAY,,Kevin Fielder,620.0,Ron Walker,005Dn000008HwmOIAS,1827.0,Erik Carlsen,005PI0000025xEPYAY,,Kevin Fielder
+001Dn00000ciN98IAE,68186.0,"AIV, L.P.",005PI0000025zkrYAA,3868.0,Jason Davis,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001Dn00000ciNIqIAM,72214.0,All Weather Insulated Panels,005PI0000029fcIYAQ,3137.0,Stephen Nolan,620.0,Ron Walker,005Dn000008HwmhIAC,812.0,Erminio Lalli,005Dn000008HwmhIAC,812.0,Erminio Lalli
+001Dn00000ciNIqIAM,72214.0,All Weather Insulated Panels,005PI0000029fcIYAQ,3137.0,Stephen Nolan,620.0,Ron Walker,005Dn000008HwmhIAC,812.0,Erminio Lalli,005Dn000008IwMIIA0,632.0,John Powell
+001Dn00000hSb1DIAS,89426.0,Arion Blue,005PI0000025zkrYAA,3868.0,Jason Davis,417.0,Cynthia Newsom,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001Dn00000hSyemIAC,89207.0,Austin County State Bank,005Dn000009DoFnIAK,3458.0,Brad Strauss,417.0,Cynthia Newsom,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciN9YIAU,68371.0,Baptist Sunday School Cmte,005Dn000008IZQUIA4,3090.0,Kelly Garcia,620.0,Ron Walker,005Dn000008HwmhIAC,812.0,Erminio Lalli,005Dn000008HwmhIAC,812.0,Erminio Lalli
+001Dn00000ciN9aIAE,68378.0,Blue Bell Creameries LP,005PI0000029fh7YAA,3446.0,Chanell Chebuske,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001Dn00000hSvNcIAK,89525.0,Boulder Comm Musculoskeletal Surgery,005Dn000008HwjuIAC,3149.0,Demetrios Adams,1779.0,Michael True,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000hSvNcIAK,89525.0,Boulder Comm Musculoskeletal Surgery,005Dn000008HwjuIAC,3149.0,Demetrios Adams,1779.0,Michael True,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008IwMIIA0,632.0,John Powell
+001Dn00000ciN7sIAE,64055.0,Bowen Miclette and Britt,005Dn000009DoFnIAK,3458.0,Brad Strauss,620.0,Ron Walker,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciNSNIA2,93916.0,Care One,005Dn000008Hwk2IAC,3135.0,Cassidy Crawford,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000hSoiMIAS,89441.0,Chariot Energy,005PI0000025zkrYAA,3868.0,Jason Davis,417.0,Cynthia Newsom,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001PI00000ANFeyYAH,93884.0,Cimplifi,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001PI00000AOX1tYAH,94033.0,Coordinated Services Management,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001PI00000ANqY6YAL,93960.0,Dunwoody Village,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciNNJIA2,78747.0,Durango Investment Holdings LLC,005PI0000029fcIYAQ,3137.0,Stephen Nolan,1015.0,John Sobernheim,005Dn000008HwmhIAC,812.0,Erminio Lalli,005Dn000008HwmhIAC,812.0,Erminio Lalli
+001Dn00000ciN71IAE,47784.0,Farmers State Bank,005Dn000009DoFnIAK,3458.0,Brad Strauss,417.0,Cynthia Newsom,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001PI00000ANt69YAD,93962.0,Ferrandino & Son Inc,005Dn000008Hwk2IAC,3135.0,Cassidy Crawford,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001PI00000AMdrPYAT,93841.0,Gelest Inc,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000hSyPDIA0,89397.0,Illinois Bone and Joint Institute,005PI0000029fh7YAA,3446.0,Chanell Chebuske,1779.0,Michael True,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001PI00000AOWDxYAP,94035.0,LCH Health and Community Services,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciN7eIAE,60207.0,Legacy Community Health Services,005Dn000009DoFnIAK,3458.0,Brad Strauss,1779.0,Michael True,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciN7gIAE,60930.0,"Loren D. Stark Co., Inc.",005PI0000025zkrYAA,3868.0,Jason Davis,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001Dn00000ciN7iIAE,61486.0,LTR - Light Tower Rentals - Odessa,005Dn000008HwmcIAC,1001.0,Kennon Jayne,620.0,Ron Walker,005Dn000008IOCfIAO,2508.0,Jeff Weight,005Dn000008IOCfIAO,2508.0,Jeff Weight
+001PI00000AO1RpYAL,93966.0,Luthercare,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciN7lIAE,62262.0,Martin Preferred Foods,005PI0000025zkrYAA,3868.0,Jason Davis,417.0,Cynthia Newsom,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001Dn00000ciN8YIAU,66938.0,Millennium Physicians,005Dn000009DoFnIAK,3458.0,Brad Strauss,417.0,Cynthia Newsom,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciN7tIAE,64379.0,"MIND Technology, Inc. (Mitcham Industries)",005Dn000008IZQUIA4,3090.0,Kelly Garcia,417.0,Cynthia Newsom,005Dn000008HwmhIAC,812.0,Erminio Lalli,005Dn000008HwmhIAC,812.0,Erminio Lalli
+001Dn00000ciN7uIAE,64485.0,"MOGAS Industries, Inc",005Dn000009DoFnIAK,3458.0,Brad Strauss,417.0,Cynthia Newsom,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciN92IAE,68147.0,Opportune LLP,005PI0000025zkrYAA,3868.0,Jason Davis,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001PI00000ANzraYAD,93971.0,Partners Pharmacy,005Dn000008Hwk2IAC,3135.0,Cassidy Crawford,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001PI00000AODuPYAX,93985.0,Philadelphia FIGHT,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000nggqRIAQ,88893.0,Plant Machine Works Inc (Main),005Dn000008IZQUIA4,3090.0,Kelly Garcia,1015.0,John Sobernheim,005Dn000008HwmhIAC,812.0,Erminio Lalli,005Dn000008HwmhIAC,812.0,Erminio Lalli
+001Dn00000ciNDsIAM,70398.0,"PMQ Group, LLC dba Avita",005PI0000029fh7YAA,3446.0,Chanell Chebuske,1779.0,Michael True,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001PI00000AOZy9YAH,94039.0,Polaris RX,005Dn000008Hwk2IAC,3135.0,Cassidy Crawford,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciNStIAM,68616.0,River Oaks Baptist School,005PI0000025zkrYAA,3868.0,Jason Davis,417.0,Cynthia Newsom,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001PI000007EGKEYA4,93677.0,Sentar Incorporated,005Dn000008Iq8QIAS,3378.0,Daniel Tarkowski,1779.0,Michael True,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciN6NIAU,36379.0,"TETRA Technologies, Inc.",005PI0000025zkrYAA,3868.0,Jason Davis,417.0,Cynthia Newsom,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001PI0000092y7nYAA,94017.0,The Norwood Company,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000hSynAIAS,89253.0,Third Coast Bank - Headquarters,005PI0000025zkrYAA,3868.0,Jason Davis,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001Dn00000ciN6bIAE,39112.0,Tilson Homes Corporation,005PI0000025zkrYAA,3868.0,Jason Davis,620.0,Ron Walker,005PI0000025xEPYAY,,Kevin Fielder,005PI0000025xEPYAY,,Kevin Fielder
+001Dn00000ciNQ7IAM,85036.0,Town of Brownsburg,005PI000000p77XYAQ,3491.0,Darek Jackson,1015.0,John Sobernheim,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001PI00000AOodpYAD,94063.0,UnitedRx,005Dn000008Hwk2IAC,3135.0,Cassidy Crawford,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001Dn00000ciNQZIA2,87278.0,Weaver Popcorn,005Dn000008HwmfIAC,1438.0,Tony Laiewski,1015.0,John Sobernheim,005Dn000008HwmOIAS,1827.0,Erik Carlsen,005Dn000008HwmfIAC,1438.0,Tony Laiewski
+001PI00000AOebHYAT,94041.0,Zeus Fire and Security,005PI0000029gmrYAA,3139.0,Sam Kitchen,3456.0,Anthony Kazlauskas,005Dn000008HwmfIAC,1438.0,Tony Laiewski,005Dn000008HwmfIAC,1438.0,Tony Laiewski
