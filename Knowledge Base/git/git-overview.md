@@ -1,5 +1,34 @@
 # Git Knowledge Base
+## Table of Contents
 
+1. [[#introduction|Introduction]]
+2. [[#common-scenarios-and-actions|Common Scenarios and Actions]]
+    1. [[#initializing-a-repository|Initializing a Repository]]
+    2. [[#cloning-a-repository|Cloning a Repository]]
+    3. [[#adding-files-to-the-staging-area|Adding Files to the Staging Area]]
+    4. [[#committing-changes|Committing Changes]]
+    5. [[#checking-the-status-of-the-repository|Checking the Status of the Repository]]
+    6. [[#viewing-commit-history|Viewing Commit History]]
+    7. [[#creating-and-switching-branches|Creating and Switching Branches]]
+    8. [[#merging-branches|Merging Branches]]
+    9. [[#pushing-changes-to-a-remote-repository|Pushing Changes to a Remote Repository]]
+    10. [[#pulling-changes-from-a-remote-repository|Pulling Changes from a Remote Repository]]
+3. [[#common-issues-and-troubleshooting-steps|Common Issues and Troubleshooting Steps]]
+    1. [[#merge-conflicts|Merge Conflicts]]
+    2. [[#detached-head-state|Detached HEAD State]]
+    3. [[#reverting-a-commit|Reverting a Commit]]
+    4. [[#stashing-changes|Stashing Changes]]
+    5. [[#untracked-files|Untracked Files]]
+    6. [[#uncommitted-changes|Uncommitted Changes]]
+    7. [[#checking-out-a-specific-commit|Checking Out a Specific Commit]]
+4. [[#tips-and-best-practices|Tips and Best Practices]]
+    1. [[#regular-commits|Regular Commits]]
+    2. [[#branching-strategy|Branching Strategy]]
+    3. [[#pull-before-push|Pull Before Push]]
+    4. [[#reviewing-commit-history|Reviewing Commit History]]
+    5. [[#using-gitignore|Using .gitignore]]
+    6. [[#backup-regularly|Backup Regularly]]
+5. [[#conclusion|Conclusion]]
 ## Introduction
 
 Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It is free and open-source software that allows multiple developers to work on a project simultaneously without affecting each other’s work.
@@ -117,17 +146,16 @@ git pull <remote-name> <branch-name>
 2. Open the conflicted files and resolve the conflicts manually.
     
 3. Mark the conflicts as resolved:
-
+	
 ```bash
 git add <file-name>
-
 ```
-    
+	
 4. Commit the changes:
     
-    bash
-    `git commit -m "Resolved merge conflict"`
-    
+```bash
+git commit -m "Resolved merge conflict"
+```
 
 ### Detached HEAD State
 
@@ -137,13 +165,15 @@ git add <file-name>
 
 1. To return to your branch, switch back to it:
     
-    bash
-    `git checkout <branch-name>`
-    
+```bash
+git checkout <branch-name>
+```
+	
 2. If you want to create a new branch from the detached HEAD state:
     
-    bash
-    `git checkout -b <new-branch-name>`
+```bash
+git checkout -b <new-branch-name>
+```
 
 ### Reverting a Commit
 
@@ -153,13 +183,15 @@ git add <file-name>
 
 1. To create a new commit that undoes the changes:
     
-    bash
-    `git revert <commit-hash>`
+```bash
+git revert <commit-hash>
+```
     
 2. To remove the commit from the history (use with caution):
     
-    bash
-    `git reset --hard <commit-hash>`
+```bash
+git reset --hard <commit-hash>
+```
 
 ### Stashing Changes
 
@@ -169,18 +201,21 @@ git add <file-name>
 
 1. Stash your changes:
     
-    bash
-    `git stash`
+```bash
+git stash
+```
     
 2. Switch branches:
     
-    bash
-    `git checkout <branch-name>`
+```bash
+git checkout <branch-name>
+```
     
 3. Apply the stashed changes:
     
-    bash
-    `git stash apply`
+```bash
+git stash apply
+```
 
 ### Untracked Files
 
@@ -190,18 +225,21 @@ git add <file-name>
 
 1. To remove all untracked files:
     
-    bash
-    `git clean -f`
+```bash
+git clean -f
+```
     
 2. To remove untracked directories:
     
-    bash
-    `git clean -fd`
+```bash
+git clean -fd
+```
     
 3. To see what will be removed without actually removing anything:
     
-    bash
-    `git clean -n`
+```bash
+git clean -n
+```
 
 ### Uncommitted Changes
 
@@ -211,13 +249,15 @@ git add <file-name>
 
 1. To discard changes in a specific file:
     
-    bash
-    `git checkout -- <file-name>`
+```bash
+git checkout -- <file-name>
+```
     
 2. To discard all changes:
     
-    bash
-    `git reset --hard`
+```bash
+git reset --hard
+```
 
 ### Checking Out a Specific Commit
 
@@ -227,13 +267,15 @@ git add <file-name>
 
 1. To check out a specific commit:
     
-    bash
-    `git checkout <commit-hash>`
+```bash
+git checkout <commit-hash>
+```
     
 2. Remember to return to a branch to continue regular development:
     
-    bash
-    `git checkout <branch-name>`
+```bash
+git checkout <branch-name>
+```
 
 ## Tips and Best Practices
 
