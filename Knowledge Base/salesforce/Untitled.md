@@ -1,0 +1,1 @@
+I need you to modify this Salesforce formula to only allow letters, numbers, and + sign
