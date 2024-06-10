@@ -1,13 +1,13 @@
 # Task Report
 
-| **Task Title**   | Correct Board Routing for Ticket Creation |
-| ---------------- | ----------------------------------------- |
-| **Task ID**      | SF-20240610133220                         |
-| **Requested By** | Jackie Moore                              |
-| **Assigned To**  | Cameron Ott                               |
-| **Priority**     | High                                      |
-| **Status**       | In-Progress                               |
-| **Due Date**     | 2024-06-14                                |
+| **Task Title**   | Correct Quote Ticket Routing |
+| ---------------- | ---------------------------- |
+| **Task ID**      | SF-20240610133220            |
+| **Requested By** | Jackie Moore                 |
+| **Assigned To**  | Cameron Ott                  |
+| **Priority**     | High                         |
+| **Status**       | In-Progress                  |
+| **Due Date**     | 2024-06-14                   |
 
 ## Task Description
 
