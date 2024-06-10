@@ -44,9 +44,9 @@ Solution:
 
 ---
 
-Issue: Time wasted closing quoting tickets
+Issue: Time wasted on quoting tickets
 
-Request A: Automate the creation of the quoting tickets on their appropriate service board.
+Request A: Automatically close quote tickets given the conditions below.
 Solution A: When an Opportunity webhook is received with the following,
 1. `lastUpdated` = `CW-SELL` AND
 2. `Type` = `3. Non-Recurring Revenue` <-- Future Name; Currently it is called `3. NRR - Renewal`, however, it will retain the same RecID
@@ -71,10 +71,25 @@ Solution A: When an Opportunity webhook is received with the following,
 }
 ```
 
-Action: 
+Actions: 
 - Mark all `Resources` as `Done` 
 - Change status to ">Quote Delivered"
 - Notify the user that the quote is delivered via existing notification system
+
+```SQL
+-- View the Resources given SR_Service_RecID
+SELECT
+	*
+FROM Schedule
+WHERE RecID = <SR_Service_RecID>;
+```
+
+```SQL
+-- Update all resources to done given SR_Service_RecID
+UPDATE Schedule
+SET close_flag = 1
+WHERE Ticket_ID = <SR_Service_RecID>;
+```
 
 | SR_Status_RecID | Description      | SR_Board_RecID | Board_Name           |
 | --------------- | ---------------- | -------------- | -------------------- |
