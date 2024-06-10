@@ -2,12 +2,12 @@
 
 | **Task Title**   | Automate Quoting Ticket Closure |
 | ---------------- | ------------------------------- |
-| **Task ID**      | SF-                             |
-| **Requested By** | [Insert Requester's Name]       |
-| **Assigned To**  | [Insert Assignee's Name]        |
+| **Task ID**      | SF-20240610122501               |
+| **Requested By** | Jackie Moore                    |
+| **Assigned To**  | Cameron Ott                     |
 | **Priority**     | High                            |
-| **Status**       | Not Started                     |
-| **Due Date**     | [Insert Due Date]               |
+| **Status**       | In Progress                     |
+| **Due Date**     | [2024-06-14]                    |
 
 ## Task Description
 
