@@ -5,15 +5,21 @@ Action Items:
 Issue: `Campaign` field in CW-Manage is required
 Solution: Make this field non-required and hidden
 
+Complete
+
 ---
 
 Issue: `Secondary Sales Rep` field in CW-Manage is required
 Solution: Make this field non-required and hidden
 
+Complete
+
 ---
 
 Issue: `Territory` and `Location` have improperly entered
 Solution: Retroactively repair `Territory` and `Location` using underlying logic to identify
+
+
 
 ---
 
@@ -23,10 +29,14 @@ Solution: Make this field non-required and change fields displayed to include
 - Monthly Recurring
 - Revenue Fields
 
+Complete
+
 ---
 
 Issue: `Shipping Contact` is a required field in CW-Manage
 Solution: Add the `Shipping Contact` field to SF
+
+In Progress
 
 ---
 
@@ -103,3 +113,5 @@ Request B: When a signed email is received attach the signed PDF to the opp in S
 
 Issue: Linking `RecID` Fields in CW-SELL are exposed with write permissions
 Solution: Make this field hidden
+
+Complete
