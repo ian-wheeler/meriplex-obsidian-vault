@@ -138,3 +138,7 @@ WHERE Ticket_ID = <SR_Service_RecID>;
 **Issue:** Linking `RecID` Fields in CW-SELL are exposed with write permissions  
 **Solution:** Make this field hidden  
 **Status:** Complete
+
+---
+
+![[Pasted image 20240611111014.png]]
