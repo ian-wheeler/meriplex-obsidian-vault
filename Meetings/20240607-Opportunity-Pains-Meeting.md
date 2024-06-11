@@ -153,8 +153,6 @@ Contract Distribution - Amy Chestnutt - SOP
 Procurement - Chris Jouban - SOP
 NRR - John Powell - SOP
 MRR - Rob Ford - SOP 
-Finance - 
-Sales - Eric Carlson & Mike Barron - SOP
 Activations - Chris Matthison
 Internal IT - Brian Jones
 Operations - Dusty Corning
