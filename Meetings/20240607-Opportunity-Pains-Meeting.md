@@ -142,3 +142,19 @@ WHERE Ticket_ID = <SR_Service_RecID>;
 ---
 
 ![[Pasted image 20240611111014.png]]
+
+Post-Mortem
+---
+
+Add Rob Ford and Eric O'Shea to an approver list for change management.
+Change-management windows need to be agreed upon.
+
+Contract Distribution - Amy Chestnutt - SOP
+Procurement - Chris Jouban - SOP
+NRR - John Powell - SOP
+MRR - Rob Ford - SOP 
+Finance - 
+Sales - Eric Carlson & Mike Barron - SOP
+Activations - Chris Matthison
+Internal IT - Brian Jones
+Operations - Dusty Corning
