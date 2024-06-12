@@ -42,7 +42,8 @@ List the objects and data that will be integrated between Salesforce and Connect
 3. Sites
 4. Opportunities
 5. Products (OpportunityLineItems)
-6. Teams
+6. Documents (Attachments)
+7. Teams
 
 **Out of Scope:**  
 List any objects or data that will not be included in the integration.
@@ -53,51 +54,6 @@ Provide a high-level diagram of the system architecture showing how Salesforce a
 
 ### 5. Data Mapping
 
-#### 5.1 Accounts
-
-| Salesforce Field | ConnectWise Field | Transformation Rules | Notes |
-| ---------------- | ----------------- | -------------------- | ----- |
-|                  |                   |                      |       |
-
-#### 5.2 Contacts
-
-|Salesforce Field|ConnectWise Field|Transformation Rules|Notes|
-|---|---|---|---|
-
-#### 5.3 Sites
-
-|Salesforce Field|ConnectWise Field|Transformation Rules|Notes|
-|---|---|---|---|
-
-#### 5.4 Opportunities
-
-|Salesforce Field|ConnectWise Field|Transformation Rules|Notes|
-|---|---|---|---|
-
-#### 5.5 OpportunityProducts
-
-|Salesforce Field|ConnectWise Field|Transformation Rules|Notes|
-|---|---|---|---|
-
-#### 5.6 QuoteRequests
-
-|Salesforce Field|ConnectWise Field|Transformation Rules|Notes|
-|---|---|---|---|
-
-#### 5.7 Tickets
-
-|Salesforce Field|ConnectWise Field|Transformation Rules|Notes|
-|---|---|---|---|
-
-#### 5.8 Documents
-
-|Salesforce Field|ConnectWise Field|Transformation Rules|Notes|
-|---|---|---|---|
-
-#### 5.9 AccountTeams
-
-|Salesforce Field|ConnectWise Field|Transformation Rules|Notes|
-|---|---|---|---|
 
 ### 6. Data Flow Diagrams
 
