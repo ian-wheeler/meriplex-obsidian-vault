@@ -8,7 +8,7 @@
 **Version:** 1.0
 
 **Description:**  
-The goal of the project is to give the salesperson more time to focus on sales and contact documentation by removing them from the CRM function in ConnectWise (CW) and to allow for improved data capture by utilizing tighter data validation in Salesforce (SF).
+The project aims to enhance sales efficiency by integrating Salesforce (SF) with ConnectWise Manage (CW). This integration will allow salespeople to focus more on sales and contact documentation by shifting CRM functions from CW to SF, utilizing SF's superior data validation features. In Phase 1, sales administration tasks like quoting and order processing will remain in CW. SF will be the primary system for initiating customer, contact, and opportunity data, with new fields and validation rules added to ensure data integrity. Intake forms in SF will capture detailed information upfront, reducing back-and-forth communication. The integration will enable seamless data flow between SF and CW, improving overall data accuracy and operational efficiency.
 
 ### 2. Stakeholders
 
@@ -25,10 +25,24 @@ The goal of the project is to give the salesperson more time to focus on sales a
 ### 3. Integration Scope
 
 **Objective:**  
-Describe the main objectives of the integration.
+1. Streamline Salesperson Workflow
+2. Maintain Sales Administration Processes in ConnectWise
+3. Leverage Salesforce for Data Validation
+4. Ensure Proper Data Flow Between Systems
+5. Embed Intake Forms in Salesforce
+6. Define Bi-Directional Data Logic
+7. Maintain Entity Relationships
+8. Address Data Mapping and Validation Needs
 
 **Scope:**  
 List the objects and data that will be integrated between Salesforce and ConnectWise Manage.
+
+1. Accounts (Companies)
+2. Contacts
+3. Sites
+4. Opportunities
+5. Products (OpportunityLineItems)
+6. Teams
 
 **Out of Scope:**  
 List any objects or data that will not be included in the integration.
@@ -41,9 +55,9 @@ Provide a high-level diagram of the system architecture showing how Salesforce a
 
 #### 5.1 Accounts
 
-|Salesforce Field|ConnectWise Field|Transformation Rules|Notes|
-|---|---|---|---|
-|||||
+| Salesforce Field | ConnectWise Field | Transformation Rules | Notes |
+| ---------------- | ----------------- | -------------------- | ----- |
+|                  |                   |                      |       |
 
 #### 5.2 Contacts
 
