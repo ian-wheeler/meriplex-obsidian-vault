@@ -50,9 +50,11 @@ List any objects or data that will not be included in the integration.
 
 ### 4. System Architecture
 
-Provide a high-level diagram of the system architecture showing how Salesforce and ConnectWise Manage will interact.
+[[system-architecture]]
+
 
 ### 5. Data Mapping
+
 
 
 ### 6. Data Flow Diagrams
