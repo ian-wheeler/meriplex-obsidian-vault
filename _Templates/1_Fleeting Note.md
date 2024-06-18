@@ -6,6 +6,6 @@ tags:
   - fleeting
 ---
 
-# <%= tp.file.title %>
-
+# <% tp.file.title %>
+<% tp.user.prepend_datetime(tp.file.title) %>
 <% tp.file.cursor() %>
