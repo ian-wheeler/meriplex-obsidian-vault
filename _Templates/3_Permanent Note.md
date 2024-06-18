@@ -5,5 +5,5 @@ tags: []
 ---
 
 # <%= tp.file.title %>
-
+<% tp.user.prependDatetime(tp.file.title) %>
 <% tp.file.cursor() %>

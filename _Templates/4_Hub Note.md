@@ -6,6 +6,6 @@ tags:
 ---
 
 # <%= tp.file.title %>
-
+<% tp.user.prependDatetime(tp.file.title) %>
 ## Related Permanent Notes
 <% tp.file.cursor() %>

@@ -10,9 +10,9 @@ status:
 ---
 
 # <%= tp.file.title %>
-
+<% tp.user.prependDatetime(tp.file.title) %>
 ## Reference
-<% tp.file.cursor() %>
+
 
 ## Notes
 
