@@ -11,26 +11,15 @@ tags:
 # Meeting: ConnectWise and TDSynnex
 
 ## Date & Time
-<!-- With starting and ending times -->
-- Start Time: 
-- End Time:
 
-| Start Time |     |
-| ---------- | --- |
-|            |     |
-
+```Datetime
+Tuesday, June 18, 2024 | 10:00 AM CST - 11:30 AM CST 
+```
 
 ## Location
-<!-- Physical location or links to online meeting (Zoom, MS Teams, Miro etc.) -->
-- 
 
-## Participants
-<!-- List of meeting participants using linked names -->
-- 
+Microsoft Teams: [Join conversation](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODI3MTRkNGEtMzJmZS00NTA1LWE2MjEtZjNlNDcyMGUwMDVi%40thread.v2/0?context=%7b%22Tid%22%3a%226d4422b6-9fe9-4ec2-8904-ccaa320bd30a%22%2c%22Oid%22%3a%224928663b-f568-404a-83f8-d6697c26de46%22%7d)
 
-## Goals
-<!-- What we want to achieve in this meeting -->
--
 ## Participants
 
 | Name           | Role                       | Email                       | Company   |
@@ -38,6 +27,21 @@ tags:
 | William Silver | Project Manager            | william.silver@techdata.com | TD SYNNEX |
 | Chris Jouban   | Strategic Sourcing Manager | chris.jouban@meriplex.com   | Meriplex  |
 | Ian Wheeler    | Lead Business Analyst      | ian.wheeler@meriplex.com    | Meriplex  |
+
+## Goals
+- Improve quoting process by eliminating bottlenecks, manual processes, and streamlining current activities.
+
+## Agenda
+
+### ConnectWise Sell Feature Enhancements
+- Gather information and feedback on new features and improvements since the last account representative touchpoint meeting.
+
+### Pain Points and Solutions
+- Inquire about current pain points and potential solutions, including:
+ - Real-time pricing
+ - Electronic ordering
+ - Order tracking
+ - Updating the same record across multiple systems
 
 ## Discussion Notes
 
@@ -64,7 +68,7 @@ tags:
 | `Agreement Update Automation` demo       | William Silver | N/A      |
 
 ## Decisions
-<!-- Record of decisions you make in this meeting -->
+
 - Next meeting date and place: 
 - Documents to be included in the meeting notes:
 
@@ -72,12 +76,14 @@ tags:
 ---
 # Back Matter
 ## Questions
-<!-- What remains for you to consider? --> 
-- 
+
+- What remains for you to consider?
 
 ## Terms
-<!-- Links to definition pages -->
--
+
+- ConnectWise Manage
+- ConnectWise Sell
+- Cloud Billing (ConnectWise Unite)
 
 ## References
 
