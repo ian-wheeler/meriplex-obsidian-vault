@@ -1,7 +1,8 @@
 ---
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
 type: literature
-tags: []
+tags:
+  - literature
 source: 
 author: 
 rating: 

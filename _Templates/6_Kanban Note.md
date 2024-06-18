@@ -1,3 +1,10 @@
+---
+id: <% tp.date.now("YYYYMMDDHHmmss") %>
+type: task
+tags:
+  - task
+---
+
 # Task Report
 
 | **Task Title**   | [Insert Task Title]                 |

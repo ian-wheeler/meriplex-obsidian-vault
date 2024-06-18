@@ -1,7 +1,9 @@
 ---
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
-type: zettel
+type: fleeting
 tags:
+  - zetel
+  - fleeting
 ---
 
 # <%= tp.file.title %>
