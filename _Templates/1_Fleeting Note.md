@@ -2,7 +2,6 @@
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
 type: fleeting
 tags:
-  - zetel
   - fleeting
 ---
 

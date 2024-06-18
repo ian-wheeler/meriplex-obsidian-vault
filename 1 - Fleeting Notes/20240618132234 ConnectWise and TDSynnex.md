@@ -2,7 +2,6 @@
 id: "20240618132234"
 type: fleeting
 tags:
-  - zetel
   - fleeting
   - meeting
   - connectwise
@@ -11,6 +10,27 @@ tags:
 
 # Meeting: ConnectWise and TDSynnex
 
+## Date & Time
+<!-- With starting and ending times -->
+- Start Time: 
+- End Time:
+
+| Start Time |     |
+| ---------- | --- |
+|            |     |
+
+
+## Location
+<!-- Physical location or links to online meeting (Zoom, MS Teams, Miro etc.) -->
+- 
+
+## Participants
+<!-- List of meeting participants using linked names -->
+- 
+
+## Goals
+<!-- What we want to achieve in this meeting -->
+-
 ## Participants
 
 | Name           | Role                       | Email                       | Company   |
@@ -37,9 +57,9 @@ tags:
 | Action Item                              | Assigned To    | Due Date |
 | ---------------------------------------- | -------------- | -------- |
 | `Electronic Order` feasibility analysis  | William Silver | N/A      |
+| `Real-Time Pricing` feasibility analysis | William Silver | N/A      |
 | `Cloud Billing` demo                     | William Silver | N/A      |
 | `Marketplace` analysis                   | William Silver | N/A      |
-| `Real-Time Pricing` feasibility analysis | William Silver | N/A      |
 | `Order Tracking` feasibility analysis    | William Silver | N/A      |
 | `Agreement Update Automation` demo       | William Silver | N/A      |
 
@@ -57,8 +77,11 @@ tags:
 
 ## Terms
 <!-- Links to definition pages -->
-- 
+-
 
 ## References
-<!-- Links to pages not referenced in the content -->
--
+
+- [Electronic Orders Overview](https://docs.connectwise.com/ConnectWise_Sell/300/060/010/001)
+- [Real Time Pricing](https://docs.connectwise.com/ConnectWise_Sell/800/060/010)
+- [Cloud Billing (ConnectWise Unite)](https://docs.connectwise.com/ConnectWise_Unite)
+- [Marketplace](https://docs.connectwise.com/ConnectWise_Documentation/090/006)

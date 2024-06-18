@@ -55,7 +55,7 @@ Follow the instructions on the `Setup Email` sheet in the document linked below 
 ## Change the Subject of the Send Email
 ---
 1. Navigate to **Settings** > **Document Branding** > **Order Porter Setup** > **Setup Email**.
-2. Enter your new email subject in the Email Subject field. This field can accept dynamic tags in the following format: #Attribute.Detail. For example, you can enter the following tag Quote ##Quote.PrintedquoteReadableID #Quote.Quote Name and it will pull this information from the quote and enter it in this field. 
+2. Enter your new email subject in the Email Subject field. This field can accept dynamic tags in the following format: `#Attribute.Detail`. For example, you can enter the following tag Quote `##Quote.PrintedquoteReadableID #Quote.Quote Name` and it will pull this information from the quote and enter it in this field. 
 3. Click **Save**.
 ## Set Up Custom SMTP Server for Order Porter Emails
 ---
