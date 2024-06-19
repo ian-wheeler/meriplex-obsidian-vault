@@ -1,11 +1,11 @@
 ---
 id: "20240618132234"
-type: fleeting
+type: Meeting Note
 tags:
-  - fleeting
   - meeting
   - connectwise
   - tdsynnex
+  - permanent
 ---
 
 # Meeting: ConnectWise and TDSynnex
