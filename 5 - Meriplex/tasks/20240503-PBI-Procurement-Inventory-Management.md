@@ -101,21 +101,20 @@ Develop an inventory BI report for the accounting team, extracting data from CW 
 - Ensure communication with the inventory team for accurate manual data addition.
 - Maintain regular updates with the accounting team for feedback and adjustments.
 
-## References
-
-- Inventory Valuation Detail Report
-- Purchase Order Line Item Detail Report
-- Product Audit List Report
-
 ---
 # Back Matter
 ## Questions
 
-- What remains for you to consider?
+- Do you want to see the inventory for all warehouses?
+- Do you want to see the inventory for all warehouse bins?
+- Can inventory be "picked" for anything other than a PO?
 
 ## Terms
 
-- 
+- Inventory
 
 ## References
-- 
+
+- [[ProductAuditList.csv]]
+- [[Inventory Valuation Detail.xls]]
+- [[PurchaseOrderLineItemDetail.xlsx]]
