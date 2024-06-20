@@ -111,10 +111,15 @@ Develop an inventory BI report for the accounting team, extracting data from CW 
 
 ## Terms
 
-- Inventory
+- [dbo].[IV_Item]
+- [dbo].[IV_Product]
+- [dbo].[Inventory_By_Warehouse]
+- [dbo].[Inventory_By_Warehouse_Audit]
 
 ## References
 
 - [[ProductAuditList.csv]]
 - [[Inventory Valuation Detail.xls]]
 - [[PurchaseOrderLineItemDetail.xlsx]]
+- [[2024.1.chw]]
+- [[2024.1.chm]]
