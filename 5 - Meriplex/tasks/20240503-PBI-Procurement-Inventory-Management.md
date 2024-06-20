@@ -106,3 +106,16 @@ Develop an inventory BI report for the accounting team, extracting data from CW 
 - Inventory Valuation Detail Report
 - Purchase Order Line Item Detail Report
 - Product Audit List Report
+
+---
+# Back Matter
+## Questions
+
+- What remains for you to consider?
+
+## Terms
+
+- 
+
+## References
+- 
