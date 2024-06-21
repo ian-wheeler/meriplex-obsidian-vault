@@ -40,4 +40,6 @@ ORDER BY
     audit.Last_Update DESC
 ```
 
+## Next Steps
+
 I need to produce a report from the above dataset. We are trying to get the Inventory on hand quantities and inventory on hand cost of all item's in our catalog. We need to be able to filter by item, bin, or warehouse. We need to see the inventory quantity and inventory cost for the beginning of the month and the end of the month.
