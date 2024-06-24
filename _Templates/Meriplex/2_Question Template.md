@@ -1,38 +1,35 @@
 ---
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
-type: fleeting
+type: Q&A
 tags:
-  - fleeting
+  - question
+  - answer
 ---
 # <% tp.file.title %>
 
-> [!Note]
-> `= this.lead`
+> [!Question]
+> Insert Question Here
 
-## Additional Notes
-
+> [!answer] 
+> Insert Answer Here
 
 ---
 # Back Matter
 
 ## Source
-<!-- Always keep a link to the source- --> 
+<!-- Always keep a link to the source. --> 
 - 
 
 ## Tasks
 <!-- What remains to be done with this note? --> 
 - 
 
-## Questions
-<!-- What remains for you to consider? --> 
-- 
-
 ## Terms
-<!-- Links to definition pages. -->
+<!-- Links to definition pages -->
 - 
 
 ## References
-<!-- Links to pages not referenced in the content. -->
+<!-- Links to pages where the answer is used for -->
 - 
 
 ## Template Help
