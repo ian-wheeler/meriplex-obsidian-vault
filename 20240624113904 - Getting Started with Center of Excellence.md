@@ -15,6 +15,16 @@ tags:
 
 ## Additional Notes
 
+Groups Configured
+- Admin Persona
+	- Group Name: `Power Platform Administrator`
+	- Local Group Name (eMail): `admin.powerplatform@meriplex.com`
+- Maker Persona
+	- Group Name: `Power Platform Maker`
+	- Local Group Name (eMail): `maker.powerplatform@meriplex.com`
+- User Persona
+	- Group Name: `Power Platform User`
+	- Local Group Name (eMail): `user.powerplatform@meriplex.com`
 
 ---
 # Back Matter
@@ -29,7 +39,7 @@ tags:
 
 ## Questions
 <!-- What remains for you to consider? --> 
-- 
+- How do you perform knowledge transfer and hand-off for an incoming Power Platform Administrator?
 
 ## Terms
 <!-- Links to definition pages. -->
