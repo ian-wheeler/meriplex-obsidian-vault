@@ -8,16 +8,14 @@ modified: {{date}}, {{time}}
 template-type: Note
 template-version: "1.18"
 ---
-<!--  See "Template Help" below for using properties -->
 
 # {{Title}}
-
-<!--  Main idea of my thoughts -->
 
 > [!Note]
 > `= this.lead`
 
-<!-- Other content of my note  -->
+## Additional Notes
+
 
 ---
 # Back Matter

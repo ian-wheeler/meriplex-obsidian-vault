@@ -1,23 +1,16 @@
 ---
-tags: type/note 
-aliases:
-lead: +++ Lead paragraph goes here +++
-visual: "![[image.jpg]]"
-created: {{date}}, {{time}}
-modified: {{date}}, {{time}}
-template-type: Note
-template-version: "1.18"
+id: <% tp.date.now("YYYYMMDDHHmmss") %>
+type: fleeting
+tags:
+  - fleeting
 ---
-<!--  See "Template Help" below for using properties -->
-
-# {{Title}}
-
-<!--  Main idea of my thoughts -->
+# <% tp.file.title %>
 
 > [!Note]
 > `= this.lead`
 
-<!-- Other content of my note  -->
+## Additional Notes
+
 
 ---
 # Back Matter

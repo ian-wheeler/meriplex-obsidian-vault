@@ -8,16 +8,14 @@ modified: {{date}}, {{time}}
 template-type: Question
 template-version: "1.14"
 ---
-<!--  See "Template Help" below for using properties -->
 
 # {{Title}}
-
-<!-- Detailed question from short title in front matter -->
 
 > [!Question]
 > `= this.lead`
 
-<!-- Answer the detailed question  -->
+> [!answer] 
+> `= this.lead
 
 
 
