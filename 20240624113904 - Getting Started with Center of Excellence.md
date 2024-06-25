@@ -15,7 +15,7 @@ tags:
 
 ## Additional Notes
 
-Groups Configured
+Resource Groups Configured
 - Admin Persona
 	- Group Name: `Power Platform Administrator`
 	- Local Group Name (eMail): `admin.powerplatform@meriplex.com`
@@ -25,6 +25,45 @@ Groups Configured
 - User Persona
 	- Group Name: `Power Platform User`
 	- Local Group Name (eMail): `user.powerplatform@meriplex.com`
+
+## Environments
+
+### Meriplex [Sandbox]
+
+| **Environment URL**                    | mpc-sandbox.crm.dynamics.com            |
+|----------------------------------------|-----------------------------------------|
+| **State**                              | Ready                                   |
+| **Region**                             | United States                           |
+| **Refresh cadence**                    | Frequent                                |
+| **Type**                               | Sandbox                                 |
+| **Security group**                     | DevOps                                  |
+| **Organization ID**                    | 0cba0e94-def8-ee11-a1fa-00224832231d    |
+| **Environment ID**                     | 6ce55590-3750-e4ec-93ae-2f235233a60d    |
+### Meriplex [Developer]
+
+| **Environment URL**                    | mpc-developer.crm.dynamics.com           |
+|----------------------------------------|------------------------------------------|
+| **State**                              | Ready                                    |
+| **Region**                             | United States                            |
+| **Refresh cadence**                    | Frequent                                 |
+| **Type**                               | Developer                                |
+| **Security group**                     | Not assigned                             |
+| **Organization ID**                    | 863dc21c-e42f-ef11-8e4b-002248282e10     |
+| **Environment ID**                     | dc447c0b-0471-e4d7-9d8e-ad7de4fc5a0d     |
+### Meriplex [Production]
+
+### Meriplex Communications (default)
+
+| **Environment URL** | orgb3531c39.crm.dynamics.com                 |
+| ------------------- | -------------------------------------------- |
+| **State**           | Ready                                        |
+| **Region**          | United States                                |
+| **Refresh cadence** | Frequent                                     |
+| **Type**            | Default                                      |
+| **Security group**  | Not assigned                                 |
+| **Organization ID** | 9c06f56f-615a-4392-882f-71638cf8220c         |
+| **Environment ID**  | Default-6d4422b6-9fe9-4ec2-8904-ccaa320bd30a |
+
 
 ---
 # Back Matter
