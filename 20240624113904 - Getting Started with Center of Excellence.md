@@ -52,6 +52,15 @@ Resource Groups Configured
 | **Environment ID**                     | dc447c0b-0471-e4d7-9d8e-ad7de4fc5a0d     |
 ### Meriplex [Production]
 
+| **Environment URL**                    | meriplex.crm.dynamics.com                |
+|----------------------------------------|------------------------------------------|
+| **State**                              | Ready                                    |
+| **Region**                             | United States                            |
+| **Refresh cadence**                    | Frequent                                 |
+| **Type**                               | Production                               |
+| **Security group**                     | Not assigned                             |
+| **Organization ID**                    | 58677915-0333-ef11-8e4b-000d3a5d450b     |
+| **Environment ID**                     | 9163dde3-3cf3-e681-b8c5-8b63100e861a     |
 ### Meriplex Communications (default)
 
 | **Environment URL** | orgb3531c39.crm.dynamics.com                 |
