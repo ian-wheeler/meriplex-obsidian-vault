@@ -3,8 +3,9 @@ id: 20240624153830
 type: Meeting Note
 tags:
   - fleeting
+  - meeting
 ---
-# Untitled 1
+# License Renewals Meeting
 
 > [!Note]
 > Key Notes Here

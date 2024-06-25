@@ -123,4 +123,4 @@ Develop an inventory BI report for the accounting team, extracting data from CW 
 - [[PurchaseOrderLineItemDetail.xlsx]]
 - [[2024.1.chw]]
 - [[2024.1.chm]]
-- [[20240620141422_How to get an inventory audit report]]
+- [[20240620141422 - How to get an inventory audit report]]
