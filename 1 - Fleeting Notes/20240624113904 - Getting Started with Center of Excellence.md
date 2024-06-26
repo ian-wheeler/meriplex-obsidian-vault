@@ -27,6 +27,17 @@ tags:
 
 ## Additional Notes
 
+- Admin | Sync Template v3 CoE Solution Metadata
+- Admin | Sync Template v3 Configure Emails
+- Admin | Sync Template v3 (Connectors)
+- Admin | Add Maker to Group
+- Admin | Excuse Non Inventoried Envts from Governance Flows
+- Admin | Excuse Support Envts from Governance Flows
+- Command Center App > Get M365 Service Messages
+- Command Center App > Initially Populate Bookmarks
+- Command Center App > Set CoE Flows State
+- DLP Editor > Parse impacted resources into CSV
+
 ## Microsoft 365 Resource Groups
 
 ### Admin Persona
