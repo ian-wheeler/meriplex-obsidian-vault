@@ -11,7 +11,19 @@ tags:
 # Getting Started with Center of Excellence
 
 > [!Note]
-> Key Notes Here
+> Sequential Chain of Events for Initial Setup:
+> 1. Install `CreatorKitCore_1.0.20240529.1_managed`
+> 2. Install `CreatorKitReferencesMDA_1.0.20230727.2_managed`
+> 3. Install `CreatorKitReferencesCanvas_1.0.20240529.1_managed`
+> 4. Install `CreatorKitAI_1.0.20240529.1_managed`
+> 5. Install `CenterofExcellenceCoreComponents_4.32_2_managed`
+> 6. Install `CenterofExcellenceAuditComponents_3.24_managed`
+> 7. Install `Production_CoEDashboard_June2024`
+> 8. Install `PowerPlatformGovernance_CoEDashboard_June2024`
+> 9. Install `CenterofExcellenceNurtureComponents_3.18_managed`
+> 10. Install `CenterofExcellenceInnovationBacklog_3.1_managed`
+> 11. Install `admintaskanalysis_core_1.3.20230724.1_managed`
+> 12. Install `Theming`
 
 ## Additional Notes
 
