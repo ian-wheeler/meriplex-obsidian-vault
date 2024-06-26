@@ -111,6 +111,8 @@ tags:
 
 ## Tasks
 <!-- What remains to be done with this note? --> 
+- [Set up the Power BI dashboard - Power Platform | Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/guidance/coe/setup-powerbi)
+- [Setup Instructions - CoE Starter Kit](https://www.youtube.com/watch?v=Lsooi7xp6eA&list=PLi9EhCY4z99W5kzaPK1np6sv6AzMQDsXG&index=2&t=1942s)
 - 
 
 ## Questions
