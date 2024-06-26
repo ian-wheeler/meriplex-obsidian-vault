@@ -112,8 +112,8 @@ tags:
 ## Tasks
 <!-- What remains to be done with this note? --> 
 - [Set up the Power BI dashboard - Power Platform | Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/guidance/coe/setup-powerbi)
-- [Setup Instructions - CoE Starter Kit](https://www.youtube.com/watch?v=Lsooi7xp6eA&list=PLi9EhCY4z99W5kzaPK1np6sv6AzMQDsXG&index=2&t=1942s)
-- 
+- [Enable Audit Logging](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search&tid=6d4422b6-9fe9-4ec2-8904-ccaa320bd30a)
+- [Setup Audit Logging](https://learn.microsoft.com/en-us/power-platform/guidance/coe/setup-auditlog-http)
 
 ## Questions
 <!-- What remains for you to consider? --> 
@@ -125,7 +125,7 @@ tags:
 
 ## References
 <!-- Links to pages not referenced in the content. -->
-- 
+- [Setup Instructions - CoE Starter Kit](https://www.youtube.com/watch?v=Lsooi7xp6eA&list=PLi9EhCY4z99W5kzaPK1np6sv6AzMQDsXG&index=2&t=1942s)
 
 ## Template Help
 <!-- Links to external help pages on GitHub. -->
