@@ -112,7 +112,7 @@ tags:
 
 ## Tasks
 <!-- What remains to be done with this note? --> 
-- 
+- [Set up inventory components - Power Platform | Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/guidance/coe/setup-core-components#create-a-microsoft-entra-app-registration-to-connect-to-microsoft-graph)
 
 ## Questions
 <!-- What remains for you to consider? --> 
