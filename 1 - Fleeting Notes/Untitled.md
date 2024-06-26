@@ -1,5 +1,5 @@
 ---
-id: <% tp.date.now("YYYYMMDDHHmmss") %>
+id: 20240626155937
 type: Meeting Note
 tags:
   - fleeting
@@ -9,17 +9,18 @@ tags:
   - platypus
   - connectwise
 ---
-# <% tp.file.title %>
+# Untitled
 
 > [!Note]
 > - 
-# {{Title}}
-
-<!-- Main content of my thoughts really -->
 
 ## Date & Time
 <!-- With starting and ending times -->
-- 
+## Date & Time
+
+```Datetime
+Tuesday, June 18, 2024 | 10:00 AM CST - 11:30 AM CST 
+```
 
 ## Location
 <!-- Physical location or links to online meeting (Zoom, MS Teams, Miro etc.) -->
@@ -59,7 +60,7 @@ tags:
 
 ## Terms
 <!-- Links to definition pages -->
-- 
+- Platypus: original telecom billing system; prior to NetSuite
 
 ## References
 <!-- Links to pages not referenced in the content -->

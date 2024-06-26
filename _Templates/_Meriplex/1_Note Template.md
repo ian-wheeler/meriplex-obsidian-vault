@@ -7,7 +7,7 @@ tags:
 # <% tp.file.title %>
 
 > [!Note]
-> Key Notes Here
+> - 
 
 ## Additional Notes
 
