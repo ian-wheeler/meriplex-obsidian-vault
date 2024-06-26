@@ -27,16 +27,15 @@ tags:
 
 ## Additional Notes
 
-- Admin | Sync Template v3 CoE Solution Metadata
-- Admin | Sync Template v3 Configure Emails
-- Admin | Sync Template v3 (Connectors)
-- Admin | Add Maker to Group
-- Admin | Excuse Non Inventoried Envts from Governance Flows
-- Admin | Excuse Support Envts from Governance Flows
-- Command Center App > Get M365 Service Messages
-- Command Center App > Initially Populate Bookmarks
-- Command Center App > Set CoE Flows State
-- DLP Editor > Parse impacted resources into CSV
+- DLP Request | Apply Policy to Environment (Child)
+- DLP Request | Sync Policy to Dataverse (Child)
+- DLP Request | Process Approved Policy Change
+- DLP Request | Sync new Policy
+- DLP Request | Sync Shared Policies
+- Env Request | Cleanup environments
+- Env Request | Create approved environment
+- Env Request | Notify admin when new request submitted
+- Env Request | Notify requestor when rejected
 
 ## Microsoft 365 Resource Groups
 
