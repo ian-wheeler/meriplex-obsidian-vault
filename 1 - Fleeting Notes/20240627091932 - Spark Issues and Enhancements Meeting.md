@@ -8,8 +8,11 @@ tags:
 ---
 # Spark Issues and Enhancements Meeting
 
-> [!Note]
-> - 
+> [!important] 
+> - Major form changes: Add 'Summary' field, rename 'Contact' to 'Approver', add 'Requestor' field 
+> - Implement extensive ConnectWise Workflows for notifications to Requestor, Solutions Consultant, and Customer 
+> - Fix technical issues: file attachments, extend 'Notes' field, assign Opportunity Owner as Resource 
+> - Enhance information flow: ensure all Spark form data is included in notifications and tickets
 
 ## Date & Time
 

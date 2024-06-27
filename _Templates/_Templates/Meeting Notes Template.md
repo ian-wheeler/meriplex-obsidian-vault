@@ -7,7 +7,7 @@ tags:
 ---
 # <% tp.file.title %>
 
-> [!Note]
+> [!important] 
 > - 
 
 ## Date & Time
