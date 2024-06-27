@@ -40,24 +40,31 @@ Wednesday, June 26, 2024 | 04:00 PM CST - 04:30 PM CST
 
 ## Discussion Notes
 
-- Initial attempt to migrate from Platypus to ConnectWise Manage resulted in failure.
-- Blended customers: billing out of PLAT and CW
-- Project is to match the agreements and billing amounts and make sure they are correct in ConnectWise and then check with Finance (Alex Midkif on the Billing Team) that they are correct before deactivating the customers in Platypus.
-- One other resource
-- Brian has (3) files where he started trying to identify matches.
-- Paul Guillo is the key stakeholder.
-- (140) Accounts
-- Remove telecom items if in ConnectWise and not in platypus (unless they are on an Avalara Agreement that's already billing)
-	- Confirm telecom items 
-- Sequence:
-	- Pick some small 
-	- Match `Accounts`
-- First week of August 2024-08-02
-
-Access to the Platypus Server.
+- **Project Background**
+    - Initial migration attempt from Platypus to ConnectWise Manage was unsuccessful
+    - Some customers have blended billing (partially in Platypus, partially in ConnectWise)
+- **Project Scope**
+    - Match agreements and billing amounts between Platypus and ConnectWise
+    - Verify data accuracy with Finance team (Alex Midkif, Billing Team)
+    - Deactivate customers in Platypus after confirmation
+- **Resource Allocation**
+    - One additional resource to be assigned
+    - Brian Jones has prepared three files with initial match attempts
+- **Project Stakeholders**
+    - Key stakeholder: Paul Guillo
+    - Finance team involvement for verification
+- **Data Overview**
+    - Approximately 140 accounts to be migrated
+    - Special consideration for telecom items:
+        - Remove from ConnectWise if not in Platypus
+        - Exception: Retain if on an Avalara Agreement that's currently billing
+- **Migration Strategy**
+    - Start with a small batch of accounts
+    - Begin by matching accounts, then proceed to agreements and additions
+- **Infrastructure**
+    - Team needs access to the Platypus Server
 
 ## Action Items
-<!-- Add tasks, task owners and due dates -->
 
 | Task                        | Description                                                                                                                 | Task Owner  | Due Date   | Status |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------- | ------ |
@@ -73,23 +80,16 @@ Access to the Platypus Server.
 | Final Review                | Conduct a final review of all migrated data before Platypus deactivation                                                    | Ian Wheeler | 08/02/2024 |        |
 
 ## Decisions
-<!-- Record of decisions you make in this meeting -->
-- Next meeting date and place: 
-	
-	- Wednesday, July 3, 2024 | 04:00 PM CST - 04:30 PM CST
-- Documents to be included in the meeting notes: 
 
-Next meeting date and place: 
+### Next Meeting Date
 
 ```Datetime
 Wednesday, July 3, 2024 | 04:00 PM CST - 04:30 PM CST 
 ```
 
-## Location
+### Next Meeting Location
 
 - Microsoft Teams: [Join conversation](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGZlNDk1ODktNTE5Ny00ODY4LTllN2YtNzFhMTYxYWNlZjdl%40thread.v2/0?context=%7b%22Tid%22%3a%226d4422b6-9fe9-4ec2-8904-ccaa320bd30a%22%2c%22Oid%22%3a%22f8d6005d-b220-439d-ac31-8b5967a77221%22%7d)
-
-
 
 ---
 # Back Matter
