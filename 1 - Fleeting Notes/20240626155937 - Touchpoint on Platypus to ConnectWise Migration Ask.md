@@ -15,7 +15,7 @@ tags:
 # Touchpoint on Platypus to ConnectWise Migration Ask
 
 > [!Note]
-> High-level description and key insights go here.
+> This meeting focuses on the migration initiative from Platypus to ConnectWise Manage. The project aims to address previous migration challenges, ensure data accuracy, and streamline billing processes. Key objectives include matching accounts, agreements, and additions between the two systems, verifying billing amounts, and successfully deactivating customers in Platypus post-migration. The desired outcome is a smooth transition of approximately 140 accounts, with special attention to telecom items and blended billing situations. The project will involve close collaboration with the Finance team and careful consideration of resource allocation to ensure a successful migration.
 
 ## Date & Time
 
