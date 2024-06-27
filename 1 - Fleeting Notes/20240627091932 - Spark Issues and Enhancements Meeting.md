@@ -23,53 +23,73 @@ Microsoft Teams: [Join conversation](https://teams.microsoft.com/l/meetup-join/1
 
 ## Participants
 
-| Name        | Role                  | Email                    | Company  |
-| ----------- | --------------------- | ------------------------ | -------- |
-| Ian Wheeler | Lead Business Analyst | ian.wheeler@meriplex.com | Meriplex |
+| Name               | Role                         | Email                           | Company  |
+| ------------------ | ---------------------------- | ------------------------------- | -------- |
+| Ian Wheeler        | Lead Business Analyst        | ian.wheeler@meriplex.com        | Meriplex |
+| Brian Jones        | CTO                          | brian.jones@meriplex.com        | Meriplex |
+| Anthony Kazlauskas | Solutions Consultant         | anthony.kazlauskas@meriplex.com | Meriplex |
+| Ron Walker         | Solutions Consultant         | rwalker@meriplex.com            | Meriplex |
+| Brian McShane      | Solutions Quoting Specialist | brian.mcshane@meriplex.com      | Meriplex |
+| John Powell        | VP, Service Delivery (NRR)   | jpowell@meriplex.com            | Meriplex |
 
 
 ## Goals
-<!-- What we want to achieve in this meeting -->
-- 
+
+To review and resolve issues with the Spark form, gather feedback, and plan optimizations.
 
 ## Agenda 
-<!-- What, who & duration planned in advance -->
-- 
+
+1. Identify and prioritize current Spark form issues
+2. Share and discuss user feedback and feature requests
+3. Propose and evaluate potential form optimizations and changes
+4. Develop an action plan for implementing agreed-upon improvements
 
 ## Discussion Notes
-<!-- Cover discussion topics -->
-- Add a `Summary` field to the spark form
-- Re-label the `Contact` field to `Approver`
-- Add a field for `Requestor` -> drop-down list for contact if everyone has permission to create contacts -> maps to the notes section of the `Opportunity`
-- Everything captured in the spark form needs to come through on the notification email.
-- Create ConnectWise `Workflows` to notify the `Your Name` when:
-	- Spark form is submitted 
-	- The opportunity is quoted and sent to the customer
-	- When the customer signs the quote
-	- When Contract Distribution Wins the quote
-	- When procurement orders the items
-- Create ConnectWise `Workflows` to notify the `Solutions Consultant` when:
-	- Email notice to solution consultant from SPARK needs to contain all submitted information. i.e. Client Name, Subject line, Description of Need, Client Contact, Submitter information, date needed. 
-	- Currently only shows: Opportunity#: 44962 has been created with quote request ticket#: 11203533 attached 
-	- CW Manage ticket needs to contain all submitted information. 
-	- Currently only shows "NRR Request" 
-	- Files added in Spark need to be attached to email, SF and Manage ticket.
-- Create ConnectWise `Workflows` to notify the `Customer`/`Approver` when:
-	- Items are ordered
-	- Items are shipped 
+
+- Add a `Summary` field to the Spark form
+    - Maps to opportunity name in Salesforce
+- Rename `Contact` field to `Approver`
+- Add a new `Requestor` field:
+    - If all users can create contacts:
+        - Field Type: Single-Value Dropdown (Contact Lookup)
+    - Otherwise:
+        - Field Type: String
+        - Maps to the notes section of the `Opportunity`
+- Implement ConnectWise `Workflows` to notify the `Requestor` when:
+    - Spark form is submitted 
+    - Opportunity is quoted and sent to the customer
+    - Customer signs the quote
+    - Contract Distribution wins the quote
+    - Procurement orders the items
+- Enhance ConnectWise `Workflows` for `Solutions Consultant` notifications:
+    - Include all submitted information in email notices (Client Name, Subject line, Description of Need, Client Contact, Submitter information, date needed)
+    - Update CW Manage ticket to contain all submitted information
+    - Ensure files added in Spark are attached to email, Salesforce, and Manage ticket
+- Create ConnectWise `Workflows` to notify the customer (`Contact`/`Approver`) when:
+    - Items are ordered
+    - Items are shipped 
     - Labor is scheduled
-- The file is not being attached to the quote request when spark form is submitted. -> should come through in the email
-- `Notes`/`Description` Field needs to be extended to maximum available string length in line with Salesforce.
-- Ticket being created from quote request needs to have `Opportunity Owner` assigned as a `Resource`
+- Fix issue: File not being attached to quote request upon Spark form submission
+- Extend `Notes`/`Description` field to maximum available string length (align with Salesforce)
+- Assign `Opportunity Owner` as a `Resource` to ticket created from quote request
+- Ensure all information captured in the Spark form (including new fields and attachments) is included in notification emails
 ## Action Items
-<!-- Add tasks, task owners and due dates -->
-- 
+
+| Task | Description | Task Owner | Due Date | Status |
+| ---- | ----------- | ---------- | -------- | ------ |
+|      |             |            |          |        |
 
 ## Decisions
-<!-- Record of decisions you make in this meeting -->
-- Next meeting date and place: 
-- Documents to be included in the meeting notes:
 
+### Next Meeting Date
+
+```Datetime
+
+```
+
+### Next Meeting Location
+
+- Microsoft Teams: 
 
 ---
 # Back Matter
