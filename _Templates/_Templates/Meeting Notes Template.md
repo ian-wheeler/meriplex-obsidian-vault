@@ -4,30 +4,29 @@ type: Meeting Note
 tags:
   - fleeting
   - meeting
-  - kickoff
-  - project
-  - platypus
-  - connectwise
 ---
 # <% tp.file.title %>
+<!-- Main content of my thoughts really -->
 
 > [!Note]
 > - 
-# {{Title}}
-
-<!-- Main content of my thoughts really -->
 
 ## Date & Time
-<!-- With starting and ending times -->
-- 
+
+```Datetime
+
+```
 
 ## Location
-<!-- Physical location or links to online meeting (Zoom, MS Teams, Miro etc.) -->
-- 
+
+Microsoft Teams: 
 
 ## Participants
 <!-- List of meeting participants using linked names -->
-- 
+
+| Name        | Role                  | Email                    | Company  |
+| ----------- | --------------------- | ------------------------ | -------- |
+| Ian Wheeler | Lead Business Analyst | ian.wheeler@meriplex.com | Meriplex |
 
 ## Goals
 <!-- What we want to achieve in this meeting -->

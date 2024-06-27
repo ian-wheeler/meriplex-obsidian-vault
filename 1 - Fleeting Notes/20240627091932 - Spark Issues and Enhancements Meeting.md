@@ -4,30 +4,29 @@ type: Meeting Note
 tags:
   - fleeting
   - meeting
-  - kickoff
-  - project
-  - platypus
-  - connectwise
+  - deliverable
 ---
-# Untitled
+# Spark Issues and Enhancements Meeting
 
 > [!Note]
 > - 
-# {{Title}}
-
-<!-- Main content of my thoughts really -->
 
 ## Date & Time
-<!-- With starting and ending times -->
-- 
+
+```Datetime
+Thursday, June, 27, 2024 | 09:00 AM - 10:00 AM CST
+```
 
 ## Location
-<!-- Physical location or links to online meeting (Zoom, MS Teams, Miro etc.) -->
-- 
+
+Microsoft Teams: [Join conversation](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTc1OGRhMWUtYTdmMi00Nzg0LWEzNTYtZjUzNzMxOGZjZTE3%40thread.v2/0?context=%7b%22Tid%22%3a%226d4422b6-9fe9-4ec2-8904-ccaa320bd30a%22%2c%22Oid%22%3a%22d1265f8e-b7dc-4ea8-8bf5-e57147f74946%22%7d)
 
 ## Participants
-<!-- List of meeting participants using linked names -->
-- 
+
+| Name        | Role                  | Email                    | Company  |
+| ----------- | --------------------- | ------------------------ | -------- |
+| Ian Wheeler | Lead Business Analyst | ian.wheeler@meriplex.com | Meriplex |
+
 
 ## Goals
 <!-- What we want to achieve in this meeting -->
@@ -60,7 +59,8 @@ tags:
 	- Items are shipped 
     - Labor is scheduled
 - The file is not being attached to the quote request when spark form is submitted. -> should come through in the email
-- 
+- `Notes`/`Description` Field needs to be extended to maximum available string length in line with Salesforce.
+- Ticket being created from quote request needs to have `Opportunity Owner` assigned as a `Resource`
 ## Action Items
 <!-- Add tasks, task owners and due dates -->
 - 
