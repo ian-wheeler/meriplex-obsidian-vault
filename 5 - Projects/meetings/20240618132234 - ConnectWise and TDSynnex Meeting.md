@@ -7,7 +7,6 @@ tags:
   - tdsynnex
   - permanent
 ---
-
 # Meeting: ConnectWise and TDSynnex
 
 ## Date & Time
