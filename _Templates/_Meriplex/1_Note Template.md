@@ -1,6 +1,6 @@
 ---
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
-type: fleeting
+type: Fleeting Note
 tags:
   - fleeting
 ---

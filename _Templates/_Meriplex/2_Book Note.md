@@ -1,7 +1,7 @@
 ---
 id:
   "{ DATE:YYYYMMDDHHmmss }": 
-type: literature
+type: Literature Note
 tags:
   - literature
   - book

@@ -1,6 +1,6 @@
 ---
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
-type: Q&A
+type: Question
 tags:
   - question
   - answer

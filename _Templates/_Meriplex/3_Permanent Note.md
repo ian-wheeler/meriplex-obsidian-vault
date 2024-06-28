@@ -1,7 +1,7 @@
 ---
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
-type: permanent
-tags: []
+type: Permanent Note
+tags:
 ---
 
 # <%= tp.file.title %>
