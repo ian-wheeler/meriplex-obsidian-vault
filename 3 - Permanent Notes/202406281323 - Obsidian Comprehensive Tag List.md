@@ -4,7 +4,7 @@ type: Fleeting Note
 tags:
   - fleeting
 created: 2024-06-28T13:23
-updated: 2024-06-28T14:37
+updated: 2024-06-28T14:46
 ---
 # Obsidian Comprehensive Tag List 
 
@@ -75,12 +75,18 @@ updated: 2024-06-28T14:37
 - #type/kanban/3_doing
 - #type/kanban/4_review
 - #type/kanban/5_done
+
+### #type/okr 
+
 - #type/okr/annual
 - #type/okr/idea
 - #type/okr/keyaction
 - #type/okr/keyresult
 - #type/okr/objective
 - #type/okr/wish
+
+### #type/structure 
+
 - #type/structure/bujo
 - #type/structure/log
 - #type/structure/framework

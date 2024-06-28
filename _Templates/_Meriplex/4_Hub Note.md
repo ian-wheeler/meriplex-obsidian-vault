@@ -1,8 +1,10 @@
 ---
 id: <% tp.date.now("YYYYMMDDHHmmss") %>
-type: hub
+type: Structure Note
 tags:
-  - moc
+  - type/structure/moc
+created: 2024-06-17T15:20
+updated: 2024-06-28T14:51
 ---
 
 # <%= tp.file.title %>
