@@ -1,3 +1,10 @@
+---
+id: 202405208093347
+type: fleeting
+tags:
+  - fleeting
+  - meeting
+---
 ## Process
 
 1. User Logs into Salesforce or ConnectWise and Navigates to Spark Form
