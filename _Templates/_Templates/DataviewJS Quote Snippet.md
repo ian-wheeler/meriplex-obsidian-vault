@@ -1,6 +1,7 @@
 ---
 created: 2023-08-15, 17:42
 modified: 2023-08-15, 17:55
+updated: 2024-06-28T14:04
 ---
 <!-- DataviewJS for random quotes. Use as example and modify -->
 > [!QUOTE]
