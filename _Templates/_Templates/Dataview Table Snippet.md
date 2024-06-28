@@ -1,4 +1,9 @@
-<!-- Dataview table. Use as example and modify. -->
+---
+created: 2024-06-17T10:13
+updated: 2024-06-28T14:20
+---
+# Dataview
+
 ```dataview
 TABLE WITHOUT ID
 	file.link as books, 
@@ -10,7 +15,7 @@ WHERE read = 2023
 LIMIT 5
 ```
 
-<!-- Options 
+```dataview
 TABLE WITHOUT ID
 	file.folder AS ...
 	file.link AS ...
@@ -36,12 +41,50 @@ WHERE contains(file.name,"LernOS Zettelkasten")
 WHERE sketchnote != empty
 
 LIMIT 3
+```
+
+
 
 ---
+# Back Matter
+**Source**
+<!-- Always keep a link to the source- --> 
+- 
+
+**Tasks**
+<!-- What remains to be done with this note? --> 
+- 
+
+**Questions**
+<!-- What remains for you to consider? --> 
+- 
+
+**Terms**
+<!-- Links to definition pages. -->
+- 
+
+**References**
+
+- [Query Types](https://github.com/blacksmithgu/obsidian-dataview/blob/master/docs/docs/queries/query-types.md)
+- [Data Commands](https://github.com/blacksmithgu/obsidian-dataview/blob/master/docs/docs/queries/data-commands.md)
+
+**Target**
+<!-- Links to project note or externaly published content. -->
+- [[Obsidian Knowledge Base]]
+
+**Template Help**
+<!-- Links to external help pages on GitHub. -->
+- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
+- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
+- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
+- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
+- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
+- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
+
 More about: 
 https://github.com/blacksmithgu/obsidian-dataview/blob/master/docs/docs/queries/query-types.md
 https://github.com/blacksmithgu/obsidian-dataview/blob/master/docs/docs/queries/data-commands.md
 
 Source: 
 https://github.com/groepl/Obsidian-Templates
--->
+
