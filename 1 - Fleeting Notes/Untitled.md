@@ -39,16 +39,12 @@ Microsoft Teams: [Join conversation](https://teams.microsoft.com/l/meetup-join/1
 
 ## Discussion Notes
 
-![[Pasted image 20240627144417.png]]
-![[Pasted image 20240627145618.png]]
-Priority sets P1
-T&M bypasses and creates ticket
 
 ## Action Items
 
-| Task | Description | Task Owner | Due Date | Status |
-| ---- | ----------- | ---------- | -------- | ------ |
-|      |             |            |          |        |
+| Task          | Description                                        | Task Owner  | Due Date | Status |
+| ------------- | -------------------------------------------------- | ----------- | -------- | ------ |
+| Documentation | Document the Spark Form NRR Quote Request process. | Ian Wheeler |          |        |
 
 ## Decisions
 
